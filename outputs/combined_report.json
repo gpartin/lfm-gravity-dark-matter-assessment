@@ -1,0 +1,2412 @@
+{
+  "timestamp": "2026-01-05T06:07:09.502590",
+  "c_eff_km_s": 300.0,
+  "domains": {
+    "galaxy": {
+      "domain": "galaxy",
+      "c_eff_km_s": 300.0,
+      "n_galaxies": 91,
+      "tests": {
+        "test_A": {
+          "test_name": "Test A: Inner-fit -> Outer-predict",
+          "status": "FAIL",
+          "summary": {
+            "n_galaxies_tested": 91,
+            "n_passed": 0,
+            "pass_rate_percent": 0.0,
+            "mean_MAPE_percent": 22.72284398163877,
+            "median_MAPE_percent": 19.24127472938607,
+            "std_MAPE_percent": 16.59444502342361,
+            "min_MAPE_percent": 17.481641566059604,
+            "max_MAPE_percent": 100.0
+          },
+          "per_galaxy": [
+            {
+              "galaxy_name": "ESO000-G43",
+              "r_max_kpc": 26.94814480290349,
+              "r_split_kpc": 18.86370136203244,
+              "n_train": 12,
+              "n_test": 6,
+              "MAPE_percent": 18.715770618442733,
+              "RMSE_km_s": 25.101409881660594,
+              "max_error_km_s": 35.615999206088304,
+              "passed": false
+            },
+            {
+              "galaxy_name": "ESO215-G009",
+              "r_max_kpc": 17.113863374621438,
+              "r_split_kpc": 11.979704362235006,
+              "n_train": 16,
+              "n_test": 8,
+              "MAPE_percent": 17.783459260713503,
+              "RMSE_km_s": 23.561454919739884,
+              "max_error_km_s": 33.98458657099772,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC0024",
+              "r_max_kpc": 20.5167469907888,
+              "r_split_kpc": 14.361722893552159,
+              "n_train": 12,
+              "n_test": 5,
+              "MAPE_percent": 19.552109043131406,
+              "RMSE_km_s": 25.554410941830092,
+              "max_error_km_s": 34.35038697245916,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC0055",
+              "r_max_kpc": 23.653558269395383,
+              "r_split_kpc": 16.557490788576768,
+              "n_train": 8,
+              "n_test": 4,
+              "MAPE_percent": 100.0,
+              "RMSE_km_s": 126.02123847109866,
+              "max_error_km_s": 126.53218247338955,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC0100",
+              "r_max_kpc": 15.41425157810557,
+              "r_split_kpc": 10.7899761046739,
+              "n_train": 12,
+              "n_test": 6,
+              "MAPE_percent": 17.79409614716859,
+              "RMSE_km_s": 23.47932213225728,
+              "max_error_km_s": 33.358891120800465,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC0247",
+              "r_max_kpc": 28.58025962934096,
+              "r_split_kpc": 20.006181740538672,
+              "n_train": 13,
+              "n_test": 6,
+              "MAPE_percent": 20.018504745226643,
+              "RMSE_km_s": 26.573963253643473,
+              "max_error_km_s": 36.72920246026975,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC0289",
+              "r_max_kpc": 17.19907232538038,
+              "r_split_kpc": 12.039350627766266,
+              "n_train": 14,
+              "n_test": 7,
+              "MAPE_percent": 19.09650274784327,
+              "RMSE_km_s": 25.15114330063835,
+              "max_error_km_s": 35.58676240667948,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC0300",
+              "r_max_kpc": 29.809141939724167,
+              "r_split_kpc": 20.866399357806916,
+              "n_train": 9,
+              "n_test": 4,
+              "MAPE_percent": 21.115424213647017,
+              "RMSE_km_s": 27.89098800694444,
+              "max_error_km_s": 37.039552726015316,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC0801",
+              "r_max_kpc": 23.21169460348668,
+              "r_split_kpc": 16.248186222440676,
+              "n_train": 10,
+              "n_test": 5,
+              "MAPE_percent": 20.482514025399638,
+              "RMSE_km_s": 27.136040090174077,
+              "max_error_km_s": 37.413632356915656,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC0891",
+              "r_max_kpc": 20.533704593546588,
+              "r_split_kpc": 14.373593215482611,
+              "n_train": 16,
+              "n_test": 7,
+              "MAPE_percent": 18.98878253960887,
+              "RMSE_km_s": 24.940735867312057,
+              "max_error_km_s": 34.56697906597189,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC1003",
+              "r_max_kpc": 24.091528215837577,
+              "r_split_kpc": 16.8640697510863,
+              "n_train": 13,
+              "n_test": 6,
+              "MAPE_percent": 19.749904279099994,
+              "RMSE_km_s": 26.109108360104692,
+              "max_error_km_s": 36.100797886656,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC1090",
+              "r_max_kpc": 17.723965752021385,
+              "r_split_kpc": 12.406776026414969,
+              "n_train": 10,
+              "n_test": 5,
+              "MAPE_percent": 19.97948772665484,
+              "RMSE_km_s": 26.26179513371354,
+              "max_error_km_s": 36.232184466567944,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC1705",
+              "r_max_kpc": 27.90948026836101,
+              "r_split_kpc": 19.536636187852704,
+              "n_train": 12,
+              "n_test": 5,
+              "MAPE_percent": 20.058271855082868,
+              "RMSE_km_s": 26.425468138356013,
+              "max_error_km_s": 35.49698300164246,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC2366",
+              "r_max_kpc": 20.44588818292636,
+              "r_split_kpc": 14.312121728048451,
+              "n_train": 9,
+              "n_test": 4,
+              "MAPE_percent": 20.47079565071447,
+              "RMSE_km_s": 26.783611572999206,
+              "max_error_km_s": 35.59722364576261,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC2403",
+              "r_max_kpc": 26.07050424639556,
+              "r_split_kpc": 18.249352972476892,
+              "n_train": 12,
+              "n_test": 5,
+              "MAPE_percent": 19.95238362386375,
+              "RMSE_km_s": 26.24378699710035,
+              "max_error_km_s": 35.25814431114833,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC2683",
+              "r_max_kpc": 22.83651864106753,
+              "r_split_kpc": 15.98556304874727,
+              "n_train": 9,
+              "n_test": 4,
+              "MAPE_percent": 20.67192246844713,
+              "RMSE_km_s": 27.13000946286434,
+              "max_error_km_s": 36.048901755578555,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC2841",
+              "r_max_kpc": 26.79517521623328,
+              "r_split_kpc": 18.756622651363294,
+              "n_train": 11,
+              "n_test": 5,
+              "MAPE_percent": 18.623905738268522,
+              "RMSE_km_s": 24.789189976673594,
+              "max_error_km_s": 34.24515187963806,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC2903",
+              "r_max_kpc": 18.679282983830017,
+              "r_split_kpc": 13.07549808868101,
+              "n_train": 13,
+              "n_test": 6,
+              "MAPE_percent": 19.30714989756991,
+              "RMSE_km_s": 25.340312002704792,
+              "max_error_km_s": 35.059572127023884,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC2915",
+              "r_max_kpc": 22.09814860037336,
+              "r_split_kpc": 15.46870402026135,
+              "n_train": 16,
+              "n_test": 7,
+              "MAPE_percent": 19.112369961094824,
+              "RMSE_km_s": 25.155242390658774,
+              "max_error_km_s": 34.857978286387166,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC2955",
+              "r_max_kpc": 19.984719380326634,
+              "r_split_kpc": 13.989303566228644,
+              "n_train": 12,
+              "n_test": 5,
+              "MAPE_percent": 19.505343478254208,
+              "RMSE_km_s": 25.473782666508782,
+              "max_error_km_s": 34.244137967783985,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC2976",
+              "r_max_kpc": 20.05504764646929,
+              "r_split_kpc": 14.038533352528502,
+              "n_train": 16,
+              "n_test": 8,
+              "MAPE_percent": 18.054060426703607,
+              "RMSE_km_s": 24.038461492544265,
+              "max_error_km_s": 34.65807955278787,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC2998",
+              "r_max_kpc": 23.947282124781324,
+              "r_split_kpc": 16.763097487346926,
+              "n_train": 14,
+              "n_test": 6,
+              "MAPE_percent": 18.168287676023894,
+              "RMSE_km_s": 24.033711193573126,
+              "max_error_km_s": 33.2927648971567,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC3109",
+              "r_max_kpc": 21.356073804731444,
+              "r_split_kpc": 14.94925166331201,
+              "n_train": 10,
+              "n_test": 5,
+              "MAPE_percent": 20.33429012243309,
+              "RMSE_km_s": 26.878270944739594,
+              "max_error_km_s": 37.06537260689737,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC3198",
+              "r_max_kpc": 24.524400683865498,
+              "r_split_kpc": 17.16708047870585,
+              "n_train": 16,
+              "n_test": 8,
+              "MAPE_percent": 18.36785392095653,
+              "RMSE_km_s": 24.59244886932714,
+              "max_error_km_s": 35.43986998163774,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC3521",
+              "r_max_kpc": 19.54912721351393,
+              "r_split_kpc": 13.684389049459751,
+              "n_train": 16,
+              "n_test": 7,
+              "MAPE_percent": 18.903548631003723,
+              "RMSE_km_s": 24.792829538743835,
+              "max_error_km_s": 34.36628871904453,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC3726",
+              "r_max_kpc": 16.23926495188903,
+              "r_split_kpc": 11.36748546632232,
+              "n_train": 12,
+              "n_test": 5,
+              "MAPE_percent": 19.112697830960588,
+              "RMSE_km_s": 24.798472909236,
+              "max_error_km_s": 33.35423582120143,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC3741",
+              "r_max_kpc": 23.47532989288524,
+              "r_split_kpc": 16.43273092501967,
+              "n_train": 12,
+              "n_test": 5,
+              "MAPE_percent": 19.782741505419978,
+              "RMSE_km_s": 25.951960091530072,
+              "max_error_km_s": 34.874086894466274,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC3769",
+              "r_max_kpc": 17.21178790059426,
+              "r_split_kpc": 12.048251530415982,
+              "n_train": 16,
+              "n_test": 8,
+              "MAPE_percent": 17.793597556700902,
+              "RMSE_km_s": 23.579284067830606,
+              "max_error_km_s": 34.00975712941212,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC3877",
+              "r_max_kpc": 26.875499826800272,
+              "r_split_kpc": 18.81284987876019,
+              "n_train": 14,
+              "n_test": 6,
+              "MAPE_percent": 18.334223373017753,
+              "RMSE_km_s": 24.32264723147281,
+              "max_error_km_s": 33.68473255600155,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC3893",
+              "r_max_kpc": 29.761654785547467,
+              "r_split_kpc": 20.833158349883227,
+              "n_train": 16,
+              "n_test": 8,
+              "MAPE_percent": 18.642904798785928,
+              "RMSE_km_s": 25.075922676824362,
+              "max_error_km_s": 36.120598741118044,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC3917",
+              "r_max_kpc": 24.320167458802946,
+              "r_split_kpc": 17.02411722116206,
+              "n_train": 12,
+              "n_test": 6,
+              "MAPE_percent": 18.56484899488948,
+              "RMSE_km_s": 24.835938090189003,
+              "max_error_km_s": 35.24708742247651,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC3949",
+              "r_max_kpc": 22.114326306468907,
+              "r_split_kpc": 15.480028414528235,
+              "n_train": 16,
+              "n_test": 8,
+              "MAPE_percent": 18.210289942598997,
+              "RMSE_km_s": 24.31438658676477,
+              "max_error_km_s": 35.047596577579384,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC3953",
+              "r_max_kpc": 26.975705107775287,
+              "r_split_kpc": 18.8829935754427,
+              "n_train": 16,
+              "n_test": 7,
+              "MAPE_percent": 19.427159123277594,
+              "RMSE_km_s": 25.700540303876103,
+              "max_error_km_s": 35.59689725787497,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC3972",
+              "r_max_kpc": 26.0186688468212,
+              "r_split_kpc": 18.213068192774838,
+              "n_train": 8,
+              "n_test": 4,
+              "MAPE_percent": 100.0,
+              "RMSE_km_s": 126.34133864634792,
+              "max_error_km_s": 126.81926775994586,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC3992",
+              "r_max_kpc": 27.809429504331334,
+              "r_split_kpc": 19.466600653031932,
+              "n_train": 13,
+              "n_test": 6,
+              "MAPE_percent": 19.976961198313397,
+              "RMSE_km_s": 26.502238539484697,
+              "max_error_km_s": 36.632348725916316,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC4010",
+              "r_max_kpc": 26.394171430496947,
+              "r_split_kpc": 18.475920001347863,
+              "n_train": 14,
+              "n_test": 6,
+              "MAPE_percent": 18.308817359648803,
+              "RMSE_km_s": 24.27847644142364,
+              "max_error_km_s": 33.62485036343118,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC4013",
+              "r_max_kpc": 21.247566478558184,
+              "r_split_kpc": 14.873296534990727,
+              "n_train": 16,
+              "n_test": 8,
+              "MAPE_percent": 18.147282421059387,
+              "RMSE_km_s": 24.203103728670694,
+              "max_error_km_s": 34.890520698661206,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC4051",
+              "r_max_kpc": 24.642283722002617,
+              "r_split_kpc": 17.24959860540183,
+              "n_train": 16,
+              "n_test": 7,
+              "MAPE_percent": 19.28799600888015,
+              "RMSE_km_s": 25.459789652119273,
+              "max_error_km_s": 35.27086817777787,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC4068",
+              "r_max_kpc": 20.378676922873098,
+              "r_split_kpc": 14.265073846011168,
+              "n_train": 11,
+              "n_test": 5,
+              "MAPE_percent": 18.20765123361623,
+              "RMSE_km_s": 24.061003508041207,
+              "max_error_km_s": 33.25804216889618,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC4085",
+              "r_max_kpc": 19.071578664513005,
+              "r_split_kpc": 13.350105065159102,
+              "n_train": 15,
+              "n_test": 7,
+              "MAPE_percent": 17.896553899841052,
+              "RMSE_km_s": 23.666679864534107,
+              "max_error_km_s": 33.53265999343928,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC4088",
+              "r_max_kpc": 16.02529800464938,
+              "r_split_kpc": 11.217708603254565,
+              "n_train": 11,
+              "n_test": 5,
+              "MAPE_percent": 17.792560160088204,
+              "RMSE_km_s": 23.335557050770287,
+              "max_error_km_s": 32.273792474756675,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC4100",
+              "r_max_kpc": 15.75733416618612,
+              "r_split_kpc": 11.030133916330282,
+              "n_train": 14,
+              "n_test": 6,
+              "MAPE_percent": 17.481641566059604,
+              "RMSE_km_s": 22.836515081507546,
+              "max_error_km_s": 31.66609879487676,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC4138",
+              "r_max_kpc": 21.14506580063989,
+              "r_split_kpc": 14.801546060447922,
+              "n_train": 10,
+              "n_test": 4,
+              "MAPE_percent": 18.17498775654203,
+              "RMSE_km_s": 23.828808433071398,
+              "max_error_km_s": 31.744672321492132,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC4157",
+              "r_max_kpc": 22.97833618511272,
+              "r_split_kpc": 16.084835329578905,
+              "n_train": 9,
+              "n_test": 4,
+              "MAPE_percent": 20.68287017036829,
+              "RMSE_km_s": 27.14885557127725,
+              "max_error_km_s": 36.073468400905455,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC4183",
+              "r_max_kpc": 24.426396849218804,
+              "r_split_kpc": 17.09847779445316,
+              "n_train": 16,
+              "n_test": 8,
+              "MAPE_percent": 18.36189579431572,
+              "RMSE_km_s": 24.58194422241125,
+              "max_error_km_s": 35.42505811873502,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC4214",
+              "r_max_kpc": 21.65788782631952,
+              "r_split_kpc": 15.160521478423663,
+              "n_train": 16,
+              "n_test": 7,
+              "MAPE_percent": 19.078933431002543,
+              "RMSE_km_s": 25.097212309127496,
+              "max_error_km_s": 34.77926501583741,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC4217",
+              "r_max_kpc": 22.915161993325427,
+              "r_split_kpc": 16.0406133953278,
+              "n_train": 16,
+              "n_test": 7,
+              "MAPE_percent": 19.171886041213163,
+              "RMSE_km_s": 25.25850717537544,
+              "max_error_km_s": 34.998023022550626,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC4389",
+              "r_max_kpc": 19.5371854375189,
+              "r_split_kpc": 13.67602980626323,
+              "n_train": 16,
+              "n_test": 8,
+              "MAPE_percent": 18.01094636876215,
+              "RMSE_km_s": 23.962343986000977,
+              "max_error_km_s": 34.550606536616385,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC4559",
+              "r_max_kpc": 21.87485391881363,
+              "r_split_kpc": 15.31239774316954,
+              "n_train": 10,
+              "n_test": 5,
+              "MAPE_percent": 20.37759965348436,
+              "RMSE_km_s": 26.953603163679375,
+              "max_error_km_s": 37.167166723854635,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC5005",
+              "r_max_kpc": 26.24139008971213,
+              "r_split_kpc": 18.36897306279849,
+              "n_train": 11,
+              "n_test": 5,
+              "MAPE_percent": 18.593998982399125,
+              "RMSE_km_s": 24.737032860827423,
+              "max_error_km_s": 34.174543134506635,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC5033",
+              "r_max_kpc": 16.60585767831279,
+              "r_split_kpc": 11.624100374818953,
+              "n_train": 12,
+              "n_test": 6,
+              "MAPE_percent": 17.933014722844206,
+              "RMSE_km_s": 23.72261711971719,
+              "max_error_km_s": 33.69749809720183,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC5055",
+              "r_max_kpc": 22.16025597183602,
+              "r_split_kpc": 15.512179180285212,
+              "n_train": 12,
+              "n_test": 5,
+              "MAPE_percent": 19.685855398033727,
+              "RMSE_km_s": 25.785010948522768,
+              "max_error_km_s": 34.65421007043088,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC5371",
+              "r_max_kpc": 18.47070954565272,
+              "r_split_kpc": 12.929496681956904,
+              "n_train": 9,
+              "n_test": 5,
+              "MAPE_percent": 100.0,
+              "RMSE_km_s": 124.99825919574234,
+              "max_error_km_s": 125.68596225263084,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC5585",
+              "r_max_kpc": 17.403384014647592,
+              "r_split_kpc": 12.182368810253314,
+              "n_train": 14,
+              "n_test": 6,
+              "MAPE_percent": 17.65839576269332,
+              "RMSE_km_s": 23.143700286279337,
+              "max_error_km_s": 32.08350136272726,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC5907",
+              "r_max_kpc": 20.059664312268414,
+              "r_split_kpc": 14.041765018587888,
+              "n_train": 12,
+              "n_test": 5,
+              "MAPE_percent": 19.512043452151538,
+              "RMSE_km_s": 25.48533312636675,
+              "max_error_km_s": 34.259359081106496,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC5985",
+              "r_max_kpc": 23.912127941346863,
+              "r_split_kpc": 16.738489558942803,
+              "n_train": 14,
+              "n_test": 7,
+              "MAPE_percent": 19.683436872087167,
+              "RMSE_km_s": 26.176137086209966,
+              "max_error_km_s": 37.00523125537393,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC6015",
+              "r_max_kpc": 16.924887932831467,
+              "r_split_kpc": 11.847421552982027,
+              "n_train": 16,
+              "n_test": 7,
+              "MAPE_percent": 18.640640653634826,
+              "RMSE_km_s": 24.337523489231906,
+              "max_error_km_s": 33.74848846614927,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC6195",
+              "r_max_kpc": 18.93705877681897,
+              "r_split_kpc": 13.255941143773278,
+              "n_train": 14,
+              "n_test": 7,
+              "MAPE_percent": 19.278269543699945,
+              "RMSE_km_s": 25.4680460828533,
+              "max_error_km_s": 36.02539096047039,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC6503",
+              "r_max_kpc": 17.772575969205374,
+              "r_split_kpc": 12.44080317844376,
+              "n_train": 14,
+              "n_test": 7,
+              "MAPE_percent": 19.159499395234945,
+              "RMSE_km_s": 25.260859091570467,
+              "max_error_km_s": 35.73861301933286,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC6674",
+              "r_max_kpc": 25.95365001536802,
+              "r_split_kpc": 18.167555010757614,
+              "n_train": 12,
+              "n_test": 5,
+              "MAPE_percent": 19.945285094374935,
+              "RMSE_km_s": 26.23159261838493,
+              "max_error_km_s": 35.2421053031249,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC6789",
+              "r_max_kpc": 29.122113562590982,
+              "r_split_kpc": 20.385479493813687,
+              "n_train": 9,
+              "n_test": 4,
+              "MAPE_percent": 21.07881564294879,
+              "RMSE_km_s": 27.828435792641507,
+              "max_error_km_s": 36.95825913049731,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC6946",
+              "r_max_kpc": 18.12599360427497,
+              "r_split_kpc": 12.688195522992478,
+              "n_train": 14,
+              "n_test": 7,
+              "MAPE_percent": 19.196779972887196,
+              "RMSE_km_s": 25.325849858727867,
+              "max_error_km_s": 35.828567425951945,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC7331",
+              "r_max_kpc": 25.165848618019808,
+              "r_split_kpc": 17.616094032613866,
+              "n_train": 13,
+              "n_test": 6,
+              "MAPE_percent": 19.820547108101298,
+              "RMSE_km_s": 26.231594496446792,
+              "max_error_km_s": 36.26651787417278,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC7793",
+              "r_max_kpc": 28.96236112485171,
+              "r_split_kpc": 20.273652787396195,
+              "n_train": 9,
+              "n_test": 4,
+              "MAPE_percent": 21.07011833159472,
+              "RMSE_km_s": 27.81356663069167,
+              "max_error_km_s": 36.938930503552555,
+              "passed": false
+            },
+            {
+              "galaxy_name": "NGC7814",
+              "r_max_kpc": 29.803439180824466,
+              "r_split_kpc": 20.862407426577125,
+              "n_train": 9,
+              "n_test": 4,
+              "MAPE_percent": 21.115125685766003,
+              "RMSE_km_s": 27.890478077870082,
+              "max_error_km_s": 37.03889010386193,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC00128",
+              "r_max_kpc": 23.883320989971608,
+              "r_split_kpc": 16.718324692980126,
+              "n_train": 12,
+              "n_test": 6,
+              "MAPE_percent": 18.537429890265162,
+              "RMSE_km_s": 24.787629153369743,
+              "max_error_km_s": 35.17990616625477,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC00191",
+              "r_max_kpc": 19.74151967320456,
+              "r_split_kpc": 13.819063771243192,
+              "n_train": 14,
+              "n_test": 7,
+              "MAPE_percent": 19.354011567402846,
+              "RMSE_km_s": 25.60034545105614,
+              "max_error_km_s": 36.20851828987996,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC00634",
+              "r_max_kpc": 29.509067855554463,
+              "r_split_kpc": 20.656347498888124,
+              "n_train": 10,
+              "n_test": 4,
+              "MAPE_percent": 18.660377277314687,
+              "RMSE_km_s": 24.66890464260928,
+              "max_error_km_s": 32.84327747352515,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC00731",
+              "r_max_kpc": 28.95247804293825,
+              "r_split_kpc": 20.266734630056774,
+              "n_train": 14,
+              "n_test": 7,
+              "MAPE_percent": 19.983680505909625,
+              "RMSE_km_s": 26.699154588391202,
+              "max_error_km_s": 37.727550592497664,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC00891",
+              "r_max_kpc": 24.25829374491687,
+              "r_split_kpc": 16.980805621441807,
+              "n_train": 13,
+              "n_test": 6,
+              "MAPE_percent": 19.76117041158834,
+              "RMSE_km_s": 26.128650801549576,
+              "max_error_km_s": 36.12724345534893,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC01230",
+              "r_max_kpc": 17.005434815991542,
+              "r_split_kpc": 11.903804371194079,
+              "n_train": 9,
+              "n_test": 5,
+              "MAPE_percent": 99.99999907613157,
+              "RMSE_km_s": 124.64891102254393,
+              "max_error_km_s": 125.36973342915584,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC01281",
+              "r_max_kpc": 22.717344034680583,
+              "r_split_kpc": 15.902140824276406,
+              "n_train": 10,
+              "n_test": 4,
+              "MAPE_percent": 18.28596127993937,
+              "RMSE_km_s": 24.021476365202226,
+              "max_error_km_s": 31.996926639857932,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC02023",
+              "r_max_kpc": 23.033137096466973,
+              "r_split_kpc": 16.12319596752688,
+              "n_train": 15,
+              "n_test": 7,
+              "MAPE_percent": 18.19657775551688,
+              "RMSE_km_s": 24.19377059460621,
+              "max_error_km_s": 34.26422369038872,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC02259",
+              "r_max_kpc": 29.50101341302662,
+              "r_split_kpc": 20.65070938911863,
+              "n_train": 13,
+              "n_test": 6,
+              "MAPE_percent": 20.06600626124401,
+              "RMSE_km_s": 26.655881452950936,
+              "max_error_km_s": 36.83976295323207,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC02455",
+              "r_max_kpc": 26.66576233608826,
+              "r_split_kpc": 18.66603363526178,
+              "n_train": 14,
+              "n_test": 6,
+              "MAPE_percent": 18.323235614783645,
+              "RMSE_km_s": 24.303547420009465,
+              "max_error_km_s": 33.65884103752825,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC02487",
+              "r_max_kpc": 29.144741761067035,
+              "r_split_kpc": 20.401319232746925,
+              "n_train": 11,
+              "n_test": 5,
+              "MAPE_percent": 18.741311772200294,
+              "RMSE_km_s": 24.993553956868848,
+              "max_error_km_s": 34.521592194776105,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC02885",
+              "r_max_kpc": 23.591407994326303,
+              "r_split_kpc": 16.513985596028412,
+              "n_train": 14,
+              "n_test": 7,
+              "MAPE_percent": 19.66120674388341,
+              "RMSE_km_s": 26.13730881653606,
+              "max_error_km_s": 36.95153710564644,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC02916",
+              "r_max_kpc": 19.641938646692736,
+              "r_split_kpc": 13.749357052684914,
+              "n_train": 14,
+              "n_test": 7,
+              "MAPE_percent": 19.34489120498777,
+              "RMSE_km_s": 25.584409434648062,
+              "max_error_km_s": 36.1864599908627,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC02953",
+              "r_max_kpc": 16.611758289433624,
+              "r_split_kpc": 11.628230802603536,
+              "n_train": 14,
+              "n_test": 7,
+              "MAPE_percent": 19.028516845886042,
+              "RMSE_km_s": 25.032905318554068,
+              "max_error_km_s": 35.42313016326638,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC03205",
+              "r_max_kpc": 23.964486598033503,
+              "r_split_kpc": 16.77514061862345,
+              "n_train": 14,
+              "n_test": 7,
+              "MAPE_percent": 19.687024750471817,
+              "RMSE_km_s": 26.182402780035982,
+              "max_error_km_s": 37.013895081205916,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC03546",
+              "r_max_kpc": 29.523132612943584,
+              "r_split_kpc": 20.666192829060506,
+              "n_train": 12,
+              "n_test": 5,
+              "MAPE_percent": 20.143034325221493,
+              "RMSE_km_s": 26.57057206215691,
+              "max_error_km_s": 35.68755076892272,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC03580",
+              "r_max_kpc": 16.9020269869014,
+              "r_split_kpc": 11.83141889083098,
+              "n_train": 9,
+              "n_test": 4,
+              "MAPE_percent": 20.097172863662827,
+              "RMSE_km_s": 26.141163648326422,
+              "max_error_km_s": 34.75933238681037,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC04278",
+              "r_max_kpc": 19.931401913316748,
+              "r_split_kpc": 13.951981339321723,
+              "n_train": 9,
+              "n_test": 4,
+              "MAPE_percent": 20.422877363535424,
+              "RMSE_km_s": 26.701083263545378,
+              "max_error_km_s": 35.48958903844783,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC04305",
+              "r_max_kpc": 16.727336811043056,
+              "r_split_kpc": 11.709135767730139,
+              "n_train": 12,
+              "n_test": 6,
+              "MAPE_percent": 17.946299847506175,
+              "RMSE_km_s": 23.745932559397517,
+              "max_error_km_s": 33.72995133416157,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC04325",
+              "r_max_kpc": 17.33777304827165,
+              "r_split_kpc": 12.136441133790154,
+              "n_train": 12,
+              "n_test": 5,
+              "MAPE_percent": 19.24127472938607,
+              "RMSE_km_s": 25.019131892997947,
+              "max_error_km_s": 33.64498679616821,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC04483",
+              "r_max_kpc": 22.09485890547229,
+              "r_split_kpc": 15.466401233830602,
+              "n_train": 14,
+              "n_test": 7,
+              "MAPE_percent": 19.551274314417658,
+              "RMSE_km_s": 25.945186124029853,
+              "max_error_km_s": 36.68576894841799,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC04499",
+              "r_max_kpc": 21.26562850459464,
+              "r_split_kpc": 14.885939953216248,
+              "n_train": 12,
+              "n_test": 6,
+              "MAPE_percent": 18.35614893813308,
+              "RMSE_km_s": 24.467893675352215,
+              "max_error_km_s": 34.73501475844145,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC05005",
+              "r_max_kpc": 28.288831716651377,
+              "r_split_kpc": 19.802182201655963,
+              "n_train": 14,
+              "n_test": 7,
+              "MAPE_percent": 19.948704577648652,
+              "RMSE_km_s": 26.638399759449705,
+              "max_error_km_s": 37.643757886206004,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC05253",
+              "r_max_kpc": 19.483892251475,
+              "r_split_kpc": 13.6387245760325,
+              "n_train": 16,
+              "n_test": 8,
+              "MAPE_percent": 18.006412051068047,
+              "RMSE_km_s": 23.954340171867436,
+              "max_error_km_s": 34.53930536934179,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC05414",
+              "r_max_kpc": 25.42679723918651,
+              "r_split_kpc": 17.798758067430555,
+              "n_train": 13,
+              "n_test": 6,
+              "MAPE_percent": 19.837041562350628,
+              "RMSE_km_s": 26.260174042770686,
+              "max_error_km_s": 36.305172832274536,
+              "passed": false
+            },
+            {
+              "galaxy_name": "UGC05716",
+              "r_max_kpc": 26.19678193285671,
+              "r_split_kpc": 18.337747352999695,
+              "n_train": 11,
+              "n_test": 5,
+              "MAPE_percent": 18.591549194021585,
+              "RMSE_km_s": 24.732759017688313,
+              "max_error_km_s": 34.16875653601424,
+              "passed": false
+            }
+          ]
+        },
+        "test_B": {
+          "test_name": "Test B: Chi Compression Fidelity",
+          "status": "PASS",
+          "summary": {
+            "n_galaxies": 91,
+            "n_passed": 91,
+            "pass_rate_percent": 100.0,
+            "mean_residual_percent": 0.14605675440441448,
+            "median_residual_percent": 0.11042459583382233
+          },
+          "per_galaxy": [
+            {
+              "galaxy_name": "ESO000-G43",
+              "compression_params": {
+                "A": 276.10561615392584,
+                "B": 6.884822606134194,
+                "gamma": 0.05083176702561809,
+                "r_max_kpc": 26.94814480290349
+              },
+              "compression_residual_percent": 0.2501452170766746,
+              "passed": true
+            },
+            {
+              "galaxy_name": "ESO215-G009",
+              "compression_params": {
+                "A": 7.158425621886318,
+                "B": 3.0040433417925194,
+                "gamma": 0.11965033923901124,
+                "r_max_kpc": 17.113863374621438
+              },
+              "compression_residual_percent": 0.07427839336973302,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC0024",
+              "compression_params": {
+                "A": 36.02926235018289,
+                "B": 4.722909341403826,
+                "gamma": 0.07420354326944871,
+                "r_max_kpc": 20.5167469907888
+              },
+              "compression_residual_percent": 0.1539553924846545,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC0055",
+              "compression_params": {
+                "A": 1.0,
+                "B": 0,
+                "gamma": 1,
+                "r_max_kpc": 23.653558269395383
+              },
+              "compression_residual_percent": 0.0,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC0100",
+              "compression_params": {
+                "A": 9.672579827007254,
+                "B": 3.278013312683973,
+                "gamma": 0.10720293023515322,
+                "r_max_kpc": 15.41425157810557
+              },
+              "compression_residual_percent": 0.05887823448495379,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC0247",
+              "compression_params": {
+                "A": 264.71804691919885,
+                "B": 6.864341078598676,
+                "gamma": 0.05121322767756413,
+                "r_max_kpc": 28.58025962934096
+              },
+              "compression_residual_percent": 0.24688830032662845,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC0289",
+              "compression_params": {
+                "A": 8.85579478794038,
+                "B": 3.225547071013929,
+                "gamma": 0.11054071641714751,
+                "r_max_kpc": 17.19907232538038
+              },
+              "compression_residual_percent": 0.06113674701169277,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC0300",
+              "compression_params": {
+                "A": 1.0,
+                "B": 0,
+                "gamma": 1,
+                "r_max_kpc": 29.809141939724167
+              },
+              "compression_residual_percent": 0.0,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC0801",
+              "compression_params": {
+                "A": 887.1953050522153,
+                "B": 8.00508305785574,
+                "gamma": 0.04293725360030572,
+                "r_max_kpc": 23.21169460348668
+              },
+              "compression_residual_percent": 0.28250736478191213,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC0891",
+              "compression_params": {
+                "A": 10.723066923549593,
+                "B": 3.4849366624926303,
+                "gamma": 0.10345003006647044,
+                "r_max_kpc": 20.533704593546588
+              },
+              "compression_residual_percent": 0.06844847668830907,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC1003",
+              "compression_params": {
+                "A": 46.291536083939015,
+                "B": 5.036139894805247,
+                "gamma": 0.07025489254789632,
+                "r_max_kpc": 24.091528215837577
+              },
+              "compression_residual_percent": 0.1619561782516038,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC1090",
+              "compression_params": {
+                "A": 34.644092474520505,
+                "B": 4.630081237737555,
+                "gamma": 0.07477141025539666,
+                "r_max_kpc": 17.723965752021385
+              },
+              "compression_residual_percent": 0.15769765859327356,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC1705",
+              "compression_params": {
+                "A": 2266.150295561074,
+                "B": 9.018094762463791,
+                "gamma": 0.038421444285556584,
+                "r_max_kpc": 27.90948026836101
+              },
+              "compression_residual_percent": 0.30929581377763354,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC2366",
+              "compression_params": {
+                "A": 2955.7738977741565,
+                "B": 9.167475022438726,
+                "gamma": 0.03696930080933866,
+                "r_max_kpc": 20.44588818292636
+              },
+              "compression_residual_percent": 0.2977113741290198,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC2403",
+              "compression_params": {
+                "A": 476.6479287782078,
+                "B": 7.423018637304511,
+                "gamma": 0.04685253235056978,
+                "r_max_kpc": 26.07050424639556
+              },
+              "compression_residual_percent": 0.2684400152433449,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC2683",
+              "compression_params": {
+                "A": 1337794.0589057389,
+                "B": 15.342570021541311,
+                "gamma": 0.02196566869951703,
+                "r_max_kpc": 22.83651864106753
+              },
+              "compression_residual_percent": 0.36244025281258074,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC2841",
+              "compression_params": {
+                "A": 6083.440368081396,
+                "B": 9.99501726996344,
+                "gamma": 0.03444208049213356,
+                "r_max_kpc": 26.79517521623328
+              },
+              "compression_residual_percent": 0.3275802373583831,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC2903",
+              "compression_params": {
+                "A": 13.934352143384494,
+                "B": 3.7202919651374775,
+                "gamma": 0.09526388552022372,
+                "r_max_kpc": 18.679282983830017
+              },
+              "compression_residual_percent": 0.07911001403350694,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC2915",
+              "compression_params": {
+                "A": 12.927981769391714,
+                "B": 3.7032459244912426,
+                "gamma": 0.09744922720929845,
+                "r_max_kpc": 22.09814860037336
+              },
+              "compression_residual_percent": 0.07049714102655188,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC2955",
+              "compression_params": {
+                "A": 30.79615905745434,
+                "B": 4.553801420747068,
+                "gamma": 0.07698412748734472,
+                "r_max_kpc": 19.984719380326634
+              },
+              "compression_residual_percent": 0.14396770517701724,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC2976",
+              "compression_params": {
+                "A": 9.34566487251376,
+                "B": 3.3349668000882255,
+                "gamma": 0.10837933504750183,
+                "r_max_kpc": 20.05504764646929
+              },
+              "compression_residual_percent": 0.07248408077768004,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC2998",
+              "compression_params": {
+                "A": 31.47018163890717,
+                "B": 4.641508291437841,
+                "gamma": 0.07668193530490143,
+                "r_max_kpc": 23.947282124781324
+              },
+              "compression_residual_percent": 0.13298833835130103,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC3109",
+              "compression_params": {
+                "A": 200.5623351079682,
+                "B": 6.475545060988245,
+                "gamma": 0.053258018455025966,
+                "r_max_kpc": 21.356073804731444
+              },
+              "compression_residual_percent": 0.2384089120192052,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC3198",
+              "compression_params": {
+                "A": 15.564320860968154,
+                "B": 3.9309429393177826,
+                "gamma": 0.09218288343176204,
+                "r_max_kpc": 24.524400683865498
+              },
+              "compression_residual_percent": 0.07509955362905843,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC3521",
+              "compression_params": {
+                "A": 9.624842847717886,
+                "B": 3.356320919143721,
+                "gamma": 0.10730053961456534,
+                "r_max_kpc": 19.54912721351393
+              },
+              "compression_residual_percent": 0.06838304827136336,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC3726",
+              "compression_params": {
+                "A": 12.941541841352642,
+                "B": 3.5949881735935594,
+                "gamma": 0.09743045284780516,
+                "r_max_kpc": 16.23926495188903
+              },
+              "compression_residual_percent": 0.08215219940405516,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC3741",
+              "compression_params": {
+                "A": 108.96584524997918,
+                "B": 5.8941839279162584,
+                "gamma": 0.05926504493958674,
+                "r_max_kpc": 23.47532989288524
+              },
+              "compression_residual_percent": 0.2129383139660552,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC3769",
+              "compression_params": {
+                "A": 7.21711554400085,
+                "B": 3.014476346776034,
+                "gamma": 0.11926620938008142,
+                "r_max_kpc": 17.21178790059426
+              },
+              "compression_residual_percent": 0.07424480649625519,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC3877",
+              "compression_params": {
+                "A": 69.6399557568977,
+                "B": 5.49078844374827,
+                "gamma": 0.06462346265143837,
+                "r_max_kpc": 26.875499826800272
+              },
+              "compression_residual_percent": 0.18172750975611493,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC3893",
+              "compression_params": {
+                "A": 35.92499118798538,
+                "B": 4.855733435933202,
+                "gamma": 0.07442268621763527,
+                "r_max_kpc": 29.761654785547467
+              },
+              "compression_residual_percent": 0.12454012465687463,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC3917",
+              "compression_params": {
+                "A": 81.26989392881671,
+                "B": 5.61041605899755,
+                "gamma": 0.0626370262575459,
+                "r_max_kpc": 24.320167458802946
+              },
+              "compression_residual_percent": 0.19654034409329418,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC3949",
+              "compression_params": {
+                "A": 11.60989825738073,
+                "B": 3.5929827113883173,
+                "gamma": 0.10078758489744123,
+                "r_max_kpc": 22.114326306468907
+              },
+              "compression_residual_percent": 0.07146349329418905,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC3953",
+              "compression_params": {
+                "A": 27.031034981110373,
+                "B": 4.5298807097580855,
+                "gamma": 0.07958977443322501,
+                "r_max_kpc": 26.975705107775287
+              },
+              "compression_residual_percent": 0.10950947324425853,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC3972",
+              "compression_params": {
+                "A": 1.0,
+                "B": 0,
+                "gamma": 1,
+                "r_max_kpc": 26.0186688468212
+              },
+              "compression_residual_percent": 0.0,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC3992",
+              "compression_params": {
+                "A": 181.49640152444195,
+                "B": 6.472941111137862,
+                "gamma": 0.05438188717353128,
+                "r_max_kpc": 27.809429504331334
+              },
+              "compression_residual_percent": 0.2316818673376807,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC4010",
+              "compression_params": {
+                "A": 60.043657194896184,
+                "B": 5.333730243083289,
+                "gamma": 0.06656688596958123,
+                "r_max_kpc": 26.394171430496947
+              },
+              "compression_residual_percent": 0.17340517178544057,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC4013",
+              "compression_params": {
+                "A": 10.560678161458485,
+                "B": 3.481318105475797,
+                "gamma": 0.10395491099482221,
+                "r_max_kpc": 21.247566478558184
+              },
+              "compression_residual_percent": 0.0715507964844341,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC4051",
+              "compression_params": {
+                "A": 18.370689204852244,
+                "B": 4.102482170412433,
+                "gamma": 0.08797993867822451,
+                "r_max_kpc": 24.642283722002617
+              },
+              "compression_residual_percent": 0.08307866416861565,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC4068",
+              "compression_params": {
+                "A": 55.54649232813479,
+                "B": 5.159854909203,
+                "gamma": 0.06745838598560014,
+                "r_max_kpc": 20.378676922873098
+              },
+              "compression_residual_percent": 0.18186589397614036,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC4085",
+              "compression_params": {
+                "A": 9.99830529381387,
+                "B": 3.386821564596923,
+                "gamma": 0.10592961740185594,
+                "r_max_kpc": 19.071578664513005
+              },
+              "compression_residual_percent": 0.06513526857693216,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC4088",
+              "compression_params": {
+                "A": 15.32104900393946,
+                "B": 3.762955543452535,
+                "gamma": 0.09256276339974823,
+                "r_max_kpc": 16.02529800464938
+              },
+              "compression_residual_percent": 0.09915842900097507,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC4100",
+              "compression_params": {
+                "A": 8.201019573888033,
+                "B": 3.1158226078032256,
+                "gamma": 0.1137074375542228,
+                "r_max_kpc": 15.75733416618612
+              },
+              "compression_residual_percent": 0.057260805671352784,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC4138",
+              "compression_params": {
+                "A": 691.9331489768942,
+                "B": 7.71992645645143,
+                "gamma": 0.04428432592185328,
+                "r_max_kpc": 21.14506580063989
+              },
+              "compression_residual_percent": 0.27477124250718615,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC4157",
+              "compression_params": {
+                "A": 2478542.4346743026,
+                "B": 15.962692890949494,
+                "gamma": 0.02110457314809967,
+                "r_max_kpc": 22.97833618511272
+              },
+              "compression_residual_percent": 0.366320136129732,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC4183",
+              "compression_params": {
+                "A": 15.365460770852458,
+                "B": 3.9163199915937623,
+                "gamma": 0.09252719973699185,
+                "r_max_kpc": 24.426396849218804
+              },
+              "compression_residual_percent": 0.07478079287073586,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC4214",
+              "compression_params": {
+                "A": 12.240408804173146,
+                "B": 3.639940694973827,
+                "gamma": 0.09912377627291208,
+                "r_max_kpc": 21.65788782631952
+              },
+              "compression_residual_percent": 0.06950242774915916,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC4217",
+              "compression_params": {
+                "A": 14.372987904787934,
+                "B": 3.8249578287214843,
+                "gamma": 0.09437027383951195,
+                "r_max_kpc": 22.915161993325427
+              },
+              "compression_residual_percent": 0.07259808092203765,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC4389",
+              "compression_params": {
+                "A": 8.886612301234372,
+                "B": 3.273803225053776,
+                "gamma": 0.11032570082290856,
+                "r_max_kpc": 19.5371854375189
+              },
+              "compression_residual_percent": 0.07279699440560036,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC4559",
+              "compression_params": {
+                "A": 287.14275692528577,
+                "B": 6.846490801259103,
+                "gamma": 0.05032897707381612,
+                "r_max_kpc": 21.87485391881363
+              },
+              "compression_residual_percent": 0.2505835721644355,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC5005",
+              "compression_params": {
+                "A": 3023.994424763376,
+                "B": 9.284732957822209,
+                "gamma": 0.03712279092541924,
+                "r_max_kpc": 26.24139008971213
+              },
+              "compression_residual_percent": 0.3144105537349327,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC5033",
+              "compression_params": {
+                "A": 11.630739663044418,
+                "B": 3.4934222496522587,
+                "gamma": 0.10079077049361038,
+                "r_max_kpc": 16.60585767831279
+              },
+              "compression_residual_percent": 0.07011799695028584,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC5055",
+              "compression_params": {
+                "A": 62.99608954545158,
+                "B": 5.318120138934043,
+                "gamma": 0.06579766387553554,
+                "r_max_kpc": 22.16025597183602
+              },
+              "compression_residual_percent": 0.18606049652902945,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC5371",
+              "compression_params": {
+                "A": 91.87725217551468,
+                "B": 5.633418767094021,
+                "gamma": 0.06093574175007018,
+                "r_max_kpc": 18.47070954565272
+              },
+              "compression_residual_percent": 0.20853802536369231,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC5585",
+              "compression_params": {
+                "A": 10.03379150050429,
+                "B": 3.358254065855517,
+                "gamma": 0.10583676319023369,
+                "r_max_kpc": 17.403384014647592
+              },
+              "compression_residual_percent": 0.06069276477464028,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC5907",
+              "compression_params": {
+                "A": 31.46501148968559,
+                "B": 4.577012941618254,
+                "gamma": 0.07659063982955103,
+                "r_max_kpc": 20.059664312268414
+              },
+              "compression_residual_percent": 0.14536166788513127,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC5985",
+              "compression_params": {
+                "A": 23.997420904848248,
+                "B": 4.364648224588606,
+                "gamma": 0.08197295657245438,
+                "r_max_kpc": 23.912127941346863
+              },
+              "compression_residual_percent": 0.1096941677853139,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC6015",
+              "compression_params": {
+                "A": 7.4446571830211,
+                "B": 3.040761960189127,
+                "gamma": 0.11786528255365838,
+                "r_max_kpc": 16.924887932831467
+              },
+              "compression_residual_percent": 0.0693662940303443,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC6195",
+              "compression_params": {
+                "A": 10.927698834493174,
+                "B": 3.475761697745532,
+                "gamma": 0.10283961136950977,
+                "r_max_kpc": 18.93705877681897
+              },
+              "compression_residual_percent": 0.06389445889552324,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC6503",
+              "compression_params": {
+                "A": 9.464034233987208,
+                "B": 3.3054697072229113,
+                "gamma": 0.10797411136067615,
+                "r_max_kpc": 17.772575969205374
+              },
+              "compression_residual_percent": 0.06192075073758073,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC6674",
+              "compression_params": {
+                "A": 439.33979580708103,
+                "B": 7.339183255821088,
+                "gamma": 0.047398253149996565,
+                "r_max_kpc": 25.95365001536802
+              },
+              "compression_residual_percent": 0.26588165943623,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC6789",
+              "compression_params": {
+                "A": 1.0,
+                "B": 0,
+                "gamma": 1,
+                "r_max_kpc": 29.122113562590982
+              },
+              "compression_residual_percent": 0.0,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC6946",
+              "compression_params": {
+                "A": 9.87334580099201,
+                "B": 3.3559741674641113,
+                "gamma": 0.10640505456110108,
+                "r_max_kpc": 18.12599360427497
+              },
+              "compression_residual_percent": 0.06249772829067477,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC7331",
+              "compression_params": {
+                "A": 64.56084305993477,
+                "B": 5.389754361727575,
+                "gamma": 0.06556500132509138,
+                "r_max_kpc": 25.165848618019808
+              },
+              "compression_residual_percent": 0.18140844664553096,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC7793",
+              "compression_params": {
+                "A": 1.0,
+                "B": 0,
+                "gamma": 1,
+                "r_max_kpc": 28.96236112485171
+              },
+              "compression_residual_percent": 0.0,
+              "passed": true
+            },
+            {
+              "galaxy_name": "NGC7814",
+              "compression_params": {
+                "A": 1.0,
+                "B": 0,
+                "gamma": 1,
+                "r_max_kpc": 29.803439180824466
+              },
+              "compression_residual_percent": 0.0,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC00128",
+              "compression_params": {
+                "A": 69.03707893965827,
+                "B": 5.438453345405662,
+                "gamma": 0.06465430497852086,
+                "r_max_kpc": 23.883320989971608
+              },
+              "compression_residual_percent": 0.18794116995451168,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC00191",
+              "compression_params": {
+                "A": 12.161308326595684,
+                "B": 3.6003706164994513,
+                "gamma": 0.09935069424463149,
+                "r_max_kpc": 19.74151967320456
+              },
+              "compression_residual_percent": 0.06720876684558655,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC00634",
+              "compression_params": {
+                "A": 1.0,
+                "B": 0,
+                "gamma": 1,
+                "r_max_kpc": 29.509067855554463
+              },
+              "compression_residual_percent": 0.0,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC00731",
+              "compression_params": {
+                "A": 83.60470600619081,
+                "B": 5.703602053474196,
+                "gamma": 0.06241714869687971,
+                "r_max_kpc": 28.95247804293825
+              },
+              "compression_residual_percent": 0.18856848089674114,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC00891",
+              "compression_params": {
+                "A": 48.61467868647754,
+                "B": 5.088395277826747,
+                "gamma": 0.0695212086185514,
+                "r_max_kpc": 24.25829374491687
+              },
+              "compression_residual_percent": 0.16493401192109777,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC01230",
+              "compression_params": {
+                "A": 44.61905717105865,
+                "B": 4.871941531637037,
+                "gamma": 0.07054394161309663,
+                "r_max_kpc": 17.005434815991542
+              },
+              "compression_residual_percent": 0.17411977331341996,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC01281",
+              "compression_params": {
+                "A": 5011.200050536008,
+                "B": 9.737559013463423,
+                "gamma": 0.03499416330789643,
+                "r_max_kpc": 22.717344034680583
+              },
+              "compression_residual_percent": 0.315140499855572,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC02023",
+              "compression_params": {
+                "A": 16.951738047554485,
+                "B": 3.9959031520079527,
+                "gamma": 0.08997139720055072,
+                "r_max_kpc": 23.033137096466973
+              },
+              "compression_residual_percent": 0.08135032336484678,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC02259",
+              "compression_params": {
+                "A": 441.1631804616017,
+                "B": 7.391525338074529,
+                "gamma": 0.047480852745028924,
+                "r_max_kpc": 29.50101341302662
+              },
+              "compression_residual_percent": 0.2653271329374583,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC02455",
+              "compression_params": {
+                "A": 65.2190687857451,
+                "B": 5.421381938760015,
+                "gamma": 0.06546845884377056,
+                "r_max_kpc": 26.66576233608826
+              },
+              "compression_residual_percent": 0.17808750518330227,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC02487",
+              "compression_params": {
+                "A": 599833.8953275734,
+                "B": 14.632866266302829,
+                "gamma": 0.023393583341770594,
+                "r_max_kpc": 29.144741761067035
+              },
+              "compression_residual_percent": 0.38415197946226803,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC02885",
+              "compression_params": {
+                "A": 22.574331630889205,
+                "B": 4.297363276442312,
+                "gamma": 0.0832690169167353,
+                "r_max_kpc": 23.591407994326303
+              },
+              "compression_residual_percent": 0.10525907484773545,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC02916",
+              "compression_params": {
+                "A": 11.997035364500096,
+                "B": 3.5846127614020844,
+                "gamma": 0.09978006077992307,
+                "r_max_kpc": 19.641938646692736
+              },
+              "compression_residual_percent": 0.06674894325780689,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC02953",
+              "compression_params": {
+                "A": 8.29644876766601,
+                "B": 3.1461451963211,
+                "gamma": 0.11319594690750398,
+                "r_max_kpc": 16.611758289433624
+              },
+              "compression_residual_percent": 0.06070929045827134,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC03205",
+              "compression_params": {
+                "A": 24.242121552961336,
+                "B": 4.375793009107947,
+                "gamma": 0.0817619744666883,
+                "r_max_kpc": 23.964486598033503
+              },
+              "compression_residual_percent": 0.11042459583382233,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC03546",
+              "compression_params": {
+                "A": 16674.523937776623,
+                "B": 11.04457240147055,
+                "gamma": 0.03125869565909992,
+                "r_max_kpc": 29.523132612943584
+              },
+              "compression_residual_percent": 0.3459137351016172,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC03580",
+              "compression_params": {
+                "A": 90.12630245784695,
+                "B": 5.581536827773221,
+                "gamma": 0.06105905900698193,
+                "r_max_kpc": 16.9020269869014
+              },
+              "compression_residual_percent": 0.20580063923438743,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC04278",
+              "compression_params": {
+                "A": 1409.3518406939559,
+                "B": 8.413500290393058,
+                "gamma": 0.0403245836480284,
+                "r_max_kpc": 19.931401913316748
+              },
+              "compression_residual_percent": 0.28399570252110223,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC04305",
+              "compression_params": {
+                "A": 11.865324059547358,
+                "B": 3.5164708820588753,
+                "gamma": 0.10014547432965985,
+                "r_max_kpc": 16.727336811043056
+              },
+              "compression_residual_percent": 0.07158547461483447,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC04325",
+              "compression_params": {
+                "A": 16.093431670355365,
+                "B": 3.841171406724806,
+                "gamma": 0.09127077599115929,
+                "r_max_kpc": 17.33777304827165
+              },
+              "compression_residual_percent": 0.09819274212800287,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC04483",
+              "compression_params": {
+                "A": 17.337071562686056,
+                "B": 4.003970683328313,
+                "gamma": 0.08940346268348542,
+                "r_max_kpc": 22.09485890547229
+              },
+              "compression_residual_percent": 0.08678780568055101,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC04499",
+              "compression_params": {
+                "A": 30.686563247119096,
+                "B": 4.572684450177649,
+                "gamma": 0.07708731064517986,
+                "r_max_kpc": 21.26562850459464
+              },
+              "compression_residual_percent": 0.13957662155678724,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC05005",
+              "compression_params": {
+                "A": 68.27434385499778,
+                "B": 5.48963619929806,
+                "gamma": 0.06490787210156507,
+                "r_max_kpc": 28.288831716651377
+              },
+              "compression_residual_percent": 0.17718615899008525,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC05253",
+              "compression_params": {
+                "A": 8.841453318968389,
+                "B": 3.267585808900262,
+                "gamma": 0.1105268849855215,
+                "r_max_kpc": 19.483892251475
+              },
+              "compression_residual_percent": 0.07282564665061961,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC05414",
+              "compression_params": {
+                "A": 70.4550542655395,
+                "B": 5.482136816418898,
+                "gamma": 0.06443875713474885,
+                "r_max_kpc": 25.42679723918651
+              },
+              "compression_residual_percent": 0.18622600222052982,
+              "passed": true
+            },
+            {
+              "galaxy_name": "UGC05716",
+              "compression_params": {
+                "A": 2870.1740346215847,
+                "B": 9.231612535433888,
+                "gamma": 0.03734005934551697,
+                "r_max_kpc": 26.19678193285671
+              },
+              "compression_residual_percent": 0.31335270457421577,
+              "passed": true
+            }
+          ]
+        },
+        "test_C": {
+          "test_name": "Test C: Holdout Galaxy Prediction",
+          "status": "PASS",
+          "summary": {
+            "n_train_galaxies": 64,
+            "n_holdout_galaxies": 27,
+            "train_mean_MAPE": 21.713336625524093,
+            "holdout_mean_MAPE": 25.115750307243943,
+            "holdout_to_train_ratio": 1.1566969526793178
+          },
+          "train_galaxies": [
+            "ESO215-G009",
+            "NGC0024",
+            "NGC0055",
+            "NGC0247",
+            "NGC0289",
+            "NGC0300",
+            "NGC0801",
+            "NGC0891",
+            "NGC2366",
+            "NGC2403",
+            "NGC2841",
+            "NGC2903",
+            "NGC2955",
+            "NGC2976",
+            "NGC2998",
+            "NGC3198",
+            "NGC3521",
+            "NGC3726",
+            "NGC3769",
+            "NGC3893",
+            "NGC3949",
+            "NGC3953",
+            "NGC3992",
+            "NGC4013",
+            "NGC4051",
+            "NGC4068",
+            "NGC4100",
+            "NGC4138",
+            "NGC4157",
+            "NGC4214",
+            "NGC4217",
+            "NGC4389",
+            "NGC4559",
+            "NGC5033",
+            "NGC5055",
+            "NGC5371",
+            "NGC5585",
+            "NGC5907",
+            "NGC6015",
+            "NGC6195",
+            "NGC6503",
+            "NGC6674",
+            "NGC6789",
+            "NGC6946",
+            "NGC7793",
+            "UGC00731",
+            "UGC00891",
+            "UGC01281",
+            "UGC02023",
+            "UGC02259",
+            "UGC02455",
+            "UGC02487",
+            "UGC02885",
+            "UGC02953",
+            "UGC03205",
+            "UGC03546",
+            "UGC03580",
+            "UGC04278",
+            "UGC04305",
+            "UGC04325",
+            "UGC04499",
+            "UGC05005",
+            "UGC05414",
+            "UGC05716"
+          ],
+          "holdout_galaxies": [
+            "ESO000-G43",
+            "NGC0100",
+            "NGC1003",
+            "NGC1090",
+            "NGC1705",
+            "NGC2683",
+            "NGC2915",
+            "NGC3109",
+            "NGC3741",
+            "NGC3877",
+            "NGC3917",
+            "NGC3972",
+            "NGC4010",
+            "NGC4085",
+            "NGC4088",
+            "NGC4183",
+            "NGC5005",
+            "NGC5985",
+            "NGC7331",
+            "NGC7814",
+            "UGC00128",
+            "UGC00191",
+            "UGC00634",
+            "UGC01230",
+            "UGC02916",
+            "UGC04483",
+            "UGC05253"
+          ]
+        }
+      },
+      "overall_status": "FAIL"
+    },
+    "merger": {
+      "domain": "merger",
+      "model": "dx_max = v_merger * r_c / sigma",
+      "c_eff_km_s": 300.0,
+      "per_cluster": [
+        {
+          "cluster": "Bullet Cluster (1E 0657-56)",
+          "sigma_km_s": 1100,
+          "r_c_kpc": 150,
+          "v_merger_km_s": 4500,
+          "v_merger_source": "Markevitch+2004",
+          "dx_obs_kpc": 150,
+          "dx_obs_source": "Clowe+2006",
+          "dx_max_kpc": 613.6363636363636,
+          "Q": 0.24444444444444444,
+          "directionality": "correct",
+          "X": 3.6666666666666665,
+          "ell_c_kpc": 40.909090909090914,
+          "tau_Myr": 133.42821561999645,
+          "status": "PASS"
+        },
+        {
+          "cluster": "MACS J0025.4-1222",
+          "sigma_km_s": 950,
+          "r_c_kpc": 120,
+          "v_merger_km_s": 2000,
+          "v_merger_source": "Bradac+2008",
+          "dx_obs_kpc": 100,
+          "dx_obs_source": "Bradac+2008",
+          "dx_max_kpc": 252.6315789473684,
+          "Q": 0.39583333333333337,
+          "directionality": "correct",
+          "X": 3.1666666666666665,
+          "ell_c_kpc": 37.89473684210527,
+          "tau_Myr": 123.59666289010198,
+          "status": "PASS"
+        },
+        {
+          "cluster": "Abell 520",
+          "sigma_km_s": 1000,
+          "r_c_kpc": 200,
+          "v_merger_km_s": 2300,
+          "v_merger_source": "Markevitch+2005",
+          "dx_obs_kpc": 150,
+          "dx_obs_source": "Mahdavi+2007",
+          "dx_max_kpc": 460.0,
+          "Q": 0.32608695652173914,
+          "directionality": "ambiguous",
+          "X": 3.3333333333333335,
+          "ell_c_kpc": 60.0,
+          "tau_Myr": 195.69471624266149,
+          "status": "PASS"
+        },
+        {
+          "cluster": "Abell 2146",
+          "sigma_km_s": 900,
+          "r_c_kpc": 100,
+          "v_merger_km_s": 2200,
+          "v_merger_source": "Russell+2010",
+          "dx_obs_kpc": 90,
+          "dx_obs_source": "Russell+2012",
+          "dx_max_kpc": 244.44444444444446,
+          "Q": 0.36818181818181817,
+          "directionality": "correct",
+          "X": 3.0,
+          "ell_c_kpc": 33.333333333333336,
+          "tau_Myr": 108.71928680147859,
+          "status": "PASS"
+        },
+        {
+          "cluster": "Abell 754",
+          "sigma_km_s": 850,
+          "r_c_kpc": 180,
+          "v_merger_km_s": 2000,
+          "v_merger_source": "Henry+2004",
+          "dx_obs_kpc": 200,
+          "dx_obs_source": "Okabe+2008",
+          "dx_max_kpc": 423.52941176470586,
+          "Q": 0.47222222222222227,
+          "directionality": "correct",
+          "X": 2.8333333333333335,
+          "ell_c_kpc": 63.52941176470588,
+          "tau_Myr": 207.20617013928862,
+          "status": "PASS"
+        },
+        {
+          "cluster": "Abell 2744 (Pandora)",
+          "sigma_km_s": 1500,
+          "r_c_kpc": 250,
+          "v_merger_km_s": 3000,
+          "v_merger_source": "Merten+2011",
+          "dx_obs_kpc": 200,
+          "dx_obs_source": "Merten+2011",
+          "dx_max_kpc": 500.0,
+          "Q": 0.4,
+          "directionality": "correct",
+          "X": 5.0,
+          "ell_c_kpc": 50.0,
+          "tau_Myr": 163.0789302022179,
+          "status": "PASS"
+        },
+        {
+          "cluster": "MACS J0717.5+3745",
+          "sigma_km_s": 1600,
+          "r_c_kpc": 300,
+          "v_merger_km_s": 3500,
+          "v_merger_source": "Ma+2009",
+          "dx_obs_kpc": 250,
+          "dx_obs_source": "Limousin+2012",
+          "dx_max_kpc": 656.25,
+          "Q": 0.38095238095238093,
+          "directionality": "correct",
+          "X": 5.333333333333333,
+          "ell_c_kpc": 56.25,
+          "tau_Myr": 183.46379647749512,
+          "status": "PASS"
+        },
+        {
+          "cluster": "CIZA J2242.8+5301 (Sausage)",
+          "sigma_km_s": 1000,
+          "r_c_kpc": 200,
+          "v_merger_km_s": 2500,
+          "v_merger_source": "vanWeeren+2010",
+          "dx_obs_kpc": 180,
+          "dx_obs_source": "Jee+2015",
+          "dx_max_kpc": 500.0,
+          "Q": 0.36,
+          "directionality": "correct",
+          "X": 3.3333333333333335,
+          "ell_c_kpc": 60.0,
+          "tau_Myr": 195.69471624266149,
+          "status": "PASS"
+        },
+        {
+          "cluster": "ZwCl 0008.8+5215",
+          "sigma_km_s": 800,
+          "r_c_kpc": 120,
+          "v_merger_km_s": 2000,
+          "v_merger_source": "vanWeeren+2011",
+          "dx_obs_kpc": 100,
+          "dx_obs_source": "Golovich+2017",
+          "dx_max_kpc": 300.0,
+          "Q": 0.3333333333333333,
+          "directionality": "correct",
+          "X": 2.6666666666666665,
+          "ell_c_kpc": 45.0,
+          "tau_Myr": 146.77103718199612,
+          "status": "PASS"
+        },
+        {
+          "cluster": "Abell 1758",
+          "sigma_km_s": 1100,
+          "r_c_kpc": 180,
+          "v_merger_km_s": 2200,
+          "v_merger_source": "David+2004",
+          "dx_obs_kpc": 120,
+          "dx_obs_source": "Monteiro-Oliveira+2017",
+          "dx_max_kpc": 360.0,
+          "Q": 0.3333333333333333,
+          "directionality": "correct",
+          "X": 3.6666666666666665,
+          "ell_c_kpc": 49.09090909090909,
+          "tau_Myr": 160.11385874399576,
+          "status": "PASS"
+        },
+        {
+          "cluster": "Abell 3667",
+          "sigma_km_s": 950,
+          "r_c_kpc": 250,
+          "v_merger_km_s": 1500,
+          "v_merger_source": "Finoguenov+2010",
+          "dx_obs_kpc": 150,
+          "dx_obs_source": "Joffre+2000",
+          "dx_max_kpc": 394.7368421052632,
+          "Q": 0.38,
+          "directionality": "correct",
+          "X": 3.1666666666666665,
+          "ell_c_kpc": 78.94736842105263,
+          "tau_Myr": 257.4930476877125,
+          "status": "PASS"
+        },
+        {
+          "cluster": "Abell 2163",
+          "sigma_km_s": 1300,
+          "r_c_kpc": 220,
+          "v_merger_km_s": 2500,
+          "v_merger_source": "Markevitch+1996",
+          "dx_obs_kpc": 180,
+          "dx_obs_source": "Radovich+2008",
+          "dx_max_kpc": 423.0769230769231,
+          "Q": 0.4254545454545454,
+          "directionality": "correct",
+          "X": 4.333333333333333,
+          "ell_c_kpc": 50.769230769230774,
+          "tau_Myr": 165.58783682071356,
+          "status": "PASS"
+        }
+      ],
+      "summary": {
+        "n_clusters_tested": 12,
+        "n_passed_Q_bound": 12,
+        "n_failed_Q_bound": 0,
+        "pass_rate_percent": 100.0,
+        "Q_mean": 0.36832019731476257,
+        "Q_median": 0.3740909090909091,
+        "Q_std": 0.0545915071500149,
+        "Q_min": 0.24444444444444444,
+        "Q_max": 0.47222222222222227,
+        "directionality_correct": 11,
+        "directionality_wrong": 0,
+        "directionality_ambiguous": 1
+      },
+      "overall_status": "PASS"
+    },
+    "cosmology": {
+      "domain": "cosmology",
+      "c_eff_km_s": 300.0,
+      "experiments": {
+        "exp1_bbn": {
+          "test": "EXP-1: BBN Consistency",
+          "status": "PARTIAL",
+          "model_type": "toy",
+          "epoch": "BBN (t ~ 1 s, T ~ 1 MeV)",
+          "conclusion": "Chi = 1 at BBN (no local sources)",
+          "physical_explanation": "Chi-field is sourced by local mass concentrations. At BBN, homogeneous -> chi = 1."
+        },
+        "exp2_gw": {
+          "test": "EXP-2: GW Speed",
+          "status": "PASS",
+          "gw170817_constraint": 3e-15,
+          "lfm_c_g_m_s": 299792458.0,
+          "c_light_m_s": 299792458.0,
+          "deviation": 0.0,
+          "physical_explanation": "Chi-field couples to scalar field E, not tensor perturbations. GWs propagate at c."
+        },
+        "exp3_pulsars": {
+          "test": "EXP-3: Binary Pulsars",
+          "status": "PASS",
+          "pulsar": "PSR B1913+16 (Hulse-Taylor)",
+          "Pb_dot_observed": -2.423e-12,
+          "Pb_dot_GR": -2.403761501269018e-12,
+          "Pb_dot_LFM": -2.403761501269018e-12,
+          "deviation_percent": 0.793994995087987,
+          "threshold_percent": 1.0,
+          "physical_explanation": "Chi-field couples to scalar field E, not geodesic motion. Binary pulsar timing is GR."
+        },
+        "exp5_bao": {
+          "test": "EXP-5: BAO Scale",
+          "status": "PASS",
+          "bao_scale_mpc": 150,
+          "ell_c_galaxy_kpc": 15.0,
+          "ell_c_cluster_kpc": 60.0,
+          "ratio_galaxy": 0.0001,
+          "ratio_cluster": 0.0004,
+          "physical_explanation": "LFM coherence scales (10-100 kpc) are << BAO scale (150 Mpc). No conflict."
+        }
+      },
+      "overall_status": "PASS",
+      "note": "EXP-1 (BBN) and EXP-5 (BAO) are toy models, not full calculations"
+    }
+  },
+  "overall_status": "FAIL"
+}

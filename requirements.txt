@@ -1,0 +1,8 @@
+# LFM Gravitational Series Reproducibility
+# Minimal dependencies - uses Python standard library
+
+# Required for numerical computations
+numpy>=1.20.0
+
+# Optional: for enhanced plotting (not required for core reproduction)
+# matplotlib>=3.5.0

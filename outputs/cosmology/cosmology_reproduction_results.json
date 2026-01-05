@@ -1,0 +1,46 @@
+{
+  "domain": "cosmology",
+  "c_eff_km_s": 300.0,
+  "experiments": {
+    "exp1_bbn": {
+      "test": "EXP-1: BBN Consistency",
+      "status": "PARTIAL",
+      "model_type": "toy",
+      "epoch": "BBN (t ~ 1 s, T ~ 1 MeV)",
+      "conclusion": "Chi = 1 at BBN (no local sources)",
+      "physical_explanation": "Chi-field is sourced by local mass concentrations. At BBN, homogeneous -> chi = 1."
+    },
+    "exp2_gw": {
+      "test": "EXP-2: GW Speed",
+      "status": "PASS",
+      "gw170817_constraint": 3e-15,
+      "lfm_c_g_m_s": 299792458.0,
+      "c_light_m_s": 299792458.0,
+      "deviation": 0.0,
+      "physical_explanation": "Chi-field couples to scalar field E, not tensor perturbations. GWs propagate at c."
+    },
+    "exp3_pulsars": {
+      "test": "EXP-3: Binary Pulsars",
+      "status": "PASS",
+      "pulsar": "PSR B1913+16 (Hulse-Taylor)",
+      "Pb_dot_observed": -2.423e-12,
+      "Pb_dot_GR": -2.403761501269018e-12,
+      "Pb_dot_LFM": -2.403761501269018e-12,
+      "deviation_percent": 0.793994995087987,
+      "threshold_percent": 1.0,
+      "physical_explanation": "Chi-field couples to scalar field E, not geodesic motion. Binary pulsar timing is GR."
+    },
+    "exp5_bao": {
+      "test": "EXP-5: BAO Scale",
+      "status": "PASS",
+      "bao_scale_mpc": 150,
+      "ell_c_galaxy_kpc": 15.0,
+      "ell_c_cluster_kpc": 60.0,
+      "ratio_galaxy": 0.0001,
+      "ratio_cluster": 0.0004,
+      "physical_explanation": "LFM coherence scales (10-100 kpc) are << BAO scale (150 Mpc). No conflict."
+    }
+  },
+  "overall_status": "PASS",
+  "note": "EXP-1 (BBN) and EXP-5 (BAO) are toy models, not full calculations"
+}
