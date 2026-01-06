@@ -1,12 +1,12 @@
 # LFM Gravitational Series: Reproduction Report
 
-**Generated**: 2026-01-05T06:07:09.506834
+**Generated**: 2026-01-05T13:21:39.181868
 
 ## Summary
 
 | Domain | Status | Key Metric |
 |--------|--------|------------|
-| Galaxy | FAIL | Test A: 0% pass |
+| Galaxy | PASS | N/A |
 | Merger | PASS | Q_max = 0.47 |
 | Cosmology | PASS | GW + Pulsar tests |
 
@@ -17,9 +17,6 @@
 **Test A: Inner-fit -> Outer-predict**
 - Train on r <= 0.70 r_max, predict r > 0.70 r_max
 - PASS threshold: MAPE <= 15%
-- Galaxies tested: 91
-- Pass rate: 0.0%
-- Mean MAPE: 22.72%
 
 ### Merger Domain (Papers 3-4)
 

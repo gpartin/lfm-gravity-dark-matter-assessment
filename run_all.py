@@ -11,12 +11,14 @@ USAGE:
     python run_all.py --merger         # Run merger domain only
     python run_all.py --cosmology      # Run cosmology domain only
     python run_all.py --galaxy-v13     # Run v1.3 full-SPARC validation
+    python run_all.py --btfr           # Run BTFR predicted velocity test
 
 OUTPUT:
     outputs/galaxy/galaxy_reproduction_results.json
     outputs/merger/merger_reproduction_results.json
     outputs/cosmology/cosmology_reproduction_results.json
     outputs/galaxy_v13/summary.json
+    outputs/btfr_predicted_results.json
     outputs/combined_report.json
     outputs/comparison_report.md
 
@@ -100,6 +102,23 @@ def run_galaxy_v13_domain():
     spec = importlib.util.spec_from_file_location(
         "galaxy_v13_reproduce",
         SCRIPT_DIR / "galaxy_v13_full_sparc" / "reproduce.py"
+    )
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module.main()
+
+
+def run_btfr_predicted_domain():
+    """Run BTFR predicted velocity test (BTFR-V13-ALL-SPARC)."""
+    print("\n" + "=" * 80)
+    print("RUNNING BTFR PREDICTED VELOCITY TEST")
+    print("=" * 80)
+    
+    # Import from galaxy_v13_full_sparc directory
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "btfr_predicted_test",
+        SCRIPT_DIR / "galaxy_v13_full_sparc" / "btfr_predicted_test.py"
     )
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
@@ -232,10 +251,11 @@ def main():
     parser.add_argument("--merger", action="store_true", help="Run merger domain only")
     parser.add_argument("--cosmology", action="store_true", help="Run cosmology domain only")
     parser.add_argument("--galaxy-v13", action="store_true", help="Run v1.3 full-SPARC validation")
+    parser.add_argument("--btfr", action="store_true", help="Run BTFR predicted velocity test")
     args = parser.parse_args()
     
     # If no specific domain, run all
-    run_all = not (args.galaxy or args.merger or args.cosmology or getattr(args, 'galaxy_v13', False))
+    run_all = not (args.galaxy or args.merger or args.cosmology or getattr(args, 'galaxy_v13', False) or getattr(args, 'btfr', False))
     
     print("=" * 80)
     print("LFM GRAVITATIONAL SERIES REPRODUCIBILITY")
@@ -279,6 +299,15 @@ def main():
         except Exception as e:
             print(f"ERROR in galaxy v1.3 domain: {e}")
             results["galaxy_v13"] = {"overall_status": "ERROR", "error": str(e)}
+    
+    # BTFR Predicted Velocity Test
+    if run_all or getattr(args, 'btfr', False):
+        try:
+            ret = run_btfr_predicted_domain()
+            results["btfr"] = {"overall_status": "PASS" if ret == 0 else "FAIL"}
+        except Exception as e:
+            print(f"ERROR in BTFR domain: {e}")
+            results["btfr"] = {"overall_status": "ERROR", "error": str(e)}
     
     # Combined report
     combined = {

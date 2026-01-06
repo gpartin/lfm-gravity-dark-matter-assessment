@@ -2,6 +2,24 @@
 
 All notable changes to the LFM Paper 037 Reproduction Package.
 
+## [1.2.0] - 2026-01-05
+
+### Added
+
+- **btfr_predicted_test.py**: Critical BTFR test using PREDICTED velocities
+  - Test ID: BTFR-V13-ALL-SPARC
+  - Computes BTFR from log(v_flat_PREDICTED) vs log(M_b), NOT observed velocities
+  - Validates v1.3 PASSES (slope 3.596) while v1.2 FAILS (slope 3.075)
+  - Target range: [3.3, 4.0] (observed BTFR slope)
+
+- **run_all.py**: Added `--btfr` flag for BTFR predicted velocity test
+
+### Changed
+
+- **Methodology clarification**: BTFR must be computed from model predictions to test
+  whether the coupling law produces correct scaling. Previously computed from observed
+  velocities, which tests nothing about the model.
+
 ## [1.1.0] - 2026-01-05
 
 ### Added
