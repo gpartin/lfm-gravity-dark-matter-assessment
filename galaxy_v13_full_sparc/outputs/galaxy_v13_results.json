@@ -1,0 +1,3546 @@
+{
+  "v12": {
+    "stats": {
+      "n_galaxies": 175,
+      "mean_ratio": 5.4090271083729204,
+      "median_ratio": 5.040905383075169,
+      "std_ratio": 2.0061674514753074,
+      "universality": 0.37089247498313593,
+      "fraction_within_2x": 0.0,
+      "pass_rotation": false,
+      "pass_universality": true
+    },
+    "btfr": {
+      "slope_vM": 0.2804025683292015,
+      "slope_Mv": 3.5663011432404863,
+      "r_value": 0.9410483218762202,
+      "r_squared": 0.8855719441060502,
+      "n_galaxies": 175,
+      "pass_btfr": true
+    }
+  },
+  "v13": {
+    "stats": {
+      "n_galaxies": 175,
+      "mean_ratio": 1.3212846891435148,
+      "median_ratio": 1.2472131179024948,
+      "std_ratio": 0.35617694985576964,
+      "universality": 0.26956866508961913,
+      "fraction_within_2x": 0.9485714285714286,
+      "pass_rotation": true,
+      "pass_universality": true
+    },
+    "btfr": {
+      "slope_vM": 0.2804025683292015,
+      "slope_Mv": 3.5663011432404863,
+      "r_value": 0.9410483218762202,
+      "r_squared": 0.8855719441060502,
+      "n_galaxies": 175,
+      "pass_btfr": true
+    }
+  },
+  "per_galaxy_v12": [
+    {
+      "galaxy_id": "CamB",
+      "version": "v1.2",
+      "n_points": 9,
+      "mean_ratio": 9.571560935166913,
+      "v_flat_obs": 18.450000000000003,
+      "M_baryonic": 66116887.14551373,
+      "log_Mb": 7.820312398327265,
+      "log_v_flat": 1.2659963704950792
+    },
+    {
+      "galaxy_id": "D512-2",
+      "version": "v1.2",
+      "n_points": 4,
+      "mean_ratio": 3.7612510737875526,
+      "v_flat_obs": 36.55,
+      "M_baryonic": 237751389.81868902,
+      "log_Mb": 8.376123064363703,
+      "log_v_flat": 1.5628873812938793
+    },
+    {
+      "galaxy_id": "D564-8",
+      "version": "v1.2",
+      "n_points": 6,
+      "mean_ratio": 3.769998786986767,
+      "v_flat_obs": 24.5,
+      "M_baryonic": 56249686.076243624,
+      "log_Mb": 7.75012010303699,
+      "log_v_flat": 1.3891660843645324
+    },
+    {
+      "galaxy_id": "D631-7",
+      "version": "v1.2",
+      "n_points": 16,
+      "mean_ratio": 4.696938664459012,
+      "v_flat_obs": 57.7,
+      "M_baryonic": 555953295.9088795,
+      "log_Mb": 8.745038309242121,
+      "log_v_flat": 1.7611758131557314
+    },
+    {
+      "galaxy_id": "DDO064",
+      "version": "v1.2",
+      "n_points": 14,
+      "mean_ratio": 3.7787337882337795,
+      "v_flat_obs": 46.53333333333333,
+      "M_baryonic": 443052261.9711763,
+      "log_Mb": 8.646454958157562,
+      "log_v_flat": 1.6677641635674798
+    },
+    {
+      "galaxy_id": "DDO154",
+      "version": "v1.2",
+      "n_points": 12,
+      "mean_ratio": 3.587370675988803,
+      "v_flat_obs": 47.125,
+      "M_baryonic": 363571391.91073924,
+      "log_Mb": 8.560589702866476,
+      "log_v_flat": 1.6732513632138493
+    },
+    {
+      "galaxy_id": "DDO161",
+      "version": "v1.2",
+      "n_points": 31,
+      "mean_ratio": 5.0547387028420205,
+      "v_flat_obs": 66.33333333333333,
+      "M_baryonic": 2690596421.5481167,
+      "log_Mb": 9.429848560253891,
+      "log_v_flat": 1.8217318216900442
+    },
+    {
+      "galaxy_id": "DDO168",
+      "version": "v1.2",
+      "n_points": 10,
+      "mean_ratio": 4.878921429858405,
+      "v_flat_obs": 53.675,
+      "M_baryonic": 623550842.8637843,
+      "log_Mb": 8.794871870605185,
+      "log_v_flat": 1.7297720531082863
+    },
+    {
+      "galaxy_id": "DDO170",
+      "version": "v1.2",
+      "n_points": 8,
+      "mean_ratio": 3.999878798948651,
+      "v_flat_obs": 60.4,
+      "M_baryonic": 2099883406.9037652,
+      "log_Mb": 9.322195181808187,
+      "log_v_flat": 1.7810369386211318
+    },
+    {
+      "galaxy_id": "ESO079-G014",
+      "version": "v1.2",
+      "n_points": 15,
+      "mean_ratio": 5.090277475927893,
+      "v_flat_obs": 176.66666666666666,
+      "M_baryonic": 36253904181.42726,
+      "log_Mb": 10.559354782580096,
+      "log_v_flat": 2.2471546148811266
+    },
+    {
+      "galaxy_id": "ESO116-G012",
+      "version": "v1.2",
+      "n_points": 15,
+      "mean_ratio": 4.28850464136149,
+      "v_flat_obs": 110.5,
+      "M_baryonic": 5070005124.128315,
+      "log_Mb": 9.705008398264209,
+      "log_v_flat": 2.0433622780211294
+    },
+    {
+      "galaxy_id": "ESO444-G084",
+      "version": "v1.2",
+      "n_points": 7,
+      "mean_ratio": 2.968984811692452,
+      "v_flat_obs": 62.900000000000006,
+      "M_baryonic": 253047953.97489542,
+      "log_Mb": 8.40320283016089,
+      "log_v_flat": 1.7986506454452689
+    },
+    {
+      "galaxy_id": "ESO563-G021",
+      "version": "v1.2",
+      "n_points": 30,
+      "mean_ratio": 6.518287302345391,
+      "v_flat_obs": 315.25,
+      "M_baryonic": 210315154477.33606,
+      "log_Mb": 11.322870567354695,
+      "log_v_flat": 2.498655095245119
+    },
+    {
+      "galaxy_id": "F561-1",
+      "version": "v1.2",
+      "n_points": 6,
+      "mean_ratio": 6.492938597108943,
+      "v_flat_obs": 50.4,
+      "M_baryonic": 4666764412.831242,
+      "log_Mb": 9.669015877424718,
+      "log_v_flat": 1.7024305364455252
+    },
+    {
+      "galaxy_id": "F563-1",
+      "version": "v1.2",
+      "n_points": 17,
+      "mean_ratio": 2.7489860482846957,
+      "v_flat_obs": 110.6,
+      "M_baryonic": 6973130359.135287,
+      "log_Mb": 9.843427784195873,
+      "log_v_flat": 2.0437551269686796
+    },
+    {
+      "galaxy_id": "F563-V1",
+      "version": "v1.2",
+      "n_points": 6,
+      "mean_ratio": 6.50721629557608,
+      "v_flat_obs": 27.950000000000003,
+      "M_baryonic": 1242101409.693166,
+      "log_Mb": 9.094157054674895,
+      "log_v_flat": 1.446381812222442
+    },
+    {
+      "galaxy_id": "F563-V2",
+      "version": "v1.2",
+      "n_points": 10,
+      "mean_ratio": 2.942947752142122,
+      "v_flat_obs": 117.25,
+      "M_baryonic": 5547613221.059973,
+      "log_Mb": 9.74410617449662,
+      "log_v_flat": 2.069112851387121
+    },
+    {
+      "galaxy_id": "F565-V2",
+      "version": "v1.2",
+      "n_points": 7,
+      "mean_ratio": 3.0047521514449755,
+      "v_flat_obs": 78.36666666666666,
+      "M_baryonic": 1860280111.5760112,
+      "log_Mb": 9.269578343009599,
+      "log_v_flat": 1.8941313744052768
+    },
+    {
+      "galaxy_id": "F567-2",
+      "version": "v1.2",
+      "n_points": 5,
+      "mean_ratio": 4.846919144622997,
+      "v_flat_obs": 50.150000000000006,
+      "M_baryonic": 2525142966.8758717,
+      "log_Mb": 9.40228597174877,
+      "log_v_flat": 1.7002709373564369
+    },
+    {
+      "galaxy_id": "F568-1",
+      "version": "v1.2",
+      "n_points": 12,
+      "mean_ratio": 3.027036147198956,
+      "v_flat_obs": 137.5,
+      "M_baryonic": 10750401847.280334,
+      "log_Mb": 10.031424698372053,
+      "log_v_flat": 2.1383026981662816
+    },
+    {
+      "galaxy_id": "F568-3",
+      "version": "v1.2",
+      "n_points": 18,
+      "mean_ratio": 3.984842572092536,
+      "v_flat_obs": 114.66666666666667,
+      "M_baryonic": 11368235121.106462,
+      "log_Mb": 10.055693047215609,
+      "log_v_flat": 2.059437187851868
+    },
+    {
+      "galaxy_id": "F568-V1",
+      "version": "v1.2",
+      "n_points": 15,
+      "mean_ratio": 2.8620371323385525,
+      "v_flat_obs": 118.0,
+      "M_baryonic": 7567655370.292888,
+      "log_Mb": 9.878961346149017,
+      "log_v_flat": 2.0718820073061255
+    },
+    {
+      "galaxy_id": "F571-8",
+      "version": "v1.2",
+      "n_points": 13,
+      "mean_ratio": 7.017236312886336,
+      "v_flat_obs": 142.0,
+      "M_baryonic": 6012814322.989308,
+      "log_Mb": 9.779077792944749,
+      "log_v_flat": 2.1522883443830563
+    },
+    {
+      "galaxy_id": "F571-V1",
+      "version": "v1.2",
+      "n_points": 7,
+      "mean_ratio": 3.784864956090936,
+      "v_flat_obs": 83.56666666666668,
+      "M_baryonic": 3736107075.3138075,
+      "log_Mb": 9.572419314440165,
+      "log_v_flat": 1.922033079238554
+    },
+    {
+      "galaxy_id": "F574-1",
+      "version": "v1.2",
+      "n_points": 14,
+      "mean_ratio": 3.605214055919114,
+      "v_flat_obs": 98.41999999999999,
+      "M_baryonic": 6328464079.497909,
+      "log_Mb": 9.801298319379473,
+      "log_v_flat": 1.993083360698062
+    },
+    {
+      "galaxy_id": "F574-2",
+      "version": "v1.2",
+      "n_points": 5,
+      "mean_ratio": 8.303200738760818,
+      "v_flat_obs": 38.0,
+      "M_baryonic": 3658133585.076709,
+      "log_Mb": 9.563259560681782,
+      "log_v_flat": 1.5797835966168101
+    },
+    {
+      "galaxy_id": "F579-V1",
+      "version": "v1.2",
+      "n_points": 14,
+      "mean_ratio": 3.602590869505677,
+      "v_flat_obs": 114.0,
+      "M_baryonic": 10967262900.51139,
+      "log_Mb": 10.040098254236078,
+      "log_v_flat": 2.0569048513364727
+    },
+    {
+      "galaxy_id": "F583-1",
+      "version": "v1.2",
+      "n_points": 25,
+      "mean_ratio": 3.175660280652738,
+      "v_flat_obs": 86.35,
+      "M_baryonic": 6464073989.53975,
+      "log_Mb": 9.81050631884712,
+      "log_v_flat": 1.9362623419034775
+    },
+    {
+      "galaxy_id": "F583-4",
+      "version": "v1.2",
+      "n_points": 12,
+      "mean_ratio": 3.858317535448649,
+      "v_flat_obs": 65.825,
+      "M_baryonic": 1555657023.0125525,
+      "log_Mb": 9.191913853944314,
+      "log_v_flat": 1.8183908677781058
+    },
+    {
+      "galaxy_id": "IC2574",
+      "version": "v1.2",
+      "n_points": 34,
+      "mean_ratio": 4.14284109435403,
+      "v_flat_obs": 61.554545454545455,
+      "M_baryonic": 2438576487.796374,
+      "log_Mb": 9.3871363821162,
+      "log_v_flat": 1.7892601286391994
+    },
+    {
+      "galaxy_id": "IC4202",
+      "version": "v1.2",
+      "n_points": 32,
+      "mean_ratio": 7.919763125648045,
+      "v_flat_obs": 242.375,
+      "M_baryonic": 131936596563.69127,
+      "log_Mb": 11.120365276828922,
+      "log_v_flat": 2.384487822086762
+    },
+    {
+      "galaxy_id": "KK98-251",
+      "version": "v1.2",
+      "n_points": 15,
+      "mean_ratio": 5.0640367990249615,
+      "v_flat_obs": 34.03333333333334,
+      "M_baryonic": 276919401.5574152,
+      "log_Mb": 8.44235338439905,
+      "log_v_flat": 1.5319044873672478
+    },
+    {
+      "galaxy_id": "NGC0024",
+      "version": "v1.2",
+      "n_points": 29,
+      "mean_ratio": 3.963715388049717,
+      "v_flat_obs": 108.33333333333333,
+      "M_baryonic": 3204095187.238493,
+      "log_Mb": 9.505705409621427,
+      "log_v_flat": 2.034762106259212
+    },
+    {
+      "galaxy_id": "NGC0055",
+      "version": "v1.2",
+      "n_points": 21,
+      "mean_ratio": 5.13886375849808,
+      "v_flat_obs": 86.25714285714285,
+      "M_baryonic": 7159933368.200837,
+      "log_Mb": 9.8549089806937,
+      "log_v_flat": 1.935795068672822
+    },
+    {
+      "galaxy_id": "NGC0100",
+      "version": "v1.2",
+      "n_points": 21,
+      "mean_ratio": 4.552055632515597,
+      "v_flat_obs": 87.45714285714287,
+      "M_baryonic": 2845892292.422129,
+      "log_Mb": 9.454218459454559,
+      "log_v_flat": 1.941795285247059
+    },
+    {
+      "galaxy_id": "NGC0247",
+      "version": "v1.2",
+      "n_points": 26,
+      "mean_ratio": 3.965884430487508,
+      "v_flat_obs": 104.88888888888889,
+      "M_baryonic": 7858220059.972107,
+      "log_Mb": 9.895324186539085,
+      "log_v_flat": 2.020729484858744
+    },
+    {
+      "galaxy_id": "NGC0289",
+      "version": "v1.2",
+      "n_points": 28,
+      "mean_ratio": 5.264419698775934,
+      "v_flat_obs": 167.375,
+      "M_baryonic": 83237766817.2943,
+      "log_Mb": 10.92032042002666,
+      "log_v_flat": 2.223690590020065
+    },
+    {
+      "galaxy_id": "NGC0300",
+      "version": "v1.2",
+      "n_points": 25,
+      "mean_ratio": 3.726155014355137,
+      "v_flat_obs": 93.775,
+      "M_baryonic": 2994697505.8112497,
+      "log_Mb": 9.476352960885038,
+      "log_v_flat": 1.9720870728227604
+    },
+    {
+      "galaxy_id": "NGC0801",
+      "version": "v1.2",
+      "n_points": 13,
+      "mean_ratio": 7.362970209599046,
+      "v_flat_obs": 215.33333333333334,
+      "M_baryonic": 236241363006.27625,
+      "log_Mb": 11.373355939647832,
+      "log_v_flat": 2.3331112632754216
+    },
+    {
+      "galaxy_id": "NGC0891",
+      "version": "v1.2",
+      "n_points": 18,
+      "mean_ratio": 9.278777502176025,
+      "v_flat_obs": 214.83333333333334,
+      "M_baryonic": 87588249749.72105,
+      "log_Mb": 10.942445848050061,
+      "log_v_flat": 2.3321016669697596
+    },
+    {
+      "galaxy_id": "NGC1003",
+      "version": "v1.2",
+      "n_points": 36,
+      "mean_ratio": 3.8875505200278013,
+      "v_flat_obs": 110.9090909090909,
+      "M_baryonic": 13308460569.037657,
+      "log_Mb": 10.124127822188552,
+      "log_v_flat": 2.044967145516523
+    },
+    {
+      "galaxy_id": "NGC1090",
+      "version": "v1.2",
+      "n_points": 24,
+      "mean_ratio": 6.214053614904889,
+      "v_flat_obs": 163.0,
+      "M_baryonic": 58669246288.00557,
+      "log_Mb": 10.768410508958402,
+      "log_v_flat": 2.2121876044039577
+    },
+    {
+      "galaxy_id": "NGC1705",
+      "version": "v1.2",
+      "n_points": 14,
+      "mean_ratio": 2.9890391947114394,
+      "v_flat_obs": 71.52000000000001,
+      "M_baryonic": 549139330.5439332,
+      "log_Mb": 8.739682549931368,
+      "log_v_flat": 1.8544275057878614
+    },
+    {
+      "galaxy_id": "NGC2366",
+      "version": "v1.2",
+      "n_points": 26,
+      "mean_ratio": 4.84834615616979,
+      "v_flat_obs": 50.2,
+      "M_baryonic": 1091378742.677824,
+      "log_Mb": 9.037975490561633,
+      "log_v_flat": 1.7007037171450194
+    },
+    {
+      "galaxy_id": "NGC2403",
+      "version": "v1.2",
+      "n_points": 73,
+      "mean_ratio": 5.007619263267831,
+      "v_flat_obs": 134.46153846153845,
+      "M_baryonic": 12837511272.547651,
+      "log_Mb": 10.108480837957085,
+      "log_v_flat": 2.1285980759915475
+    },
+    {
+      "galaxy_id": "NGC2683",
+      "version": "v1.2",
+      "n_points": 11,
+      "mean_ratio": 5.627282506393212,
+      "v_flat_obs": 155.33333333333334,
+      "M_baryonic": 43997384283.82148,
+      "log_Mb": 10.643426857739138,
+      "log_v_flat": 2.1912646619703375
+    },
+    {
+      "galaxy_id": "NGC2841",
+      "version": "v1.2",
+      "n_points": 50,
+      "mean_ratio": 5.638704970546195,
+      "v_flat_obs": 284.1,
+      "M_baryonic": 174334241722.17578,
+      "log_Mb": 11.241382697095416,
+      "log_v_flat": 2.453471233722936
+    },
+    {
+      "galaxy_id": "NGC2903",
+      "version": "v1.2",
+      "n_points": 34,
+      "mean_ratio": 7.95856142530949,
+      "v_flat_obs": 181.75,
+      "M_baryonic": 47000643414.22594,
+      "log_Mb": 10.672103803240724,
+      "log_v_flat": 2.2594744195310756
+    },
+    {
+      "galaxy_id": "NGC2915",
+      "version": "v1.2",
+      "n_points": 30,
+      "mean_ratio": 3.4816921525444333,
+      "v_flat_obs": 82.85555555555555,
+      "M_baryonic": 1249254305.4393299,
+      "log_Mb": 9.096650854872935,
+      "log_v_flat": 1.9183216336513267
+    },
+    {
+      "galaxy_id": "NGC2955",
+      "version": "v1.2",
+      "n_points": 24,
+      "mean_ratio": 9.175833452714258,
+      "v_flat_obs": 243.0,
+      "M_baryonic": 227928617122.8731,
+      "log_Mb": 11.357798855581063,
+      "log_v_flat": 2.385606273598312
+    },
+    {
+      "galaxy_id": "NGC2976",
+      "version": "v1.2",
+      "n_points": 27,
+      "mean_ratio": 6.492304601999963,
+      "v_flat_obs": 84.28,
+      "M_baryonic": 1901650181.5434685,
+      "log_Mb": 9.27913062921648,
+      "log_v_flat": 1.9257245269360626
+    },
+    {
+      "galaxy_id": "NGC2998",
+      "version": "v1.2",
+      "n_points": 13,
+      "mean_ratio": 5.342133991189318,
+      "v_flat_obs": 209.66666666666666,
+      "M_baryonic": 123947038174.33755,
+      "log_Mb": 11.093236153371608,
+      "log_v_flat": 2.3215293907256065
+    },
+    {
+      "galaxy_id": "NGC3109",
+      "version": "v1.2",
+      "n_points": 25,
+      "mean_ratio": 3.006639332790672,
+      "v_flat_obs": 64.225,
+      "M_baryonic": 684252193.1659695,
+      "log_Mb": 8.835216198085599,
+      "log_v_flat": 1.8077041129383837
+    },
+    {
+      "galaxy_id": "NGC3198",
+      "version": "v1.2",
+      "n_points": 43,
+      "mean_ratio": 5.581927329138522,
+      "v_flat_obs": 148.71428571428572,
+      "M_baryonic": 42909800493.72386,
+      "log_Mb": 10.63255649531393,
+      "log_v_flat": 2.1723526894962792
+    },
+    {
+      "galaxy_id": "NGC3521",
+      "version": "v1.2",
+      "n_points": 41,
+      "mean_ratio": 8.290827761180772,
+      "v_flat_obs": 206.0,
+      "M_baryonic": 52138796483.96095,
+      "log_Mb": 10.717161002160138,
+      "log_v_flat": 2.3138672203691533
+    },
+    {
+      "galaxy_id": "NGC3726",
+      "version": "v1.2",
+      "n_points": 12,
+      "mean_ratio": 6.344350429990459,
+      "v_flat_obs": 168.0,
+      "M_baryonic": 48945476682.00837,
+      "log_Mb": 10.689712562475956,
+      "log_v_flat": 2.225309281725863
+    },
+    {
+      "galaxy_id": "NGC3741",
+      "version": "v1.2",
+      "n_points": 21,
+      "mean_ratio": 2.961221944424304,
+      "v_flat_obs": 50.08,
+      "M_baryonic": 303504834.96048355,
+      "log_Mb": 8.482165613961302,
+      "log_v_flat": 1.6996643202023733
+    },
+    {
+      "galaxy_id": "NGC3769",
+      "version": "v1.2",
+      "n_points": 12,
+      "mean_ratio": 5.192381019354361,
+      "v_flat_obs": 117.33333333333333,
+      "M_baryonic": 18048307516.039047,
+      "log_Mb": 10.256436482091651,
+      "log_v_flat": 2.0694214087584686
+    },
+    {
+      "galaxy_id": "NGC3877",
+      "version": "v1.2",
+      "n_points": 13,
+      "mean_ratio": 7.672462762325899,
+      "v_flat_obs": 170.25,
+      "M_baryonic": 49915225366.68991,
+      "log_Mb": 10.698233036288324,
+      "log_v_flat": 2.2310871205848226
+    },
+    {
+      "galaxy_id": "NGC3893",
+      "version": "v1.2",
+      "n_points": 10,
+      "mean_ratio": 6.219384884859086,
+      "v_flat_obs": 174.0,
+      "M_baryonic": 40284794550.209206,
+      "log_Mb": 10.60514115311255,
+      "log_v_flat": 2.2405492482826
+    },
+    {
+      "galaxy_id": "NGC3917",
+      "version": "v1.2",
+      "n_points": 17,
+      "mean_ratio": 4.999154153899665,
+      "v_flat_obs": 137.0,
+      "M_baryonic": 16981285034.402601,
+      "log_Mb": 10.229970551763852,
+      "log_v_flat": 2.1367205671564067
+    },
+    {
+      "galaxy_id": "NGC3949",
+      "version": "v1.2",
+      "n_points": 7,
+      "mean_ratio": 7.453881762195316,
+      "v_flat_obs": 165.0,
+      "M_baryonic": 23363919872.384945,
+      "log_Mb": 10.368545708137733,
+      "log_v_flat": 2.2174839442139063
+    },
+    {
+      "galaxy_id": "NGC3953",
+      "version": "v1.2",
+      "n_points": 8,
+      "mean_ratio": 7.157153653319748,
+      "v_flat_obs": 220.66666666666666,
+      "M_baryonic": 92338575263.59831,
+      "log_Mb": 10.965383169327847,
+      "log_v_flat": 2.3437367347200375
+    },
+    {
+      "galaxy_id": "NGC3972",
+      "version": "v1.2",
+      "n_points": 10,
+      "mean_ratio": 5.096822552124689,
+      "v_flat_obs": 130.25,
+      "M_baryonic": 10487530926.080893,
+      "log_Mb": 10.020673254504835,
+      "log_v_flat": 2.114777731971562
+    },
+    {
+      "galaxy_id": "NGC3992",
+      "version": "v1.2",
+      "n_points": 9,
+      "mean_ratio": 5.335783560819051,
+      "v_flat_obs": 240.66666666666666,
+      "M_baryonic": 143786254586.4714,
+      "log_Mb": 11.157717371147204,
+      "log_v_flat": 2.381415942849977
+    },
+    {
+      "galaxy_id": "NGC4010",
+      "version": "v1.2",
+      "n_points": 12,
+      "mean_ratio": 5.680640051718638,
+      "v_flat_obs": 125.5,
+      "M_baryonic": 12673852495.815903,
+      "log_Mb": 10.102908648297664,
+      "log_v_flat": 2.098643725817057
+    },
+    {
+      "galaxy_id": "NGC4013",
+      "version": "v1.2",
+      "n_points": 36,
+      "mean_ratio": 5.684697562257828,
+      "v_flat_obs": 175.53846153846155,
+      "M_baryonic": 48374537860.646225,
+      "log_Mb": 10.684616829075445,
+      "log_v_flat": 2.244372287775359
+    },
+    {
+      "galaxy_id": "NGC4051",
+      "version": "v1.2",
+      "n_points": 7,
+      "mean_ratio": 7.445327014378213,
+      "v_flat_obs": 156.0,
+      "M_baryonic": 44809750168.41004,
+      "log_Mb": 10.651372522561037,
+      "log_v_flat": 2.1931245983544616
+    },
+    {
+      "galaxy_id": "NGC4068",
+      "version": "v1.2",
+      "n_points": 6,
+      "mean_ratio": 6.330964907009925,
+      "v_flat_obs": 38.95,
+      "M_baryonic": 352059452.46397036,
+      "log_Mb": 8.546616009207696,
+      "log_v_flat": 1.5905074620085833
+    },
+    {
+      "galaxy_id": "NGC4085",
+      "version": "v1.2",
+      "n_points": 7,
+      "mean_ratio": 8.352070966273429,
+      "v_flat_obs": 133.0,
+      "M_baryonic": 14855431743.37518,
+      "log_Mb": 10.17188527822253,
+      "log_v_flat": 2.123851640967086
+    },
+    {
+      "galaxy_id": "NGC4088",
+      "version": "v1.2",
+      "n_points": 12,
+      "mean_ratio": 8.362466956953476,
+      "v_flat_obs": 169.5,
+      "M_baryonic": 70606513550.90657,
+      "log_Mb": 10.848844767181152,
+      "log_v_flat": 2.229169702539101
+    },
+    {
+      "galaxy_id": "NGC4100",
+      "version": "v1.2",
+      "n_points": 24,
+      "mean_ratio": 5.398934026050729,
+      "v_flat_obs": 166.375,
+      "M_baryonic": 37328483158.99583,
+      "log_Mb": 10.572040342750785,
+      "log_v_flat": 2.2210880684827314
+    },
+    {
+      "galaxy_id": "NGC4138",
+      "version": "v1.2",
+      "n_points": 7,
+      "mean_ratio": 5.933771880021176,
+      "v_flat_obs": 147.33333333333334,
+      "M_baryonic": 26710987546.815437,
+      "log_Mb": 10.426689944861664,
+      "log_v_flat": 2.1683010146294297
+    },
+    {
+      "galaxy_id": "NGC4157",
+      "version": "v1.2",
+      "n_points": 17,
+      "mean_ratio": 6.905580004200082,
+      "v_flat_obs": 184.83333333333334,
+      "M_baryonic": 67713035405.23013,
+      "log_Mb": 10.830672282564139,
+      "log_v_flat": 2.2667802957655163
+    },
+    {
+      "galaxy_id": "NGC4183",
+      "version": "v1.2",
+      "n_points": 23,
+      "mean_ratio": 4.372948395480419,
+      "v_flat_obs": 110.57142857142857,
+      "M_baryonic": 12181685859.832638,
+      "log_Mb": 10.08570739576462,
+      "log_v_flat": 2.0436429206686357
+    },
+    {
+      "galaxy_id": "NGC4214",
+      "version": "v1.2",
+      "n_points": 14,
+      "mean_ratio": 3.6189926571894118,
+      "v_flat_obs": 80.42,
+      "M_baryonic": 851557588.447234,
+      "log_Mb": 8.930214023407423,
+      "log_v_flat": 1.9053640687668922
+    },
+    {
+      "galaxy_id": "NGC4217",
+      "version": "v1.2",
+      "n_points": 19,
+      "mean_ratio": 10.559617444455748,
+      "v_flat_obs": 180.0,
+      "M_baryonic": 61747229844.1655,
+      "log_Mb": 10.7906174786867,
+      "log_v_flat": 2.255272505103306
+    },
+    {
+      "galaxy_id": "NGC4389",
+      "version": "v1.2",
+      "n_points": 6,
+      "mean_ratio": 11.860401235963392,
+      "v_flat_obs": 102.95,
+      "M_baryonic": 12758044105.99721,
+      "log_Mb": 10.105784099222037,
+      "log_v_flat": 2.0126263509540503
+    },
+    {
+      "galaxy_id": "NGC4559",
+      "version": "v1.2",
+      "n_points": 32,
+      "mean_ratio": 5.643595705972582,
+      "v_flat_obs": 121.8,
+      "M_baryonic": 23389994787.656914,
+      "log_Mb": 10.369030125028816,
+      "log_v_flat": 2.0856472882968564
+    },
+    {
+      "galaxy_id": "NGC5005",
+      "version": "v1.2",
+      "n_points": 18,
+      "mean_ratio": 10.049887534243624,
+      "v_flat_obs": 264.6,
+      "M_baryonic": 108239426703.37054,
+      "log_Mb": 11.034385483328832,
+      "log_v_flat": 2.422589839851482
+    },
+    {
+      "galaxy_id": "NGC5033",
+      "version": "v1.2",
+      "n_points": 22,
+      "mean_ratio": 6.18080334156813,
+      "v_flat_obs": 194.16666666666666,
+      "M_baryonic": 81272848977.38264,
+      "log_Mb": 10.909945483986492,
+      "log_v_flat": 2.288174674978394
+    },
+    {
+      "galaxy_id": "NGC5055",
+      "version": "v1.2",
+      "n_points": 28,
+      "mean_ratio": 7.342156896018435,
+      "v_flat_obs": 177.16666666666666,
+      "M_baryonic": 97932820523.47746,
+      "log_Mb": 10.990928262625586,
+      "log_v_flat": 2.248382014139653
+    },
+    {
+      "galaxy_id": "NGC5371",
+      "version": "v1.2",
+      "n_points": 19,
+      "mean_ratio": 7.713835907055734,
+      "v_flat_obs": 208.8,
+      "M_baryonic": 200310959313.8075,
+      "log_Mb": 11.301704710847785,
+      "log_v_flat": 2.3197304943302246
+    },
+    {
+      "galaxy_id": "NGC5585",
+      "version": "v1.2",
+      "n_points": 24,
+      "mean_ratio": 5.297867452548018,
+      "v_flat_obs": 90.75999999999999,
+      "M_baryonic": 4237401974.895398,
+      "log_Mb": 9.627099664661422,
+      "log_v_flat": 1.9578944872128983
+    },
+    {
+      "galaxy_id": "NGC5907",
+      "version": "v1.2",
+      "n_points": 19,
+      "mean_ratio": 5.461773322093697,
+      "v_flat_obs": 215.0,
+      "M_baryonic": 139088207985.35562,
+      "log_Mb": 11.143290311703229,
+      "log_v_flat": 2.3324384599156054
+    },
+    {
+      "galaxy_id": "NGC5985",
+      "version": "v1.2",
+      "n_points": 33,
+      "mean_ratio": 4.779401631945454,
+      "v_flat_obs": 290.6,
+      "M_baryonic": 156626058394.79315,
+      "log_Mb": 11.194864018741011,
+      "log_v_flat": 2.4632956099620027
+    },
+    {
+      "galaxy_id": "NGC6015",
+      "version": "v1.2",
+      "n_points": 44,
+      "mean_ratio": 4.834076540049903,
+      "v_flat_obs": 156.0,
+      "M_baryonic": 26535532125.523006,
+      "log_Mb": 10.423827801099044,
+      "log_v_flat": 2.1931245983544616
+    },
+    {
+      "galaxy_id": "NGC6195",
+      "version": "v1.2",
+      "n_points": 23,
+      "mean_ratio": 9.548058170846772,
+      "v_flat_obs": 250.25,
+      "M_baryonic": 255957030113.66812,
+      "log_Mb": 11.40816706237872,
+      "log_v_flat": 2.3983740861513563
+    },
+    {
+      "galaxy_id": "NGC6503",
+      "version": "v1.2",
+      "n_points": 31,
+      "mean_ratio": 4.353757373845196,
+      "v_flat_obs": 115.2,
+      "M_baryonic": 10042637325.662485,
+      "log_Mb": 10.001847779101212,
+      "log_v_flat": 2.061452479087193
+    },
+    {
+      "galaxy_id": "NGC6674",
+      "version": "v1.2",
+      "n_points": 15,
+      "mean_ratio": 4.779640596854705,
+      "v_flat_obs": 241.6,
+      "M_baryonic": 148085852079.42816,
+      "log_Mb": 11.170513568599956,
+      "log_v_flat": 2.3830969299490943
+    },
+    {
+      "galaxy_id": "NGC6789",
+      "version": "v1.2",
+      "n_points": 4,
+      "mean_ratio": 3.272080965772183,
+      "v_flat_obs": 53.55,
+      "M_baryonic": 60938423.640167385,
+      "log_Mb": 7.7848912156688765,
+      "log_v_flat": 1.7287594751678743
+    },
+    {
+      "galaxy_id": "NGC6946",
+      "version": "v1.2",
+      "n_points": 58,
+      "mean_ratio": 6.941466575223028,
+      "v_flat_obs": 160.0,
+      "M_baryonic": 42168758532.77545,
+      "log_Mb": 10.624990815378117,
+      "log_v_flat": 2.2041199826559246
+    },
+    {
+      "galaxy_id": "NGC7331",
+      "version": "v1.2",
+      "n_points": 36,
+      "mean_ratio": 8.577602756273391,
+      "v_flat_obs": 238.1818181818182,
+      "M_baryonic": 155004297235.40216,
+      "log_Mb": 11.190343738426762,
+      "log_v_flat": 2.3769086061615203
+    },
+    {
+      "galaxy_id": "NGC7793",
+      "version": "v1.2",
+      "n_points": 46,
+      "mean_ratio": 6.243179544878281,
+      "v_flat_obs": 99.66,
+      "M_baryonic": 5850882349.372385,
+      "log_Mb": 9.767221365324515,
+      "log_v_flat": 1.998520882835038
+    },
+    {
+      "galaxy_id": "NGC7814",
+      "version": "v1.2",
+      "n_points": 18,
+      "mean_ratio": 6.9333139284145915,
+      "v_flat_obs": 214.0,
+      "M_baryonic": 51270921038.49373,
+      "log_Mb": 10.709871119241503,
+      "log_v_flat": 2.330413773349191
+    },
+    {
+      "galaxy_id": "PGC51017",
+      "version": "v1.2",
+      "n_points": 6,
+      "mean_ratio": 6.9660001493136265,
+      "v_flat_obs": 18.25,
+      "M_baryonic": 258846338.91213393,
+      "log_Mb": 8.413042026758468,
+      "log_v_flat": 1.2612628687924936
+    },
+    {
+      "galaxy_id": "UGC00128",
+      "version": "v1.2",
+      "n_points": 22,
+      "mean_ratio": 3.2006414051220315,
+      "v_flat_obs": 129.71428571428572,
+      "M_baryonic": 21498543177.59182,
+      "log_Mb": 10.332409031479827,
+      "log_v_flat": 2.112987808506828
+    },
+    {
+      "galaxy_id": "UGC00191",
+      "version": "v1.2",
+      "n_points": 9,
+      "mean_ratio": 4.009944001169042,
+      "v_flat_obs": 82.425,
+      "M_baryonic": 3821073825.1975827,
+      "log_Mb": 9.582185428572002,
+      "log_v_flat": 1.9160589558151906
+    },
+    {
+      "galaxy_id": "UGC00634",
+      "version": "v1.2",
+      "n_points": 4,
+      "mean_ratio": 3.613033308934655,
+      "v_flat_obs": 107.75,
+      "M_baryonic": 7181360232.682475,
+      "log_Mb": 9.856206712431428,
+      "log_v_flat": 2.032417278832769
+    },
+    {
+      "galaxy_id": "UGC00731",
+      "version": "v1.2",
+      "n_points": 12,
+      "mean_ratio": 2.93924458150266,
+      "v_flat_obs": 73.775,
+      "M_baryonic": 3449931061.0181317,
+      "log_Mb": 9.537810416778042,
+      "log_v_flat": 1.8679092181719972
+    },
+    {
+      "galaxy_id": "UGC00891",
+      "version": "v1.2",
+      "n_points": 5,
+      "mean_ratio": 4.009288290805235,
+      "v_flat_obs": 61.95,
+      "M_baryonic": 993683329.0330076,
+      "log_Mb": 8.997248003748144,
+      "log_v_flat": 1.7920413107120823
+    },
+    {
+      "galaxy_id": "UGC01230",
+      "version": "v1.2",
+      "n_points": 11,
+      "mean_ratio": 3.868447011543717,
+      "v_flat_obs": 103.66666666666667,
+      "M_baryonic": 17460311142.259415,
+      "log_Mb": 10.242051978554107,
+      "log_v_flat": 2.015639134307175
+    },
+    {
+      "galaxy_id": "UGC01281",
+      "version": "v1.2",
+      "n_points": 25,
+      "mean_ratio": 5.241856234862493,
+      "v_flat_obs": 56.0,
+      "M_baryonic": 678299039.8651791,
+      "log_Mb": 8.831421202319998,
+      "log_v_flat": 1.7481880270062005
+    },
+    {
+      "galaxy_id": "UGC02023",
+      "version": "v1.2",
+      "n_points": 5,
+      "mean_ratio": 5.806624245066679,
+      "v_flat_obs": 53.349999999999994,
+      "M_baryonic": 920328646.4435145,
+      "log_Mb": 8.963942940225756,
+      "log_v_flat": 1.7271344237604886
+    },
+    {
+      "galaxy_id": "UGC02259",
+      "version": "v1.2",
+      "n_points": 8,
+      "mean_ratio": 3.2022635721501627,
+      "v_flat_obs": 88.10000000000001,
+      "M_baryonic": 2315318837.5174346,
+      "log_Mb": 9.364610805219998,
+      "log_v_flat": 1.944975908412048
+    },
+    {
+      "galaxy_id": "UGC02455",
+      "version": "v1.2",
+      "n_points": 8,
+      "mean_ratio": 12.28309352056366,
+      "v_flat_obs": 52.63333333333333,
+      "M_baryonic": 2823846714.435147,
+      "log_Mb": 9.450841118413136,
+      "log_v_flat": 1.7212608752886318
+    },
+    {
+      "galaxy_id": "UGC02487",
+      "version": "v1.2",
+      "n_points": 17,
+      "mean_ratio": 5.337402673790157,
+      "v_flat_obs": 330.8,
+      "M_baryonic": 311255644587.95917,
+      "log_Mb": 11.493117236059375,
+      "log_v_flat": 2.519565500880509
+    },
+    {
+      "galaxy_id": "UGC02885",
+      "version": "v1.2",
+      "n_points": 19,
+      "mean_ratio": 6.006704340206714,
+      "v_flat_obs": 298.0,
+      "M_baryonic": 363705757088.70294,
+      "log_Mb": 11.560750175544861,
+      "log_v_flat": 2.4742162640762553
+    },
+    {
+      "galaxy_id": "UGC02916",
+      "version": "v1.2",
+      "n_points": 43,
+      "mean_ratio": 8.587589904932203,
+      "v_flat_obs": 186.0,
+      "M_baryonic": 126277701952.58017,
+      "log_Mb": 11.101326669843598,
+      "log_v_flat": 2.2695129442179165
+    },
+    {
+      "galaxy_id": "UGC02953",
+      "version": "v1.2",
+      "n_points": 115,
+      "mean_ratio": 7.945480852809817,
+      "v_flat_obs": 262.46153846153845,
+      "M_baryonic": 151371534126.52258,
+      "log_Mb": 11.180044212455266,
+      "log_v_flat": 2.419065670188649
+    },
+    {
+      "galaxy_id": "UGC03205",
+      "version": "v1.2",
+      "n_points": 48,
+      "mean_ratio": 6.338847613571811,
+      "v_flat_obs": 214.25,
+      "M_baryonic": 79192951866.85263,
+      "log_Mb": 10.898686531317502,
+      "log_v_flat": 2.3309208305952356
+    },
+    {
+      "galaxy_id": "UGC03546",
+      "version": "v1.2",
+      "n_points": 30,
+      "mean_ratio": 9.76564487564797,
+      "v_flat_obs": 191.5,
+      "M_baryonic": 62651580437.26175,
+      "log_Mb": 10.796932030901191,
+      "log_v_flat": 2.2821687783046416
+    },
+    {
+      "galaxy_id": "UGC03580",
+      "version": "v1.2",
+      "n_points": 47,
+      "mean_ratio": 7.773431544648256,
+      "v_flat_obs": 127.5,
+      "M_baryonic": 15101831049.7908,
+      "log_Mb": 10.179029607333542,
+      "log_v_flat": 2.1055101847699738
+    },
+    {
+      "galaxy_id": "UGC04278",
+      "version": "v1.2",
+      "n_points": 25,
+      "mean_ratio": 3.832781711498833,
+      "v_flat_obs": 85.475,
+      "M_baryonic": 3221727652.7196665,
+      "log_Mb": 9.508088824748564,
+      "log_v_flat": 1.9318391094686322
+    },
+    {
+      "galaxy_id": "UGC04305",
+      "version": "v1.2",
+      "n_points": 22,
+      "mean_ratio": 7.220659551142261,
+      "v_flat_obs": 34.15714285714286,
+      "M_baryonic": 1417095118.5495117,
+      "log_Mb": 9.151399002029223,
+      "log_v_flat": 1.533481536101518
+    },
+    {
+      "galaxy_id": "UGC04325",
+      "version": "v1.2",
+      "n_points": 8,
+      "mean_ratio": 3.478137812210373,
+      "v_flat_obs": 91.93333333333334,
+      "M_baryonic": 2454977984.7745233,
+      "log_Mb": 9.390047601903463,
+      "log_v_flat": 1.9634730071201685
+    },
+    {
+      "galaxy_id": "UGC04483",
+      "version": "v1.2",
+      "n_points": 8,
+      "mean_ratio": 4.745035279640371,
+      "v_flat_obs": 23.8,
+      "M_baryonic": 50299604.370060444,
+      "log_Mb": 7.701564569139917,
+      "log_v_flat": 1.376576957056512
+    },
+    {
+      "galaxy_id": "UGC04499",
+      "version": "v1.2",
+      "n_points": 9,
+      "mean_ratio": 4.636192272326846,
+      "v_flat_obs": 73.46666666666665,
+      "M_baryonic": 3022982317.991631,
+      "log_Mb": 9.480435606912808,
+      "log_v_flat": 1.8660903354600848
+    },
+    {
+      "galaxy_id": "UGC05005",
+      "version": "v1.2",
+      "n_points": 11,
+      "mean_ratio": 4.401449296249275,
+      "v_flat_obs": 99.5,
+      "M_baryonic": 12342445775.453281,
+      "log_Mb": 10.091401227892934,
+      "log_v_flat": 1.9978230807457256
+    },
+    {
+      "galaxy_id": "UGC05253",
+      "version": "v1.2",
+      "n_points": 73,
+      "mean_ratio": 8.737744182782844,
+      "v_flat_obs": 212.6,
+      "M_baryonic": 131672061022.31519,
+      "log_Mb": 11.119493633495928,
+      "log_v_flat": 2.327563260187278
+    },
+    {
+      "galaxy_id": "UGC05414",
+      "version": "v1.2",
+      "n_points": 6,
+      "mean_ratio": 4.938550099650389,
+      "v_flat_obs": 59.099999999999994,
+      "M_baryonic": 1083773084.3793583,
+      "log_Mb": 9.034938361060323,
+      "log_v_flat": 1.7715874808812553
+    },
+    {
+      "galaxy_id": "UGC05716",
+      "version": "v1.2",
+      "n_points": 12,
+      "mean_ratio": 3.2951748640941148,
+      "v_flat_obs": 73.3375,
+      "M_baryonic": 2533489003.4867506,
+      "log_Mb": 9.403719023592,
+      "log_v_flat": 1.865326101224388
+    },
+    {
+      "galaxy_id": "UGC05721",
+      "version": "v1.2",
+      "n_points": 23,
+      "mean_ratio": 3.557505870167848,
+      "v_flat_obs": 78.7,
+      "M_baryonic": 1216896424.6861925,
+      "log_Mb": 9.085253615122827,
+      "log_v_flat": 1.8959747323590646
+    },
+    {
+      "galaxy_id": "UGC05750",
+      "version": "v1.2",
+      "n_points": 11,
+      "mean_ratio": 4.648778042244616,
+      "v_flat_obs": 78.9,
+      "M_baryonic": 9129156076.243608,
+      "log_Mb": 9.960430632039154,
+      "log_v_flat": 1.8970770032094204
+    },
+    {
+      "galaxy_id": "UGC05764",
+      "version": "v1.2",
+      "n_points": 10,
+      "mean_ratio": 2.824556408876453,
+      "v_flat_obs": 52.5625,
+      "M_baryonic": 376743674.33751744,
+      "log_Mb": 8.57604596908654,
+      "log_v_flat": 1.7206760131419874
+    },
+    {
+      "galaxy_id": "UGC05829",
+      "version": "v1.2",
+      "n_points": 11,
+      "mean_ratio": 3.71551781336167,
+      "v_flat_obs": 63.125,
+      "M_baryonic": 2250804644.1190147,
+      "log_Mb": 9.352337802569204,
+      "log_v_flat": 1.8002013911267178
+    },
+    {
+      "galaxy_id": "UGC05918",
+      "version": "v1.2",
+      "n_points": 8,
+      "mean_ratio": 3.1047331871580224,
+      "v_flat_obs": 42.76666666666667,
+      "M_baryonic": 402993864.24918646,
+      "log_Mb": 8.605298433875586,
+      "log_v_flat": 1.6311054016552662
+    },
+    {
+      "galaxy_id": "UGC05986",
+      "version": "v1.2",
+      "n_points": 15,
+      "mean_ratio": 4.066959213900384,
+      "v_flat_obs": 111.6,
+      "M_baryonic": 4267168908.2984653,
+      "log_Mb": 9.630139833974878,
+      "log_v_flat": 2.04766419460156
+    },
+    {
+      "galaxy_id": "UGC05999",
+      "version": "v1.2",
+      "n_points": 5,
+      "mean_ratio": 4.1253088858756435,
+      "v_flat_obs": 98.85,
+      "M_baryonic": 10426600197.58252,
+      "log_Mb": 10.018142721070149,
+      "log_v_flat": 1.994976673649691
+    },
+    {
+      "galaxy_id": "UGC06399",
+      "version": "v1.2",
+      "n_points": 9,
+      "mean_ratio": 3.8635728962681646,
+      "v_flat_obs": 85.76666666666665,
+      "M_baryonic": 2725661234.309624,
+      "log_Mb": 9.435471877466206,
+      "log_v_flat": 1.933318531490684
+    },
+    {
+      "galaxy_id": "UGC06446",
+      "version": "v1.2",
+      "n_points": 17,
+      "mean_ratio": 3.3505768500732236,
+      "v_flat_obs": 83.05999999999999,
+      "M_baryonic": 3154845581.589958,
+      "log_Mb": 9.49897810693844,
+      "log_v_flat": 1.9193919267738593
+    },
+    {
+      "galaxy_id": "UGC06614",
+      "version": "v1.2",
+      "n_points": 13,
+      "mean_ratio": 6.6909469505644275,
+      "v_flat_obs": 204.5,
+      "M_baryonic": 133112326130.75316,
+      "log_Mb": 11.124218272775286,
+      "log_v_flat": 2.3106933123433606
+    },
+    {
+      "galaxy_id": "UGC06628",
+      "version": "v1.2",
+      "n_points": 7,
+      "mean_ratio": 7.05171394372722,
+      "v_flat_obs": 42.3,
+      "M_baryonic": 3713876562.2966075,
+      "log_Mb": 9.56982746504611,
+      "log_v_flat": 1.6263403673750423
+    },
+    {
+      "galaxy_id": "UGC06667",
+      "version": "v1.2",
+      "n_points": 9,
+      "mean_ratio": 2.2670171724824626,
+      "v_flat_obs": 84.89999999999999,
+      "M_baryonic": 1617245248.721525,
+      "log_Mb": 9.208775883907716,
+      "log_v_flat": 1.9289076902439526
+    },
+    {
+      "galaxy_id": "UGC06786",
+      "version": "v1.2",
+      "n_points": 45,
+      "mean_ratio": 5.9967011725468735,
+      "v_flat_obs": 217.4,
+      "M_baryonic": 48777452267.78242,
+      "log_Mb": 10.688219112604623,
+      "log_v_flat": 2.3372595397502756
+    },
+    {
+      "galaxy_id": "UGC06787",
+      "version": "v1.2",
+      "n_points": 71,
+      "mean_ratio": 7.7216272457486115,
+      "v_flat_obs": 250.28571428571428,
+      "M_baryonic": 70584125105.99722,
+      "log_Mb": 10.848707035979473,
+      "log_v_flat": 2.398436061817805
+    },
+    {
+      "galaxy_id": "UGC06818",
+      "version": "v1.2",
+      "n_points": 8,
+      "mean_ratio": 5.206224509392268,
+      "v_flat_obs": 71.23333333333333,
+      "M_baryonic": 1689038880.2882383,
+      "log_Mb": 9.227639646788468,
+      "log_v_flat": 1.852683267444407
+    },
+    {
+      "galaxy_id": "UGC06917",
+      "version": "v1.2",
+      "n_points": 11,
+      "mean_ratio": 4.297178245439816,
+      "v_flat_obs": 107.25,
+      "M_baryonic": 7715182007.322176,
+      "log_Mb": 9.887346175874645,
+      "log_v_flat": 2.030397300856762
+    },
+    {
+      "galaxy_id": "UGC06923",
+      "version": "v1.2",
+      "n_points": 6,
+      "mean_ratio": 5.551716634611375,
+      "v_flat_obs": 79.6,
+      "M_baryonic": 2753486828.451884,
+      "log_Mb": 9.439883003336151,
+      "log_v_flat": 1.900913067737669
+    },
+    {
+      "galaxy_id": "UGC06930",
+      "version": "v1.2",
+      "n_points": 10,
+      "mean_ratio": 4.442323171550548,
+      "v_flat_obs": 108.25,
+      "M_baryonic": 11331423080.892609,
+      "log_Mb": 10.054284455085696,
+      "log_v_flat": 2.034427905025403
+    },
+    {
+      "galaxy_id": "UGC06973",
+      "version": "v1.2",
+      "n_points": 9,
+      "mean_ratio": 9.90031962844578,
+      "v_flat_obs": 177.25,
+      "M_baryonic": 31504288983.496044,
+      "log_Mb": 10.49836968252189,
+      "log_v_flat": 2.248586243855104
+    },
+    {
+      "galaxy_id": "UGC06983",
+      "version": "v1.2",
+      "n_points": 17,
+      "mean_ratio": 3.883787979284648,
+      "v_flat_obs": 108.66666666666667,
+      "M_baryonic": 8772373731.287775,
+      "log_Mb": 9.943117125739011,
+      "log_v_flat": 2.0360963453482768
+    },
+    {
+      "galaxy_id": "UGC07089",
+      "version": "v1.2",
+      "n_points": 12,
+      "mean_ratio": 5.040905383075169,
+      "v_flat_obs": 74.7,
+      "M_baryonic": 3688028498.372851,
+      "log_Mb": 9.566794268303028,
+      "log_v_flat": 1.8733206018153987
+    },
+    {
+      "galaxy_id": "UGC07125",
+      "version": "v1.2",
+      "n_points": 13,
+      "mean_ratio": 5.261540262800053,
+      "v_flat_obs": 65.225,
+      "M_baryonic": 6640921719.665272,
+      "log_Mb": 9.822228360992076,
+      "log_v_flat": 1.8144140877722583
+    },
+    {
+      "galaxy_id": "UGC07151",
+      "version": "v1.2",
+      "n_points": 11,
+      "mean_ratio": 4.81006631910501,
+      "v_flat_obs": 73.5,
+      "M_baryonic": 2486918967.9218974,
+      "log_Mb": 9.39566163474412,
+      "log_v_flat": 1.866287339084195
+    },
+    {
+      "galaxy_id": "UGC07232",
+      "version": "v1.2",
+      "n_points": 4,
+      "mean_ratio": 5.0426391745701125,
+      "v_flat_obs": 39.6,
+      "M_baryonic": 87359525.33705254,
+      "log_Mb": 7.941310265653028,
+      "log_v_flat": 1.5976951859255124
+    },
+    {
+      "galaxy_id": "UGC07261",
+      "version": "v1.2",
+      "n_points": 7,
+      "mean_ratio": 4.128986256883521,
+      "v_flat_obs": 74.73333333333333,
+      "M_baryonic": 2318191834.495583,
+      "log_Mb": 9.365149371755118,
+      "log_v_flat": 1.873514353539292
+    },
+    {
+      "galaxy_id": "UGC07323",
+      "version": "v1.2",
+      "n_points": 10,
+      "mean_ratio": 5.260859937743591,
+      "v_flat_obs": 82.63333333333334,
+      "M_baryonic": 3622167844.4909344,
+      "log_Mb": 9.558968570839255,
+      "log_v_flat": 1.917155272048159
+    },
+    {
+      "galaxy_id": "UGC07399",
+      "version": "v1.2",
+      "n_points": 10,
+      "mean_ratio": 2.909794134921552,
+      "v_flat_obs": 101.475,
+      "M_baryonic": 1617074264.8768013,
+      "log_Mb": 9.208729965537552,
+      "log_v_flat": 2.006359059989323
+    },
+    {
+      "galaxy_id": "UGC07524",
+      "version": "v1.2",
+      "n_points": 31,
+      "mean_ratio": 3.8799704148861283,
+      "v_flat_obs": 79.54999999999998,
+      "M_baryonic": 4792372225.011622,
+      "log_Mb": 9.680550542476102,
+      "log_v_flat": 1.9006401839826002
+    },
+    {
+      "galaxy_id": "UGC07559",
+      "version": "v1.2",
+      "n_points": 7,
+      "mean_ratio": 5.234377683039294,
+      "v_flat_obs": 30.96666666666667,
+      "M_baryonic": 229513078.4518828,
+      "log_Mb": 8.360807438185486,
+      "log_v_flat": 1.4908944592739795
+    },
+    {
+      "galaxy_id": "UGC07577",
+      "version": "v1.2",
+      "n_points": 9,
+      "mean_ratio": 6.894559600088931,
+      "v_flat_obs": 15.933333333333332,
+      "M_baryonic": 60349283.240353316,
+      "log_Mb": 7.780672116411695,
+      "log_v_flat": 1.2023066418924564
+    },
+    {
+      "galaxy_id": "UGC07603",
+      "version": "v1.2",
+      "n_points": 12,
+      "mean_ratio": 3.797997065560521,
+      "v_flat_obs": 62.5,
+      "M_baryonic": 490426466.5271967,
+      "log_Mb": 8.690573899431564,
+      "log_v_flat": 1.7958800173440752
+    },
+    {
+      "galaxy_id": "UGC07608",
+      "version": "v1.2",
+      "n_points": 8,
+      "mean_ratio": 3.050501564911844,
+      "v_flat_obs": 65.56666666666666,
+      "M_baryonic": 793298000.0000002,
+      "log_Mb": 8.899436359378754,
+      "log_v_flat": 1.8166831051996744
+    },
+    {
+      "galaxy_id": "UGC07690",
+      "version": "v1.2",
+      "n_points": 7,
+      "mean_ratio": 4.905644933642789,
+      "v_flat_obs": 56.9,
+      "M_baryonic": 947331854.2538354,
+      "log_Mb": 8.976502140803634,
+      "log_v_flat": 1.7551122663950711
+    },
+    {
+      "galaxy_id": "UGC07866",
+      "version": "v1.2",
+      "n_points": 7,
+      "mean_ratio": 4.562239375702688,
+      "v_flat_obs": 30.633333333333336,
+      "M_baryonic": 182977380.7531381,
+      "log_Mb": 8.262397406554221,
+      "log_v_flat": 1.4861942566664488
+    },
+    {
+      "galaxy_id": "UGC08286",
+      "version": "v1.2",
+      "n_points": 17,
+      "mean_ratio": 3.292253632629726,
+      "v_flat_obs": 83.3,
+      "M_baryonic": 1996294995.8158994,
+      "log_Mb": 9.300224718108003,
+      "log_v_flat": 1.9206450014067875
+    },
+    {
+      "galaxy_id": "UGC08490",
+      "version": "v1.2",
+      "n_points": 30,
+      "mean_ratio": 3.385081442243587,
+      "v_flat_obs": 78.43,
+      "M_baryonic": 1714670502.09205,
+      "log_Mb": 9.234180676640253,
+      "log_v_flat": 1.8944822150100906
+    },
+    {
+      "galaxy_id": "UGC08550",
+      "version": "v1.2",
+      "n_points": 11,
+      "mean_ratio": 3.4293931207482147,
+      "v_flat_obs": 56.925,
+      "M_baryonic": 756248467.6894469,
+      "log_Mb": 8.87866450769399,
+      "log_v_flat": 1.7553030392871805
+    },
+    {
+      "galaxy_id": "UGC08699",
+      "version": "v1.2",
+      "n_points": 41,
+      "mean_ratio": 6.769523257737633,
+      "v_flat_obs": 181.5,
+      "M_baryonic": 36620741682.70573,
+      "log_Mb": 10.563727135854387,
+      "log_v_flat": 2.258876629372131
+    },
+    {
+      "galaxy_id": "UGC08837",
+      "version": "v1.2",
+      "n_points": 8,
+      "mean_ratio": 6.0597911672734694,
+      "v_flat_obs": 45.86666666666667,
+      "M_baryonic": 839395237.0990237,
+      "log_Mb": 8.923966500606374,
+      "log_v_flat": 1.66149717917983
+    },
+    {
+      "galaxy_id": "UGC09037",
+      "version": "v1.2",
+      "n_points": 22,
+      "mean_ratio": 7.033197033661214,
+      "v_flat_obs": 152.28571428571428,
+      "M_baryonic": 63145849619.24687,
+      "log_Mb": 10.800344811000716,
+      "log_v_flat": 2.1826591646762967
+    },
+    {
+      "galaxy_id": "UGC09133",
+      "version": "v1.2",
+      "n_points": 68,
+      "mean_ratio": 7.727189066341911,
+      "v_flat_obs": 225.44444444444446,
+      "M_baryonic": 225747983107.67084,
+      "log_Mb": 11.353623878900839,
+      "log_v_flat": 2.353039537594021
+    },
+    {
+      "galaxy_id": "UGC09992",
+      "version": "v1.2",
+      "n_points": 5,
+      "mean_ratio": 5.213705798341001,
+      "v_flat_obs": 33.849999999999994,
+      "M_baryonic": 498324869.2468618,
+      "log_Mb": 8.697512561478044,
+      "log_v_flat": 1.529558673021163
+    },
+    {
+      "galaxy_id": "UGC10310",
+      "version": "v1.2",
+      "n_points": 7,
+      "mean_ratio": 4.079213801896932,
+      "v_flat_obs": 72.16666666666667,
+      "M_baryonic": 2848365428.870293,
+      "log_Mb": 9.454595706018566,
+      "log_v_flat": 1.858336645969722
+    },
+    {
+      "galaxy_id": "UGC11455",
+      "version": "v1.2",
+      "n_points": 36,
+      "mean_ratio": 7.973706488713142,
+      "v_flat_obs": 269.5,
+      "M_baryonic": 229228917689.7954,
+      "log_Mb": 11.360269403875265,
+      "log_v_flat": 2.4305587695227575
+    },
+    {
+      "galaxy_id": "UGC11557",
+      "version": "v1.2",
+      "n_points": 12,
+      "mean_ratio": 10.509255639805199,
+      "v_flat_obs": 83.05,
+      "M_baryonic": 10409350627.615063,
+      "log_Mb": 10.017423637518224,
+      "log_v_flat": 1.9193396367874134
+    },
+    {
+      "galaxy_id": "UGC11820",
+      "version": "v1.2",
+      "n_points": 10,
+      "mean_ratio": 3.670998811721895,
+      "v_flat_obs": 82.85,
+      "M_baryonic": 5133141729.893072,
+      "log_Mb": 9.710383255622679,
+      "log_v_flat": 1.9182925127553556
+    },
+    {
+      "galaxy_id": "UGC11914",
+      "version": "v1.2",
+      "n_points": 65,
+      "mean_ratio": 8.817284948491245,
+      "v_flat_obs": 293.75,
+      "M_baryonic": 84349071764.31892,
+      "log_Mb": 10.926080307673782,
+      "log_v_flat": 2.4679778752797925
+    },
+    {
+      "galaxy_id": "UGC12506",
+      "version": "v1.2",
+      "n_points": 31,
+      "mean_ratio": 4.22770821339372,
+      "v_flat_obs": 233.0,
+      "M_baryonic": 158010189641.32965,
+      "log_Mb": 11.198685094310822,
+      "log_v_flat": 2.367355921026019
+    },
+    {
+      "galaxy_id": "UGC12632",
+      "version": "v1.2",
+      "n_points": 15,
+      "mean_ratio": 3.507578122773401,
+      "v_flat_obs": 72.2,
+      "M_baryonic": 3329910809.623431,
+      "log_Mb": 9.522432601251927,
+      "log_v_flat": 1.8585371975696392
+    },
+    {
+      "galaxy_id": "UGC12732",
+      "version": "v1.2",
+      "n_points": 16,
+      "mean_ratio": 3.401595264069707,
+      "v_flat_obs": 91.56,
+      "M_baryonic": 7670633503.0218525,
+      "log_Mb": 9.884831232984867,
+      "log_v_flat": 1.9617057840025054
+    },
+    {
+      "galaxy_id": "UGCA281",
+      "version": "v1.2",
+      "n_points": 7,
+      "mean_ratio": 4.453161311181445,
+      "v_flat_obs": 29.15,
+      "M_baryonic": 59994451.88284519,
+      "log_Mb": 7.778111089915735,
+      "log_v_flat": 1.4646385590950328
+    },
+    {
+      "galaxy_id": "UGCA442",
+      "version": "v1.2",
+      "n_points": 8,
+      "mean_ratio": 3.5365619642969683,
+      "v_flat_obs": 56.9,
+      "M_baryonic": 495798059.2747559,
+      "log_Mb": 8.69530482245618,
+      "log_v_flat": 1.7551122663950711
+    },
+    {
+      "galaxy_id": "UGCA444",
+      "version": "v1.2",
+      "n_points": 36,
+      "mean_ratio": 3.7204190821383656,
+      "v_flat_obs": 35.17272727272728,
+      "M_baryonic": 124542784.0539284,
+      "log_Mb": 8.095318569798293,
+      "log_v_flat": 1.54620604456302
+    }
+  ],
+  "per_galaxy_v13": [
+    {
+      "galaxy_id": "CamB",
+      "version": "v1.3",
+      "n_points": 9,
+      "mean_ratio": 3.1593538649719544,
+      "v_flat_obs": 18.450000000000003,
+      "M_baryonic": 66116887.14551373,
+      "log_Mb": 7.820312398327265,
+      "log_v_flat": 1.2659963704950792
+    },
+    {
+      "galaxy_id": "D512-2",
+      "version": "v1.3",
+      "n_points": 4,
+      "mean_ratio": 1.3190401266775371,
+      "v_flat_obs": 36.55,
+      "M_baryonic": 237751389.81868902,
+      "log_Mb": 8.376123064363703,
+      "log_v_flat": 1.5628873812938793
+    },
+    {
+      "galaxy_id": "D564-8",
+      "version": "v1.3",
+      "n_points": 6,
+      "mean_ratio": 1.5816420514709018,
+      "v_flat_obs": 24.5,
+      "M_baryonic": 56249686.076243624,
+      "log_Mb": 7.75012010303699,
+      "log_v_flat": 1.3891660843645324
+    },
+    {
+      "galaxy_id": "D631-7",
+      "version": "v1.3",
+      "n_points": 16,
+      "mean_ratio": 1.478749232036779,
+      "v_flat_obs": 57.7,
+      "M_baryonic": 555953295.9088795,
+      "log_Mb": 8.745038309242121,
+      "log_v_flat": 1.7611758131557314
+    },
+    {
+      "galaxy_id": "DDO064",
+      "version": "v1.3",
+      "n_points": 14,
+      "mean_ratio": 1.1944415010821796,
+      "v_flat_obs": 46.53333333333333,
+      "M_baryonic": 443052261.9711763,
+      "log_Mb": 8.646454958157562,
+      "log_v_flat": 1.6677641635674798
+    },
+    {
+      "galaxy_id": "DDO154",
+      "version": "v1.3",
+      "n_points": 12,
+      "mean_ratio": 1.2677939859772038,
+      "v_flat_obs": 47.125,
+      "M_baryonic": 363571391.91073924,
+      "log_Mb": 8.560589702866476,
+      "log_v_flat": 1.6732513632138493
+    },
+    {
+      "galaxy_id": "DDO161",
+      "version": "v1.3",
+      "n_points": 31,
+      "mean_ratio": 1.5818760730170254,
+      "v_flat_obs": 66.33333333333333,
+      "M_baryonic": 2690596421.5481167,
+      "log_Mb": 9.429848560253891,
+      "log_v_flat": 1.8217318216900442
+    },
+    {
+      "galaxy_id": "DDO168",
+      "version": "v1.3",
+      "n_points": 10,
+      "mean_ratio": 1.3767120468373522,
+      "v_flat_obs": 53.675,
+      "M_baryonic": 623550842.8637843,
+      "log_Mb": 8.794871870605185,
+      "log_v_flat": 1.7297720531082863
+    },
+    {
+      "galaxy_id": "DDO170",
+      "version": "v1.3",
+      "n_points": 8,
+      "mean_ratio": 1.4023765833819848,
+      "v_flat_obs": 60.4,
+      "M_baryonic": 2099883406.9037652,
+      "log_Mb": 9.322195181808187,
+      "log_v_flat": 1.7810369386211318
+    },
+    {
+      "galaxy_id": "ESO079-G014",
+      "version": "v1.3",
+      "n_points": 15,
+      "mean_ratio": 1.1595980988282113,
+      "v_flat_obs": 176.66666666666666,
+      "M_baryonic": 36253904181.42726,
+      "log_Mb": 10.559354782580096,
+      "log_v_flat": 2.2471546148811266
+    },
+    {
+      "galaxy_id": "ESO116-G012",
+      "version": "v1.3",
+      "n_points": 15,
+      "mean_ratio": 1.0745277903428334,
+      "v_flat_obs": 110.5,
+      "M_baryonic": 5070005124.128315,
+      "log_Mb": 9.705008398264209,
+      "log_v_flat": 2.0433622780211294
+    },
+    {
+      "galaxy_id": "ESO444-G084",
+      "version": "v1.3",
+      "n_points": 7,
+      "mean_ratio": 0.9155744844115752,
+      "v_flat_obs": 62.900000000000006,
+      "M_baryonic": 253047953.97489542,
+      "log_Mb": 8.40320283016089,
+      "log_v_flat": 1.7986506454452689
+    },
+    {
+      "galaxy_id": "ESO563-G021",
+      "version": "v1.3",
+      "n_points": 30,
+      "mean_ratio": 1.2430017329326484,
+      "v_flat_obs": 315.25,
+      "M_baryonic": 210315154477.33606,
+      "log_Mb": 11.322870567354695,
+      "log_v_flat": 2.498655095245119
+    },
+    {
+      "galaxy_id": "F561-1",
+      "version": "v1.3",
+      "n_points": 6,
+      "mean_ratio": 1.918510356823215,
+      "v_flat_obs": 50.4,
+      "M_baryonic": 4666764412.831242,
+      "log_Mb": 9.669015877424718,
+      "log_v_flat": 1.7024305364455252
+    },
+    {
+      "galaxy_id": "F563-1",
+      "version": "v1.3",
+      "n_points": 17,
+      "mean_ratio": 0.9440473764533837,
+      "v_flat_obs": 110.6,
+      "M_baryonic": 6973130359.135287,
+      "log_Mb": 9.843427784195873,
+      "log_v_flat": 2.0437551269686796
+    },
+    {
+      "galaxy_id": "F563-V1",
+      "version": "v1.3",
+      "n_points": 6,
+      "mean_ratio": 2.3490775098286845,
+      "v_flat_obs": 27.950000000000003,
+      "M_baryonic": 1242101409.693166,
+      "log_Mb": 9.094157054674895,
+      "log_v_flat": 1.446381812222442
+    },
+    {
+      "galaxy_id": "F563-V2",
+      "version": "v1.3",
+      "n_points": 10,
+      "mean_ratio": 0.880378510121588,
+      "v_flat_obs": 117.25,
+      "M_baryonic": 5547613221.059973,
+      "log_Mb": 9.74410617449662,
+      "log_v_flat": 2.069112851387121
+    },
+    {
+      "galaxy_id": "F565-V2",
+      "version": "v1.3",
+      "n_points": 7,
+      "mean_ratio": 1.0641407858663452,
+      "v_flat_obs": 78.36666666666666,
+      "M_baryonic": 1860280111.5760112,
+      "log_Mb": 9.269578343009599,
+      "log_v_flat": 1.8941313744052768
+    },
+    {
+      "galaxy_id": "F567-2",
+      "version": "v1.3",
+      "n_points": 5,
+      "mean_ratio": 1.608164196809555,
+      "v_flat_obs": 50.150000000000006,
+      "M_baryonic": 2525142966.8758717,
+      "log_Mb": 9.40228597174877,
+      "log_v_flat": 1.7002709373564369
+    },
+    {
+      "galaxy_id": "F568-1",
+      "version": "v1.3",
+      "n_points": 12,
+      "mean_ratio": 0.881626337005376,
+      "v_flat_obs": 137.5,
+      "M_baryonic": 10750401847.280334,
+      "log_Mb": 10.031424698372053,
+      "log_v_flat": 2.1383026981662816
+    },
+    {
+      "galaxy_id": "F568-3",
+      "version": "v1.3",
+      "n_points": 18,
+      "mean_ratio": 1.2055355659839906,
+      "v_flat_obs": 114.66666666666667,
+      "M_baryonic": 11368235121.106462,
+      "log_Mb": 10.055693047215609,
+      "log_v_flat": 2.059437187851868
+    },
+    {
+      "galaxy_id": "F568-V1",
+      "version": "v1.3",
+      "n_points": 15,
+      "mean_ratio": 0.8704776468282405,
+      "v_flat_obs": 118.0,
+      "M_baryonic": 7567655370.292888,
+      "log_Mb": 9.878961346149017,
+      "log_v_flat": 2.0718820073061255
+    },
+    {
+      "galaxy_id": "F571-8",
+      "version": "v1.3",
+      "n_points": 13,
+      "mean_ratio": 1.4618701738919573,
+      "v_flat_obs": 142.0,
+      "M_baryonic": 6012814322.989308,
+      "log_Mb": 9.779077792944749,
+      "log_v_flat": 2.1522883443830563
+    },
+    {
+      "galaxy_id": "F571-V1",
+      "version": "v1.3",
+      "n_points": 7,
+      "mean_ratio": 1.2283307780464914,
+      "v_flat_obs": 83.56666666666668,
+      "M_baryonic": 3736107075.3138075,
+      "log_Mb": 9.572419314440165,
+      "log_v_flat": 1.922033079238554
+    },
+    {
+      "galaxy_id": "F574-1",
+      "version": "v1.3",
+      "n_points": 14,
+      "mean_ratio": 1.0818143823258926,
+      "v_flat_obs": 98.41999999999999,
+      "M_baryonic": 6328464079.497909,
+      "log_Mb": 9.801298319379473,
+      "log_v_flat": 1.993083360698062
+    },
+    {
+      "galaxy_id": "F574-2",
+      "version": "v1.3",
+      "n_points": 5,
+      "mean_ratio": 2.7845089726803236,
+      "v_flat_obs": 38.0,
+      "M_baryonic": 3658133585.076709,
+      "log_Mb": 9.563259560681782,
+      "log_v_flat": 1.5797835966168101
+    },
+    {
+      "galaxy_id": "F579-V1",
+      "version": "v1.3",
+      "n_points": 14,
+      "mean_ratio": 0.9661061748996439,
+      "v_flat_obs": 114.0,
+      "M_baryonic": 10967262900.51139,
+      "log_Mb": 10.040098254236078,
+      "log_v_flat": 2.0569048513364727
+    },
+    {
+      "galaxy_id": "F583-1",
+      "version": "v1.3",
+      "n_points": 25,
+      "mean_ratio": 1.131927528667177,
+      "v_flat_obs": 86.35,
+      "M_baryonic": 6464073989.53975,
+      "log_Mb": 9.81050631884712,
+      "log_v_flat": 1.9362623419034775
+    },
+    {
+      "galaxy_id": "F583-4",
+      "version": "v1.3",
+      "n_points": 12,
+      "mean_ratio": 1.214958206314096,
+      "v_flat_obs": 65.825,
+      "M_baryonic": 1555657023.0125525,
+      "log_Mb": 9.191913853944314,
+      "log_v_flat": 1.8183908677781058
+    },
+    {
+      "galaxy_id": "IC2574",
+      "version": "v1.3",
+      "n_points": 34,
+      "mean_ratio": 1.5126411288792416,
+      "v_flat_obs": 61.554545454545455,
+      "M_baryonic": 2438576487.796374,
+      "log_Mb": 9.3871363821162,
+      "log_v_flat": 1.7892601286391994
+    },
+    {
+      "galaxy_id": "IC4202",
+      "version": "v1.3",
+      "n_points": 32,
+      "mean_ratio": 1.4011711793096757,
+      "v_flat_obs": 242.375,
+      "M_baryonic": 131936596563.69127,
+      "log_Mb": 11.120365276828922,
+      "log_v_flat": 2.384487822086762
+    },
+    {
+      "galaxy_id": "KK98-251",
+      "version": "v1.3",
+      "n_points": 15,
+      "mean_ratio": 1.7636704199598567,
+      "v_flat_obs": 34.03333333333334,
+      "M_baryonic": 276919401.5574152,
+      "log_Mb": 8.44235338439905,
+      "log_v_flat": 1.5319044873672478
+    },
+    {
+      "galaxy_id": "NGC0024",
+      "version": "v1.3",
+      "n_points": 29,
+      "mean_ratio": 0.9032567130691096,
+      "v_flat_obs": 108.33333333333333,
+      "M_baryonic": 3204095187.238493,
+      "log_Mb": 9.505705409621427,
+      "log_v_flat": 2.034762106259212
+    },
+    {
+      "galaxy_id": "NGC0055",
+      "version": "v1.3",
+      "n_points": 21,
+      "mean_ratio": 1.427269771761885,
+      "v_flat_obs": 86.25714285714285,
+      "M_baryonic": 7159933368.200837,
+      "log_Mb": 9.8549089806937,
+      "log_v_flat": 1.935795068672822
+    },
+    {
+      "galaxy_id": "NGC0100",
+      "version": "v1.3",
+      "n_points": 21,
+      "mean_ratio": 1.276003304414055,
+      "v_flat_obs": 87.45714285714287,
+      "M_baryonic": 2845892292.422129,
+      "log_Mb": 9.454218459454559,
+      "log_v_flat": 1.941795285247059
+    },
+    {
+      "galaxy_id": "NGC0247",
+      "version": "v1.3",
+      "n_points": 26,
+      "mean_ratio": 1.1531811169287716,
+      "v_flat_obs": 104.88888888888889,
+      "M_baryonic": 7858220059.972107,
+      "log_Mb": 9.895324186539085,
+      "log_v_flat": 2.020729484858744
+    },
+    {
+      "galaxy_id": "NGC0289",
+      "version": "v1.3",
+      "n_points": 28,
+      "mean_ratio": 1.3017981305158144,
+      "v_flat_obs": 167.375,
+      "M_baryonic": 83237766817.2943,
+      "log_Mb": 10.92032042002666,
+      "log_v_flat": 2.223690590020065
+    },
+    {
+      "galaxy_id": "NGC0300",
+      "version": "v1.3",
+      "n_points": 25,
+      "mean_ratio": 1.0833558310903764,
+      "v_flat_obs": 93.775,
+      "M_baryonic": 2994697505.8112497,
+      "log_Mb": 9.476352960885038,
+      "log_v_flat": 1.9720870728227604
+    },
+    {
+      "galaxy_id": "NGC0801",
+      "version": "v1.3",
+      "n_points": 13,
+      "mean_ratio": 1.3912839341843164,
+      "v_flat_obs": 215.33333333333334,
+      "M_baryonic": 236241363006.27625,
+      "log_Mb": 11.373355939647832,
+      "log_v_flat": 2.3331112632754216
+    },
+    {
+      "galaxy_id": "NGC0891",
+      "version": "v1.3",
+      "n_points": 18,
+      "mean_ratio": 1.4458621922836596,
+      "v_flat_obs": 214.83333333333334,
+      "M_baryonic": 87588249749.72105,
+      "log_Mb": 10.942445848050061,
+      "log_v_flat": 2.3321016669697596
+    },
+    {
+      "galaxy_id": "NGC1003",
+      "version": "v1.3",
+      "n_points": 36,
+      "mean_ratio": 1.203061263557392,
+      "v_flat_obs": 110.9090909090909,
+      "M_baryonic": 13308460569.037657,
+      "log_Mb": 10.124127822188552,
+      "log_v_flat": 2.044967145516523
+    },
+    {
+      "galaxy_id": "NGC1090",
+      "version": "v1.3",
+      "n_points": 24,
+      "mean_ratio": 1.371216061524115,
+      "v_flat_obs": 163.0,
+      "M_baryonic": 58669246288.00557,
+      "log_Mb": 10.768410508958402,
+      "log_v_flat": 2.2121876044039577
+    },
+    {
+      "galaxy_id": "NGC1705",
+      "version": "v1.3",
+      "n_points": 14,
+      "mean_ratio": 0.8478672001117454,
+      "v_flat_obs": 71.52000000000001,
+      "M_baryonic": 549139330.5439332,
+      "log_Mb": 8.739682549931368,
+      "log_v_flat": 1.8544275057878614
+    },
+    {
+      "galaxy_id": "NGC2366",
+      "version": "v1.3",
+      "n_points": 26,
+      "mean_ratio": 1.487130149755531,
+      "v_flat_obs": 50.2,
+      "M_baryonic": 1091378742.677824,
+      "log_Mb": 9.037975490561633,
+      "log_v_flat": 1.7007037171450194
+    },
+    {
+      "galaxy_id": "NGC2403",
+      "version": "v1.3",
+      "n_points": 73,
+      "mean_ratio": 1.1176826564536306,
+      "v_flat_obs": 134.46153846153845,
+      "M_baryonic": 12837511272.547651,
+      "log_Mb": 10.108480837957085,
+      "log_v_flat": 2.1285980759915475
+    },
+    {
+      "galaxy_id": "NGC2683",
+      "version": "v1.3",
+      "n_points": 11,
+      "mean_ratio": 1.2576346277075008,
+      "v_flat_obs": 155.33333333333334,
+      "M_baryonic": 43997384283.82148,
+      "log_Mb": 10.643426857739138,
+      "log_v_flat": 2.1912646619703375
+    },
+    {
+      "galaxy_id": "NGC2841",
+      "version": "v1.3",
+      "n_points": 50,
+      "mean_ratio": 1.0514215395353197,
+      "v_flat_obs": 284.1,
+      "M_baryonic": 174334241722.17578,
+      "log_Mb": 11.241382697095416,
+      "log_v_flat": 2.453471233722936
+    },
+    {
+      "galaxy_id": "NGC2903",
+      "version": "v1.3",
+      "n_points": 34,
+      "mean_ratio": 1.3668393868467308,
+      "v_flat_obs": 181.75,
+      "M_baryonic": 47000643414.22594,
+      "log_Mb": 10.672103803240724,
+      "log_v_flat": 2.2594744195310756
+    },
+    {
+      "galaxy_id": "NGC2915",
+      "version": "v1.3",
+      "n_points": 30,
+      "mean_ratio": 1.0034503925971279,
+      "v_flat_obs": 82.85555555555555,
+      "M_baryonic": 1249254305.4393299,
+      "log_Mb": 9.096650854872935,
+      "log_v_flat": 1.9183216336513267
+    },
+    {
+      "galaxy_id": "NGC2955",
+      "version": "v1.3",
+      "n_points": 24,
+      "mean_ratio": 1.4230044285296124,
+      "v_flat_obs": 243.0,
+      "M_baryonic": 227928617122.8731,
+      "log_Mb": 11.357798855581063,
+      "log_v_flat": 2.385606273598312
+    },
+    {
+      "galaxy_id": "NGC2976",
+      "version": "v1.3",
+      "n_points": 27,
+      "mean_ratio": 1.382126576768285,
+      "v_flat_obs": 84.28,
+      "M_baryonic": 1901650181.5434685,
+      "log_Mb": 9.27913062921648,
+      "log_v_flat": 1.9257245269360626
+    },
+    {
+      "galaxy_id": "NGC2998",
+      "version": "v1.3",
+      "n_points": 13,
+      "mean_ratio": 1.108732269748586,
+      "v_flat_obs": 209.66666666666666,
+      "M_baryonic": 123947038174.33755,
+      "log_Mb": 11.093236153371608,
+      "log_v_flat": 2.3215293907256065
+    },
+    {
+      "galaxy_id": "NGC3109",
+      "version": "v1.3",
+      "n_points": 25,
+      "mean_ratio": 1.1106470651641895,
+      "v_flat_obs": 64.225,
+      "M_baryonic": 684252193.1659695,
+      "log_Mb": 8.835216198085599,
+      "log_v_flat": 1.8077041129383837
+    },
+    {
+      "galaxy_id": "NGC3198",
+      "version": "v1.3",
+      "n_points": 43,
+      "mean_ratio": 1.280843430703743,
+      "v_flat_obs": 148.71428571428572,
+      "M_baryonic": 42909800493.72386,
+      "log_Mb": 10.63255649531393,
+      "log_v_flat": 2.1723526894962792
+    },
+    {
+      "galaxy_id": "NGC3521",
+      "version": "v1.3",
+      "n_points": 41,
+      "mean_ratio": 1.2472131179024948,
+      "v_flat_obs": 206.0,
+      "M_baryonic": 52138796483.96095,
+      "log_Mb": 10.717161002160138,
+      "log_v_flat": 2.3138672203691533
+    },
+    {
+      "galaxy_id": "NGC3726",
+      "version": "v1.3",
+      "n_points": 12,
+      "mean_ratio": 1.3949438446267537,
+      "v_flat_obs": 168.0,
+      "M_baryonic": 48945476682.00837,
+      "log_Mb": 10.689712562475956,
+      "log_v_flat": 2.225309281725863
+    },
+    {
+      "galaxy_id": "NGC3741",
+      "version": "v1.3",
+      "n_points": 21,
+      "mean_ratio": 1.1210122031876628,
+      "v_flat_obs": 50.08,
+      "M_baryonic": 303504834.96048355,
+      "log_Mb": 8.482165613961302,
+      "log_v_flat": 1.6996643202023733
+    },
+    {
+      "galaxy_id": "NGC3769",
+      "version": "v1.3",
+      "n_points": 12,
+      "mean_ratio": 1.305448316116202,
+      "v_flat_obs": 117.33333333333333,
+      "M_baryonic": 18048307516.039047,
+      "log_Mb": 10.256436482091651,
+      "log_v_flat": 2.0694214087584686
+    },
+    {
+      "galaxy_id": "NGC3877",
+      "version": "v1.3",
+      "n_points": 13,
+      "mean_ratio": 1.4176899394836904,
+      "v_flat_obs": 170.25,
+      "M_baryonic": 49915225366.68991,
+      "log_Mb": 10.698233036288324,
+      "log_v_flat": 2.2310871205848226
+    },
+    {
+      "galaxy_id": "NGC3893",
+      "version": "v1.3",
+      "n_points": 10,
+      "mean_ratio": 1.20990309780362,
+      "v_flat_obs": 174.0,
+      "M_baryonic": 40284794550.209206,
+      "log_Mb": 10.60514115311255,
+      "log_v_flat": 2.2405492482826
+    },
+    {
+      "galaxy_id": "NGC3917",
+      "version": "v1.3",
+      "n_points": 17,
+      "mean_ratio": 1.2013638998348124,
+      "v_flat_obs": 137.0,
+      "M_baryonic": 16981285034.402601,
+      "log_Mb": 10.229970551763852,
+      "log_v_flat": 2.1367205671564067
+    },
+    {
+      "galaxy_id": "NGC3949",
+      "version": "v1.3",
+      "n_points": 7,
+      "mean_ratio": 1.2888773250412755,
+      "v_flat_obs": 165.0,
+      "M_baryonic": 23363919872.384945,
+      "log_Mb": 10.368545708137733,
+      "log_v_flat": 2.2174839442139063
+    },
+    {
+      "galaxy_id": "NGC3953",
+      "version": "v1.3",
+      "n_points": 8,
+      "mean_ratio": 1.2713967392187957,
+      "v_flat_obs": 220.66666666666666,
+      "M_baryonic": 92338575263.59831,
+      "log_Mb": 10.965383169327847,
+      "log_v_flat": 2.3437367347200375
+    },
+    {
+      "galaxy_id": "NGC3972",
+      "version": "v1.3",
+      "n_points": 10,
+      "mean_ratio": 1.1415147540237929,
+      "v_flat_obs": 130.25,
+      "M_baryonic": 10487530926.080893,
+      "log_Mb": 10.020673254504835,
+      "log_v_flat": 2.114777731971562
+    },
+    {
+      "galaxy_id": "NGC3992",
+      "version": "v1.3",
+      "n_points": 9,
+      "mean_ratio": 1.1789517474702433,
+      "v_flat_obs": 240.66666666666666,
+      "M_baryonic": 143786254586.4714,
+      "log_Mb": 11.157717371147204,
+      "log_v_flat": 2.381415942849977
+    },
+    {
+      "galaxy_id": "NGC4010",
+      "version": "v1.3",
+      "n_points": 12,
+      "mean_ratio": 1.287840346666302,
+      "v_flat_obs": 125.5,
+      "M_baryonic": 12673852495.815903,
+      "log_Mb": 10.102908648297664,
+      "log_v_flat": 2.098643725817057
+    },
+    {
+      "galaxy_id": "NGC4013",
+      "version": "v1.3",
+      "n_points": 36,
+      "mean_ratio": 1.2792571959306551,
+      "v_flat_obs": 175.53846153846155,
+      "M_baryonic": 48374537860.646225,
+      "log_Mb": 10.684616829075445,
+      "log_v_flat": 2.244372287775359
+    },
+    {
+      "galaxy_id": "NGC4051",
+      "version": "v1.3",
+      "n_points": 7,
+      "mean_ratio": 1.4010123799757106,
+      "v_flat_obs": 156.0,
+      "M_baryonic": 44809750168.41004,
+      "log_Mb": 10.651372522561037,
+      "log_v_flat": 2.1931245983544616
+    },
+    {
+      "galaxy_id": "NGC4068",
+      "version": "v1.3",
+      "n_points": 6,
+      "mean_ratio": 1.8893370350223224,
+      "v_flat_obs": 38.95,
+      "M_baryonic": 352059452.46397036,
+      "log_Mb": 8.546616009207696,
+      "log_v_flat": 1.5905074620085833
+    },
+    {
+      "galaxy_id": "NGC4085",
+      "version": "v1.3",
+      "n_points": 7,
+      "mean_ratio": 1.517596812923848,
+      "v_flat_obs": 133.0,
+      "M_baryonic": 14855431743.37518,
+      "log_Mb": 10.17188527822253,
+      "log_v_flat": 2.123851640967086
+    },
+    {
+      "galaxy_id": "NGC4088",
+      "version": "v1.3",
+      "n_points": 12,
+      "mean_ratio": 1.5615540039414413,
+      "v_flat_obs": 169.5,
+      "M_baryonic": 70606513550.90657,
+      "log_Mb": 10.848844767181152,
+      "log_v_flat": 2.229169702539101
+    },
+    {
+      "galaxy_id": "NGC4100",
+      "version": "v1.3",
+      "n_points": 24,
+      "mean_ratio": 1.168970104545995,
+      "v_flat_obs": 166.375,
+      "M_baryonic": 37328483158.99583,
+      "log_Mb": 10.572040342750785,
+      "log_v_flat": 2.2210880684827314
+    },
+    {
+      "galaxy_id": "NGC4138",
+      "version": "v1.3",
+      "n_points": 7,
+      "mean_ratio": 1.220134098495116,
+      "v_flat_obs": 147.33333333333334,
+      "M_baryonic": 26710987546.815437,
+      "log_Mb": 10.426689944861664,
+      "log_v_flat": 2.1683010146294297
+    },
+    {
+      "galaxy_id": "NGC4157",
+      "version": "v1.3",
+      "n_points": 17,
+      "mean_ratio": 1.3841509135563992,
+      "v_flat_obs": 184.83333333333334,
+      "M_baryonic": 67713035405.23013,
+      "log_Mb": 10.830672282564139,
+      "log_v_flat": 2.2667802957655163
+    },
+    {
+      "galaxy_id": "NGC4183",
+      "version": "v1.3",
+      "n_points": 23,
+      "mean_ratio": 1.1949558928702548,
+      "v_flat_obs": 110.57142857142857,
+      "M_baryonic": 12181685859.832638,
+      "log_Mb": 10.08570739576462,
+      "log_v_flat": 2.0436429206686357
+    },
+    {
+      "galaxy_id": "NGC4214",
+      "version": "v1.3",
+      "n_points": 14,
+      "mean_ratio": 0.9148843297077746,
+      "v_flat_obs": 80.42,
+      "M_baryonic": 851557588.447234,
+      "log_Mb": 8.930214023407423,
+      "log_v_flat": 1.9053640687668922
+    },
+    {
+      "galaxy_id": "NGC4217",
+      "version": "v1.3",
+      "n_points": 19,
+      "mean_ratio": 1.7158463498162373,
+      "v_flat_obs": 180.0,
+      "M_baryonic": 61747229844.1655,
+      "log_Mb": 10.7906174786867,
+      "log_v_flat": 2.255272505103306
+    },
+    {
+      "galaxy_id": "NGC4389",
+      "version": "v1.3",
+      "n_points": 6,
+      "mean_ratio": 2.168918734287591,
+      "v_flat_obs": 102.95,
+      "M_baryonic": 12758044105.99721,
+      "log_Mb": 10.105784099222037,
+      "log_v_flat": 2.0126263509540503
+    },
+    {
+      "galaxy_id": "NGC4559",
+      "version": "v1.3",
+      "n_points": 32,
+      "mean_ratio": 1.3549160583364164,
+      "v_flat_obs": 121.8,
+      "M_baryonic": 23389994787.656914,
+      "log_Mb": 10.369030125028816,
+      "log_v_flat": 2.0856472882968564
+    },
+    {
+      "galaxy_id": "NGC5005",
+      "version": "v1.3",
+      "n_points": 18,
+      "mean_ratio": 1.3545382049127273,
+      "v_flat_obs": 264.6,
+      "M_baryonic": 108239426703.37054,
+      "log_Mb": 11.034385483328832,
+      "log_v_flat": 2.422589839851482
+    },
+    {
+      "galaxy_id": "NGC5033",
+      "version": "v1.3",
+      "n_points": 22,
+      "mean_ratio": 1.2337536141419791,
+      "v_flat_obs": 194.16666666666666,
+      "M_baryonic": 81272848977.38264,
+      "log_Mb": 10.909945483986492,
+      "log_v_flat": 2.288174674978394
+    },
+    {
+      "galaxy_id": "NGC5055",
+      "version": "v1.3",
+      "n_points": 28,
+      "mean_ratio": 1.4191904332890837,
+      "v_flat_obs": 177.16666666666666,
+      "M_baryonic": 97932820523.47746,
+      "log_Mb": 10.990928262625586,
+      "log_v_flat": 2.248382014139653
+    },
+    {
+      "galaxy_id": "NGC5371",
+      "version": "v1.3",
+      "n_points": 19,
+      "mean_ratio": 1.4689293613446406,
+      "v_flat_obs": 208.8,
+      "M_baryonic": 200310959313.8075,
+      "log_Mb": 11.301704710847785,
+      "log_v_flat": 2.3197304943302246
+    },
+    {
+      "galaxy_id": "NGC5585",
+      "version": "v1.3",
+      "n_points": 24,
+      "mean_ratio": 1.308830043114602,
+      "v_flat_obs": 90.75999999999999,
+      "M_baryonic": 4237401974.895398,
+      "log_Mb": 9.627099664661422,
+      "log_v_flat": 1.9578944872128983
+    },
+    {
+      "galaxy_id": "NGC5907",
+      "version": "v1.3",
+      "n_points": 19,
+      "mean_ratio": 1.2479703815424594,
+      "v_flat_obs": 215.0,
+      "M_baryonic": 139088207985.35562,
+      "log_Mb": 11.143290311703229,
+      "log_v_flat": 2.3324384599156054
+    },
+    {
+      "galaxy_id": "NGC5985",
+      "version": "v1.3",
+      "n_points": 33,
+      "mean_ratio": 0.9562986348033728,
+      "v_flat_obs": 290.6,
+      "M_baryonic": 156626058394.79315,
+      "log_Mb": 11.194864018741011,
+      "log_v_flat": 2.4632956099620027
+    },
+    {
+      "galaxy_id": "NGC6015",
+      "version": "v1.3",
+      "n_points": 44,
+      "mean_ratio": 1.1146569342780825,
+      "v_flat_obs": 156.0,
+      "M_baryonic": 26535532125.523006,
+      "log_Mb": 10.423827801099044,
+      "log_v_flat": 2.1931245983544616
+    },
+    {
+      "galaxy_id": "NGC6195",
+      "version": "v1.3",
+      "n_points": 23,
+      "mean_ratio": 1.531350117605268,
+      "v_flat_obs": 250.25,
+      "M_baryonic": 255957030113.66812,
+      "log_Mb": 11.40816706237872,
+      "log_v_flat": 2.3983740861513563
+    },
+    {
+      "galaxy_id": "NGC6503",
+      "version": "v1.3",
+      "n_points": 31,
+      "mean_ratio": 1.1508232072749809,
+      "v_flat_obs": 115.2,
+      "M_baryonic": 10042637325.662485,
+      "log_Mb": 10.001847779101212,
+      "log_v_flat": 2.061452479087193
+    },
+    {
+      "galaxy_id": "NGC6674",
+      "version": "v1.3",
+      "n_points": 15,
+      "mean_ratio": 1.133525556350407,
+      "v_flat_obs": 241.6,
+      "M_baryonic": 148085852079.42816,
+      "log_Mb": 11.170513568599956,
+      "log_v_flat": 2.3830969299490943
+    },
+    {
+      "galaxy_id": "NGC6789",
+      "version": "v1.3",
+      "n_points": 4,
+      "mean_ratio": 0.819106783605907,
+      "v_flat_obs": 53.55,
+      "M_baryonic": 60938423.640167385,
+      "log_Mb": 7.7848912156688765,
+      "log_v_flat": 1.7287594751678743
+    },
+    {
+      "galaxy_id": "NGC6946",
+      "version": "v1.3",
+      "n_points": 58,
+      "mean_ratio": 1.3342032851310417,
+      "v_flat_obs": 160.0,
+      "M_baryonic": 42168758532.77545,
+      "log_Mb": 10.624990815378117,
+      "log_v_flat": 2.2041199826559246
+    },
+    {
+      "galaxy_id": "NGC7331",
+      "version": "v1.3",
+      "n_points": 36,
+      "mean_ratio": 1.4555350715197777,
+      "v_flat_obs": 238.1818181818182,
+      "M_baryonic": 155004297235.40216,
+      "log_Mb": 11.190343738426762,
+      "log_v_flat": 2.3769086061615203
+    },
+    {
+      "galaxy_id": "NGC7793",
+      "version": "v1.3",
+      "n_points": 46,
+      "mean_ratio": 1.254152975913502,
+      "v_flat_obs": 99.66,
+      "M_baryonic": 5850882349.372385,
+      "log_Mb": 9.767221365324515,
+      "log_v_flat": 1.998520882835038
+    },
+    {
+      "galaxy_id": "NGC7814",
+      "version": "v1.3",
+      "n_points": 18,
+      "mean_ratio": 1.1658620156457666,
+      "v_flat_obs": 214.0,
+      "M_baryonic": 51270921038.49373,
+      "log_Mb": 10.709871119241503,
+      "log_v_flat": 2.330413773349191
+    },
+    {
+      "galaxy_id": "PGC51017",
+      "version": "v1.3",
+      "n_points": 6,
+      "mean_ratio": 2.2456746284087616,
+      "v_flat_obs": 18.25,
+      "M_baryonic": 258846338.91213393,
+      "log_Mb": 8.413042026758468,
+      "log_v_flat": 1.2612628687924936
+    },
+    {
+      "galaxy_id": "UGC00128",
+      "version": "v1.3",
+      "n_points": 22,
+      "mean_ratio": 1.1364311854506832,
+      "v_flat_obs": 129.71428571428572,
+      "M_baryonic": 21498543177.59182,
+      "log_Mb": 10.332409031479827,
+      "log_v_flat": 2.112987808506828
+    },
+    {
+      "galaxy_id": "UGC00191",
+      "version": "v1.3",
+      "n_points": 9,
+      "mean_ratio": 1.096321411121198,
+      "v_flat_obs": 82.425,
+      "M_baryonic": 3821073825.1975827,
+      "log_Mb": 9.582185428572002,
+      "log_v_flat": 1.9160589558151906
+    },
+    {
+      "galaxy_id": "UGC00634",
+      "version": "v1.3",
+      "n_points": 4,
+      "mean_ratio": 1.1271057801536104,
+      "v_flat_obs": 107.75,
+      "M_baryonic": 7181360232.682475,
+      "log_Mb": 9.856206712431428,
+      "log_v_flat": 2.032417278832769
+    },
+    {
+      "galaxy_id": "UGC00731",
+      "version": "v1.3",
+      "n_points": 12,
+      "mean_ratio": 1.0393611091142385,
+      "v_flat_obs": 73.775,
+      "M_baryonic": 3449931061.0181317,
+      "log_Mb": 9.537810416778042,
+      "log_v_flat": 1.8679092181719972
+    },
+    {
+      "galaxy_id": "UGC00891",
+      "version": "v1.3",
+      "n_points": 5,
+      "mean_ratio": 1.318440215752392,
+      "v_flat_obs": 61.95,
+      "M_baryonic": 993683329.0330076,
+      "log_Mb": 8.997248003748144,
+      "log_v_flat": 1.7920413107120823
+    },
+    {
+      "galaxy_id": "UGC01230",
+      "version": "v1.3",
+      "n_points": 11,
+      "mean_ratio": 1.2058766843684972,
+      "v_flat_obs": 103.66666666666667,
+      "M_baryonic": 17460311142.259415,
+      "log_Mb": 10.242051978554107,
+      "log_v_flat": 2.015639134307175
+    },
+    {
+      "galaxy_id": "UGC01281",
+      "version": "v1.3",
+      "n_points": 25,
+      "mean_ratio": 1.6611548739853592,
+      "v_flat_obs": 56.0,
+      "M_baryonic": 678299039.8651791,
+      "log_Mb": 8.831421202319998,
+      "log_v_flat": 1.7481880270062005
+    },
+    {
+      "galaxy_id": "UGC02023",
+      "version": "v1.3",
+      "n_points": 5,
+      "mean_ratio": 1.636814211910855,
+      "v_flat_obs": 53.349999999999994,
+      "M_baryonic": 920328646.4435145,
+      "log_Mb": 8.963942940225756,
+      "log_v_flat": 1.7271344237604886
+    },
+    {
+      "galaxy_id": "UGC02259",
+      "version": "v1.3",
+      "n_points": 8,
+      "mean_ratio": 0.9325136473059012,
+      "v_flat_obs": 88.10000000000001,
+      "M_baryonic": 2315318837.5174346,
+      "log_Mb": 9.364610805219998,
+      "log_v_flat": 1.944975908412048
+    },
+    {
+      "galaxy_id": "UGC02455",
+      "version": "v1.3",
+      "n_points": 8,
+      "mean_ratio": 2.574108405548438,
+      "v_flat_obs": 52.63333333333333,
+      "M_baryonic": 2823846714.435147,
+      "log_Mb": 9.450841118413136,
+      "log_v_flat": 1.7212608752886318
+    },
+    {
+      "galaxy_id": "UGC02487",
+      "version": "v1.3",
+      "n_points": 17,
+      "mean_ratio": 1.0948412198021324,
+      "v_flat_obs": 330.8,
+      "M_baryonic": 311255644587.95917,
+      "log_Mb": 11.493117236059375,
+      "log_v_flat": 2.519565500880509
+    },
+    {
+      "galaxy_id": "UGC02885",
+      "version": "v1.3",
+      "n_points": 19,
+      "mean_ratio": 1.2465483840908949,
+      "v_flat_obs": 298.0,
+      "M_baryonic": 363705757088.70294,
+      "log_Mb": 11.560750175544861,
+      "log_v_flat": 2.4742162640762553
+    },
+    {
+      "galaxy_id": "UGC02916",
+      "version": "v1.3",
+      "n_points": 43,
+      "mean_ratio": 1.38914621186071,
+      "v_flat_obs": 186.0,
+      "M_baryonic": 126277701952.58017,
+      "log_Mb": 11.101326669843598,
+      "log_v_flat": 2.2695129442179165
+    },
+    {
+      "galaxy_id": "UGC02953",
+      "version": "v1.3",
+      "n_points": 115,
+      "mean_ratio": 1.1968965758904409,
+      "v_flat_obs": 262.46153846153845,
+      "M_baryonic": 151371534126.52258,
+      "log_Mb": 11.180044212455266,
+      "log_v_flat": 2.419065670188649
+    },
+    {
+      "galaxy_id": "UGC03205",
+      "version": "v1.3",
+      "n_points": 48,
+      "mean_ratio": 1.1549658956402726,
+      "v_flat_obs": 214.25,
+      "M_baryonic": 79192951866.85263,
+      "log_Mb": 10.898686531317502,
+      "log_v_flat": 2.3309208305952356
+    },
+    {
+      "galaxy_id": "UGC03546",
+      "version": "v1.3",
+      "n_points": 30,
+      "mean_ratio": 1.3908395418238364,
+      "v_flat_obs": 191.5,
+      "M_baryonic": 62651580437.26175,
+      "log_Mb": 10.796932030901191,
+      "log_v_flat": 2.2821687783046416
+    },
+    {
+      "galaxy_id": "UGC03580",
+      "version": "v1.3",
+      "n_points": 47,
+      "mean_ratio": 1.5002138465673143,
+      "v_flat_obs": 127.5,
+      "M_baryonic": 15101831049.7908,
+      "log_Mb": 10.179029607333542,
+      "log_v_flat": 2.1055101847699738
+    },
+    {
+      "galaxy_id": "UGC04278",
+      "version": "v1.3",
+      "n_points": 25,
+      "mean_ratio": 1.1608318856481061,
+      "v_flat_obs": 85.475,
+      "M_baryonic": 3221727652.7196665,
+      "log_Mb": 9.508088824748564,
+      "log_v_flat": 1.9318391094686322
+    },
+    {
+      "galaxy_id": "UGC04305",
+      "version": "v1.3",
+      "n_points": 22,
+      "mean_ratio": 2.120688397029022,
+      "v_flat_obs": 34.15714285714286,
+      "M_baryonic": 1417095118.5495117,
+      "log_Mb": 9.151399002029223,
+      "log_v_flat": 1.533481536101518
+    },
+    {
+      "galaxy_id": "UGC04325",
+      "version": "v1.3",
+      "n_points": 8,
+      "mean_ratio": 0.9085490230375017,
+      "v_flat_obs": 91.93333333333334,
+      "M_baryonic": 2454977984.7745233,
+      "log_Mb": 9.390047601903463,
+      "log_v_flat": 1.9634730071201685
+    },
+    {
+      "galaxy_id": "UGC04483",
+      "version": "v1.3",
+      "n_points": 8,
+      "mean_ratio": 1.4619437062932057,
+      "v_flat_obs": 23.8,
+      "M_baryonic": 50299604.370060444,
+      "log_Mb": 7.701564569139917,
+      "log_v_flat": 1.376576957056512
+    },
+    {
+      "galaxy_id": "UGC04499",
+      "version": "v1.3",
+      "n_points": 9,
+      "mean_ratio": 1.303170858712826,
+      "v_flat_obs": 73.46666666666665,
+      "M_baryonic": 3022982317.991631,
+      "log_Mb": 9.480435606912808,
+      "log_v_flat": 1.8660903354600848
+    },
+    {
+      "galaxy_id": "UGC05005",
+      "version": "v1.3",
+      "n_points": 11,
+      "mean_ratio": 1.434812260496226,
+      "v_flat_obs": 99.5,
+      "M_baryonic": 12342445775.453281,
+      "log_Mb": 10.091401227892934,
+      "log_v_flat": 1.9978230807457256
+    },
+    {
+      "galaxy_id": "UGC05253",
+      "version": "v1.3",
+      "n_points": 73,
+      "mean_ratio": 1.2772232627031592,
+      "v_flat_obs": 212.6,
+      "M_baryonic": 131672061022.31519,
+      "log_Mb": 11.119493633495928,
+      "log_v_flat": 2.327563260187278
+    },
+    {
+      "galaxy_id": "UGC05414",
+      "version": "v1.3",
+      "n_points": 6,
+      "mean_ratio": 1.3595846058621428,
+      "v_flat_obs": 59.099999999999994,
+      "M_baryonic": 1083773084.3793583,
+      "log_Mb": 9.034938361060323,
+      "log_v_flat": 1.7715874808812553
+    },
+    {
+      "galaxy_id": "UGC05716",
+      "version": "v1.3",
+      "n_points": 12,
+      "mean_ratio": 1.118893063784147,
+      "v_flat_obs": 73.3375,
+      "M_baryonic": 2533489003.4867506,
+      "log_Mb": 9.403719023592,
+      "log_v_flat": 1.865326101224388
+    },
+    {
+      "galaxy_id": "UGC05721",
+      "version": "v1.3",
+      "n_points": 23,
+      "mean_ratio": 0.9067209053574699,
+      "v_flat_obs": 78.7,
+      "M_baryonic": 1216896424.6861925,
+      "log_Mb": 9.085253615122827,
+      "log_v_flat": 1.8959747323590646
+    },
+    {
+      "galaxy_id": "UGC05750",
+      "version": "v1.3",
+      "n_points": 11,
+      "mean_ratio": 1.6853894019441826,
+      "v_flat_obs": 78.9,
+      "M_baryonic": 9129156076.243608,
+      "log_Mb": 9.960430632039154,
+      "log_v_flat": 1.8970770032094204
+    },
+    {
+      "galaxy_id": "UGC05764",
+      "version": "v1.3",
+      "n_points": 10,
+      "mean_ratio": 0.9220023117609667,
+      "v_flat_obs": 52.5625,
+      "M_baryonic": 376743674.33751744,
+      "log_Mb": 8.57604596908654,
+      "log_v_flat": 1.7206760131419874
+    },
+    {
+      "galaxy_id": "UGC05829",
+      "version": "v1.3",
+      "n_points": 11,
+      "mean_ratio": 1.2441607061704412,
+      "v_flat_obs": 63.125,
+      "M_baryonic": 2250804644.1190147,
+      "log_Mb": 9.352337802569204,
+      "log_v_flat": 1.8002013911267178
+    },
+    {
+      "galaxy_id": "UGC05918",
+      "version": "v1.3",
+      "n_points": 8,
+      "mean_ratio": 1.1485496828447594,
+      "v_flat_obs": 42.76666666666667,
+      "M_baryonic": 402993864.24918646,
+      "log_Mb": 8.605298433875586,
+      "log_v_flat": 1.6311054016552662
+    },
+    {
+      "galaxy_id": "UGC05986",
+      "version": "v1.3",
+      "n_points": 15,
+      "mean_ratio": 1.022400645334977,
+      "v_flat_obs": 111.6,
+      "M_baryonic": 4267168908.2984653,
+      "log_Mb": 9.630139833974878,
+      "log_v_flat": 2.04766419460156
+    },
+    {
+      "galaxy_id": "UGC05999",
+      "version": "v1.3",
+      "n_points": 5,
+      "mean_ratio": 1.2747158212758125,
+      "v_flat_obs": 98.85,
+      "M_baryonic": 10426600197.58252,
+      "log_Mb": 10.018142721070149,
+      "log_v_flat": 1.994976673649691
+    },
+    {
+      "galaxy_id": "UGC06399",
+      "version": "v1.3",
+      "n_points": 9,
+      "mean_ratio": 1.114018905779017,
+      "v_flat_obs": 85.76666666666665,
+      "M_baryonic": 2725661234.309624,
+      "log_Mb": 9.435471877466206,
+      "log_v_flat": 1.933318531490684
+    },
+    {
+      "galaxy_id": "UGC06446",
+      "version": "v1.3",
+      "n_points": 17,
+      "mean_ratio": 1.0181751215895551,
+      "v_flat_obs": 83.05999999999999,
+      "M_baryonic": 3154845581.589958,
+      "log_Mb": 9.49897810693844,
+      "log_v_flat": 1.9193919267738593
+    },
+    {
+      "galaxy_id": "UGC06614",
+      "version": "v1.3",
+      "n_points": 13,
+      "mean_ratio": 1.418304920321357,
+      "v_flat_obs": 204.5,
+      "M_baryonic": 133112326130.75316,
+      "log_Mb": 11.124218272775286,
+      "log_v_flat": 2.3106933123433606
+    },
+    {
+      "galaxy_id": "UGC06628",
+      "version": "v1.3",
+      "n_points": 7,
+      "mean_ratio": 1.9829457245764774,
+      "v_flat_obs": 42.3,
+      "M_baryonic": 3713876562.2966075,
+      "log_Mb": 9.56982746504611,
+      "log_v_flat": 1.6263403673750423
+    },
+    {
+      "galaxy_id": "UGC06667",
+      "version": "v1.3",
+      "n_points": 9,
+      "mean_ratio": 0.8159514295275477,
+      "v_flat_obs": 84.89999999999999,
+      "M_baryonic": 1617245248.721525,
+      "log_Mb": 9.208775883907716,
+      "log_v_flat": 1.9289076902439526
+    },
+    {
+      "galaxy_id": "UGC06786",
+      "version": "v1.3",
+      "n_points": 45,
+      "mean_ratio": 1.0624000143963697,
+      "v_flat_obs": 217.4,
+      "M_baryonic": 48777452267.78242,
+      "log_Mb": 10.688219112604623,
+      "log_v_flat": 2.3372595397502756
+    },
+    {
+      "galaxy_id": "UGC06787",
+      "version": "v1.3",
+      "n_points": 71,
+      "mean_ratio": 1.1724176187014412,
+      "v_flat_obs": 250.28571428571428,
+      "M_baryonic": 70584125105.99722,
+      "log_Mb": 10.848707035979473,
+      "log_v_flat": 2.398436061817805
+    },
+    {
+      "galaxy_id": "UGC06818",
+      "version": "v1.3",
+      "n_points": 8,
+      "mean_ratio": 1.4739480454217961,
+      "v_flat_obs": 71.23333333333333,
+      "M_baryonic": 1689038880.2882383,
+      "log_Mb": 9.227639646788468,
+      "log_v_flat": 1.852683267444407
+    },
+    {
+      "galaxy_id": "UGC06917",
+      "version": "v1.3",
+      "n_points": 11,
+      "mean_ratio": 1.1126008253054875,
+      "v_flat_obs": 107.25,
+      "M_baryonic": 7715182007.322176,
+      "log_Mb": 9.887346175874645,
+      "log_v_flat": 2.030397300856762
+    },
+    {
+      "galaxy_id": "UGC06923",
+      "version": "v1.3",
+      "n_points": 6,
+      "mean_ratio": 1.3083642287436494,
+      "v_flat_obs": 79.6,
+      "M_baryonic": 2753486828.451884,
+      "log_Mb": 9.439883003336151,
+      "log_v_flat": 1.900913067737669
+    },
+    {
+      "galaxy_id": "UGC06930",
+      "version": "v1.3",
+      "n_points": 10,
+      "mean_ratio": 1.211417273110301,
+      "v_flat_obs": 108.25,
+      "M_baryonic": 11331423080.892609,
+      "log_Mb": 10.054284455085696,
+      "log_v_flat": 2.034427905025403
+    },
+    {
+      "galaxy_id": "UGC06973",
+      "version": "v1.3",
+      "n_points": 9,
+      "mean_ratio": 1.5019949175525569,
+      "v_flat_obs": 177.25,
+      "M_baryonic": 31504288983.496044,
+      "log_Mb": 10.49836968252189,
+      "log_v_flat": 2.248586243855104
+    },
+    {
+      "galaxy_id": "UGC06983",
+      "version": "v1.3",
+      "n_points": 17,
+      "mean_ratio": 1.0851414220648978,
+      "v_flat_obs": 108.66666666666667,
+      "M_baryonic": 8772373731.287775,
+      "log_Mb": 9.943117125739011,
+      "log_v_flat": 2.0360963453482768
+    },
+    {
+      "galaxy_id": "UGC07089",
+      "version": "v1.3",
+      "n_points": 12,
+      "mean_ratio": 1.4337531531973886,
+      "v_flat_obs": 74.7,
+      "M_baryonic": 3688028498.372851,
+      "log_Mb": 9.566794268303028,
+      "log_v_flat": 1.8733206018153987
+    },
+    {
+      "galaxy_id": "UGC07125",
+      "version": "v1.3",
+      "n_points": 13,
+      "mean_ratio": 1.6869860769453273,
+      "v_flat_obs": 65.225,
+      "M_baryonic": 6640921719.665272,
+      "log_Mb": 9.822228360992076,
+      "log_v_flat": 1.8144140877722583
+    },
+    {
+      "galaxy_id": "UGC07151",
+      "version": "v1.3",
+      "n_points": 11,
+      "mean_ratio": 1.2160018665759802,
+      "v_flat_obs": 73.5,
+      "M_baryonic": 2486918967.9218974,
+      "log_Mb": 9.39566163474412,
+      "log_v_flat": 1.866287339084195
+    },
+    {
+      "galaxy_id": "UGC07232",
+      "version": "v1.3",
+      "n_points": 4,
+      "mean_ratio": 1.2048116046680093,
+      "v_flat_obs": 39.6,
+      "M_baryonic": 87359525.33705254,
+      "log_Mb": 7.941310265653028,
+      "log_v_flat": 1.5976951859255124
+    },
+    {
+      "galaxy_id": "UGC07261",
+      "version": "v1.3",
+      "n_points": 7,
+      "mean_ratio": 1.120931757813839,
+      "v_flat_obs": 74.73333333333333,
+      "M_baryonic": 2318191834.495583,
+      "log_Mb": 9.365149371755118,
+      "log_v_flat": 1.873514353539292
+    },
+    {
+      "galaxy_id": "UGC07323",
+      "version": "v1.3",
+      "n_points": 10,
+      "mean_ratio": 1.3342066644091188,
+      "v_flat_obs": 82.63333333333334,
+      "M_baryonic": 3622167844.4909344,
+      "log_Mb": 9.558968570839255,
+      "log_v_flat": 1.917155272048159
+    },
+    {
+      "galaxy_id": "UGC07399",
+      "version": "v1.3",
+      "n_points": 10,
+      "mean_ratio": 0.7913271816558457,
+      "v_flat_obs": 101.475,
+      "M_baryonic": 1617074264.8768013,
+      "log_Mb": 9.208729965537552,
+      "log_v_flat": 2.006359059989323
+    },
+    {
+      "galaxy_id": "UGC07524",
+      "version": "v1.3",
+      "n_points": 31,
+      "mean_ratio": 1.2022546251448756,
+      "v_flat_obs": 79.54999999999998,
+      "M_baryonic": 4792372225.011622,
+      "log_Mb": 9.680550542476102,
+      "log_v_flat": 1.9006401839826002
+    },
+    {
+      "galaxy_id": "UGC07559",
+      "version": "v1.3",
+      "n_points": 7,
+      "mean_ratio": 1.6612538752068249,
+      "v_flat_obs": 30.96666666666667,
+      "M_baryonic": 229513078.4518828,
+      "log_Mb": 8.360807438185486,
+      "log_v_flat": 1.4908944592739795
+    },
+    {
+      "galaxy_id": "UGC07577",
+      "version": "v1.3",
+      "n_points": 9,
+      "mean_ratio": 2.5250911847238937,
+      "v_flat_obs": 15.933333333333332,
+      "M_baryonic": 60349283.240353316,
+      "log_Mb": 7.780672116411695,
+      "log_v_flat": 1.2023066418924564
+    },
+    {
+      "galaxy_id": "UGC07603",
+      "version": "v1.3",
+      "n_points": 12,
+      "mean_ratio": 1.0539149310542415,
+      "v_flat_obs": 62.5,
+      "M_baryonic": 490426466.5271967,
+      "log_Mb": 8.690573899431564,
+      "log_v_flat": 1.7958800173440752
+    },
+    {
+      "galaxy_id": "UGC07608",
+      "version": "v1.3",
+      "n_points": 8,
+      "mean_ratio": 1.0294517496754478,
+      "v_flat_obs": 65.56666666666666,
+      "M_baryonic": 793298000.0000002,
+      "log_Mb": 8.899436359378754,
+      "log_v_flat": 1.8166831051996744
+    },
+    {
+      "galaxy_id": "UGC07690",
+      "version": "v1.3",
+      "n_points": 7,
+      "mean_ratio": 1.2155801530423962,
+      "v_flat_obs": 56.9,
+      "M_baryonic": 947331854.2538354,
+      "log_Mb": 8.976502140803634,
+      "log_v_flat": 1.7551122663950711
+    },
+    {
+      "galaxy_id": "UGC07866",
+      "version": "v1.3",
+      "n_points": 7,
+      "mean_ratio": 1.456396101566479,
+      "v_flat_obs": 30.633333333333336,
+      "M_baryonic": 182977380.7531381,
+      "log_Mb": 8.262397406554221,
+      "log_v_flat": 1.4861942566664488
+    },
+    {
+      "galaxy_id": "UGC08286",
+      "version": "v1.3",
+      "n_points": 17,
+      "mean_ratio": 0.9703052024755121,
+      "v_flat_obs": 83.3,
+      "M_baryonic": 1996294995.8158994,
+      "log_Mb": 9.300224718108003,
+      "log_v_flat": 1.9206450014067875
+    },
+    {
+      "galaxy_id": "UGC08490",
+      "version": "v1.3",
+      "n_points": 30,
+      "mean_ratio": 0.9965961786805395,
+      "v_flat_obs": 78.43,
+      "M_baryonic": 1714670502.09205,
+      "log_Mb": 9.234180676640253,
+      "log_v_flat": 1.8944822150100906
+    },
+    {
+      "galaxy_id": "UGC08550",
+      "version": "v1.3",
+      "n_points": 11,
+      "mean_ratio": 1.0697794919075727,
+      "v_flat_obs": 56.925,
+      "M_baryonic": 756248467.6894469,
+      "log_Mb": 8.87866450769399,
+      "log_v_flat": 1.7553030392871805
+    },
+    {
+      "galaxy_id": "UGC08699",
+      "version": "v1.3",
+      "n_points": 41,
+      "mean_ratio": 1.1724339874700198,
+      "v_flat_obs": 181.5,
+      "M_baryonic": 36620741682.70573,
+      "log_Mb": 10.563727135854387,
+      "log_v_flat": 2.258876629372131
+    },
+    {
+      "galaxy_id": "UGC08837",
+      "version": "v1.3",
+      "n_points": 8,
+      "mean_ratio": 1.8908195693500136,
+      "v_flat_obs": 45.86666666666667,
+      "M_baryonic": 839395237.0990237,
+      "log_Mb": 8.923966500606374,
+      "log_v_flat": 1.66149717917983
+    },
+    {
+      "galaxy_id": "UGC09037",
+      "version": "v1.3",
+      "n_points": 22,
+      "mean_ratio": 1.5494542204390427,
+      "v_flat_obs": 152.28571428571428,
+      "M_baryonic": 63145849619.24687,
+      "log_Mb": 10.800344811000716,
+      "log_v_flat": 2.1826591646762967
+    },
+    {
+      "galaxy_id": "UGC09133",
+      "version": "v1.3",
+      "n_points": 68,
+      "mean_ratio": 1.3223369195611578,
+      "v_flat_obs": 225.44444444444446,
+      "M_baryonic": 225747983107.67084,
+      "log_Mb": 11.353623878900839,
+      "log_v_flat": 2.353039537594021
+    },
+    {
+      "galaxy_id": "UGC09992",
+      "version": "v1.3",
+      "n_points": 5,
+      "mean_ratio": 1.5842771891079637,
+      "v_flat_obs": 33.849999999999994,
+      "M_baryonic": 498324869.2468618,
+      "log_Mb": 8.697512561478044,
+      "log_v_flat": 1.529558673021163
+    },
+    {
+      "galaxy_id": "UGC10310",
+      "version": "v1.3",
+      "n_points": 7,
+      "mean_ratio": 1.1868362120466487,
+      "v_flat_obs": 72.16666666666667,
+      "M_baryonic": 2848365428.870293,
+      "log_Mb": 9.454595706018566,
+      "log_v_flat": 1.858336645969722
+    },
+    {
+      "galaxy_id": "UGC11455",
+      "version": "v1.3",
+      "n_points": 36,
+      "mean_ratio": 1.4103222852952229,
+      "v_flat_obs": 269.5,
+      "M_baryonic": 229228917689.7954,
+      "log_Mb": 11.360269403875265,
+      "log_v_flat": 2.4305587695227575
+    },
+    {
+      "galaxy_id": "UGC11557",
+      "version": "v1.3",
+      "n_points": 12,
+      "mean_ratio": 2.426376016974681,
+      "v_flat_obs": 83.05,
+      "M_baryonic": 10409350627.615063,
+      "log_Mb": 10.017423637518224,
+      "log_v_flat": 1.9193396367874134
+    },
+    {
+      "galaxy_id": "UGC11820",
+      "version": "v1.3",
+      "n_points": 10,
+      "mean_ratio": 1.1656521898217433,
+      "v_flat_obs": 82.85,
+      "M_baryonic": 5133141729.893072,
+      "log_Mb": 9.710383255622679,
+      "log_v_flat": 1.9182925127553556
+    },
+    {
+      "galaxy_id": "UGC11914",
+      "version": "v1.3",
+      "n_points": 65,
+      "mean_ratio": 1.1564956047565154,
+      "v_flat_obs": 293.75,
+      "M_baryonic": 84349071764.31892,
+      "log_Mb": 10.926080307673782,
+      "log_v_flat": 2.4679778752797925
+    },
+    {
+      "galaxy_id": "UGC12506",
+      "version": "v1.3",
+      "n_points": 31,
+      "mean_ratio": 1.021132741184011,
+      "v_flat_obs": 233.0,
+      "M_baryonic": 158010189641.32965,
+      "log_Mb": 11.198685094310822,
+      "log_v_flat": 2.367355921026019
+    },
+    {
+      "galaxy_id": "UGC12632",
+      "version": "v1.3",
+      "n_points": 15,
+      "mean_ratio": 1.1587142900724772,
+      "v_flat_obs": 72.2,
+      "M_baryonic": 3329910809.623431,
+      "log_Mb": 9.522432601251927,
+      "log_v_flat": 1.8585371975696392
+    },
+    {
+      "galaxy_id": "UGC12732",
+      "version": "v1.3",
+      "n_points": 16,
+      "mean_ratio": 1.109447907843592,
+      "v_flat_obs": 91.56,
+      "M_baryonic": 7670633503.0218525,
+      "log_Mb": 9.884831232984867,
+      "log_v_flat": 1.9617057840025054
+    },
+    {
+      "galaxy_id": "UGCA281",
+      "version": "v1.3",
+      "n_points": 7,
+      "mean_ratio": 1.2711192665975877,
+      "v_flat_obs": 29.15,
+      "M_baryonic": 59994451.88284519,
+      "log_Mb": 7.778111089915735,
+      "log_v_flat": 1.4646385590950328
+    },
+    {
+      "galaxy_id": "UGCA442",
+      "version": "v1.3",
+      "n_points": 8,
+      "mean_ratio": 1.1845939809051993,
+      "v_flat_obs": 56.9,
+      "M_baryonic": 495798059.2747559,
+      "log_Mb": 8.69530482245618,
+      "log_v_flat": 1.7551122663950711
+    },
+    {
+      "galaxy_id": "UGCA444",
+      "version": "v1.3",
+      "n_points": 36,
+      "mean_ratio": 1.2678668986315602,
+      "v_flat_obs": 35.17272727272728,
+      "M_baryonic": 124542784.0539284,
+      "log_Mb": 8.095318569798293,
+      "log_v_flat": 1.54620604456302
+    }
+  ]
+}

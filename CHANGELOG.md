@@ -2,6 +2,21 @@
 
 All notable changes to the LFM Paper 037 Reproduction Package.
 
+## [1.1.0] - 2026-01-05
+
+### Added
+
+- **galaxy_v13_full_sparc/**: New v1.3 coupling law validation module
+  - Validates on all 175 SPARC galaxies with rotation curve decompositions
+  - Uses LOCKED constants: A = 10.0, a0 = 50.0 (km/s)²/kpc, c_eff = 300 km/s
+  - Supports LFM-PAPER-039 reproduction
+  
+- **run_all.py**: Added `--galaxy-v13` flag for v1.3 full-SPARC validation
+
+### Changed
+
+- **run_all.py**: Updated docstring to document new LOCKED constants for v1.3
+
 ## [1.0.1] - 2025-01-XX
 
 ### Fixed
@@ -9,7 +24,7 @@ All notable changes to the LFM Paper 037 Reproduction Package.
 - **A6 closure bug in galaxy/reproduce.py**: The exponential decay extrapolation was using
   `r_train.max()` (the maximum radius in the training data, typically ~15-20 kpc) instead of
   the galaxy's actual extent `r_max_galaxy` (typically ~30-50 kpc). This caused the decay
-  length `L = 2.0 * r` to be too short, leading to over-suppressed χ predictions and 99%+
+  length `L = 2.0 * r` to be too short, leading to over-suppressed chi predictions and 99%+
   MAPE errors.
 
   **Root Cause**: Line `L = 2.0 * r.max()` in `extrapolate_chi_A6()` used training array
@@ -42,8 +57,8 @@ All notable changes to the LFM Paper 037 Reproduction Package.
 
 ### Added
 
-- Galaxy domain reproduction (Paper 034 Test A6)
-- Merger domain reproduction (Paper 035 LFM_MERGER_OFFSET_SUITE)
-- Cosmology domain reproduction (Paper 036 GW speed, BAO scale)
-- Unified `run_all.py` orchestration script
-- Test classification audit documentation
+- Initial public reproduction package for LFM Gravitational Series Papers 1-5
+- Galaxy domain: chi-reconstruction and rotation curve validation
+- Merger domain: cluster offset bound testing
+- Cosmology domain: GW speed and pulsar timing tests
+- Combined reporting with JSON and Markdown outputs

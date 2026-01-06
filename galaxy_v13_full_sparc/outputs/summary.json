@@ -1,0 +1,28 @@
+{
+  "test_id": "GRAV-39",
+  "timestamp": "2026-01-05T17:45:56.745668",
+  "constants": {
+    "c_eff": 300.0,
+    "A": 10.0,
+    "a0": 50.0
+  },
+  "v13_stats": {
+    "n_galaxies": 175,
+    "mean_ratio": 1.3212846891435148,
+    "median_ratio": 1.2472131179024948,
+    "std_ratio": 0.35617694985576964,
+    "universality": 0.26956866508961913,
+    "fraction_within_2x": 0.9485714285714286,
+    "pass_rotation": true,
+    "pass_universality": true
+  },
+  "v13_btfr": {
+    "slope_vM": 0.2804025683292015,
+    "slope_Mv": 3.5663011432404863,
+    "r_value": 0.9410483218762202,
+    "r_squared": 0.8855719441060502,
+    "n_galaxies": 175,
+    "pass_btfr": true
+  },
+  "overall_status": "PASS"
+}

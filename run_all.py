@@ -6,19 +6,23 @@ LFM Gravitational Series Reproducibility
 Master script to reproduce all experiments from Papers 1-5.
 
 USAGE:
-    python run_all.py              # Run all domains
-    python run_all.py --galaxy     # Run galaxy domain only
-    python run_all.py --merger     # Run merger domain only
-    python run_all.py --cosmology  # Run cosmology domain only
+    python run_all.py                  # Run all domains
+    python run_all.py --galaxy         # Run galaxy domain only
+    python run_all.py --merger         # Run merger domain only
+    python run_all.py --cosmology      # Run cosmology domain only
+    python run_all.py --galaxy-v13     # Run v1.3 full-SPARC validation
 
 OUTPUT:
     outputs/galaxy/galaxy_reproduction_results.json
     outputs/merger/merger_reproduction_results.json
     outputs/cosmology/cosmology_reproduction_results.json
+    outputs/galaxy_v13/summary.json
     outputs/combined_report.json
     outputs/comparison_report.md
 
-LOCKED CONSTANT: c_eff = 300 km/s (appears throughout all domains)
+LOCKED CONSTANTS:
+    c_eff = 300 km/s (appears throughout all domains)
+    A = 10.0, a0 = 50.0 (km/s)^2/kpc (v1.3 coupling law)
 
 NO SYNTHETIC DATA. NO PLACEHOLDERS. NO SHORTCUTS.
 All computations run the actual LFM equations on real input data.
@@ -79,6 +83,23 @@ def run_cosmology_domain():
     spec = importlib.util.spec_from_file_location(
         "cosmology_reproduce",
         SCRIPT_DIR / "cosmology" / "reproduce.py"
+    )
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module.main()
+
+
+def run_galaxy_v13_domain():
+    """Run v1.3 full-SPARC validation (Paper 039)."""
+    print("\n" + "=" * 80)
+    print("RUNNING v1.3 FULL-SPARC VALIDATION")
+    print("=" * 80)
+    
+    # Import from galaxy_v13_full_sparc directory
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "galaxy_v13_reproduce",
+        SCRIPT_DIR / "galaxy_v13_full_sparc" / "reproduce.py"
     )
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
@@ -210,10 +231,11 @@ def main():
     parser.add_argument("--galaxy", action="store_true", help="Run galaxy domain only")
     parser.add_argument("--merger", action="store_true", help="Run merger domain only")
     parser.add_argument("--cosmology", action="store_true", help="Run cosmology domain only")
+    parser.add_argument("--galaxy-v13", action="store_true", help="Run v1.3 full-SPARC validation")
     args = parser.parse_args()
     
     # If no specific domain, run all
-    run_all = not (args.galaxy or args.merger or args.cosmology)
+    run_all = not (args.galaxy or args.merger or args.cosmology or getattr(args, 'galaxy_v13', False))
     
     print("=" * 80)
     print("LFM GRAVITATIONAL SERIES REPRODUCIBILITY")
@@ -249,6 +271,14 @@ def main():
         except Exception as e:
             print(f"ERROR in cosmology domain: {e}")
             results["cosmology"] = {"overall_status": "ERROR", "error": str(e)}
+    
+    # Galaxy v1.3 Full-SPARC
+    if run_all or getattr(args, 'galaxy_v13', False):
+        try:
+            results["galaxy_v13"] = run_galaxy_v13_domain()
+        except Exception as e:
+            print(f"ERROR in galaxy v1.3 domain: {e}")
+            results["galaxy_v13"] = {"overall_status": "ERROR", "error": str(e)}
     
     # Combined report
     combined = {
