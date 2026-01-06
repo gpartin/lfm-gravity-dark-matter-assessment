@@ -12,23 +12,21 @@
     },
     "exp2_gw": {
       "test": "EXP-2: GW Speed",
-      "status": "PASS",
-      "gw170817_constraint": 3e-15,
-      "lfm_c_g_m_s": 299792458.0,
-      "c_light_m_s": 299792458.0,
-      "deviation": 0.0,
-      "physical_explanation": "Chi-field couples to scalar field E, not tensor perturbations. GWs propagate at c."
+      "classification": "OUT_OF_SCOPE",
+      "status": "NOT_APPLICABLE",
+      "non_computational": true,
+      "scope": "Framework does not model tensor GW propagation",
+      "warning": "No numerical prediction computed. Scalar wave equation does not include tensor perturbations.",
+      "theoretical_note": "Chi-field couples to scalar field E only. GW propagation is outside modeled domain."
     },
     "exp3_pulsars": {
       "test": "EXP-3: Binary Pulsars",
-      "status": "PASS",
-      "pulsar": "PSR B1913+16 (Hulse-Taylor)",
-      "Pb_dot_observed": -2.423e-12,
-      "Pb_dot_GR": -2.403761501269018e-12,
-      "Pb_dot_LFM": -2.403761501269018e-12,
-      "deviation_percent": 0.793994995087987,
-      "threshold_percent": 1.0,
-      "physical_explanation": "Chi-field couples to scalar field E, not geodesic motion. Binary pulsar timing is GR."
+      "classification": "OUT_OF_SCOPE",
+      "status": "NOT_APPLICABLE",
+      "non_computational": true,
+      "scope": "Framework does not model compact binary dynamics or GW backreaction",
+      "warning": "No LFM prediction computed. Assertion 'LFM = GR' is an axiom, not a derived result.",
+      "theoretical_note": "Chi-field formulation assumes static weak-field regime. Strong-field binary dynamics outside modeled domain."
     },
     "exp5_bao": {
       "test": "EXP-5: BAO Scale",
@@ -41,6 +39,7 @@
       "physical_explanation": "LFM coherence scales (10-100 kpc) are << BAO scale (150 Mpc). No conflict."
     }
   },
-  "overall_status": "PASS",
-  "note": "EXP-1 (BBN) and EXP-5 (BAO) are toy models, not full calculations"
+  "overall_status": "PARTIAL",
+  "correction_notice": "2026-01-05: EXP-2 and EXP-3 reclassified as OUT_OF_SCOPE. Previous PASS status was invalid (tautological tests).",
+  "note": "EXP-1 and EXP-5 are toy models. EXP-2 and EXP-3 are outside modeled domain (no tensor GW, no binary dynamics)."
 }

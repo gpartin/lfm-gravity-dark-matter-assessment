@@ -46,49 +46,43 @@ OUTPUT_DIR = SCRIPT_DIR.parent / "outputs" / "cosmology"
 
 
 # ==============================================================================
-# EXP-2: GRAVITATIONAL WAVE SPEED
+# EXP-2: GRAVITATIONAL WAVE SPEED - OUT OF SCOPE
 # ==============================================================================
 
 def exp2_gw_speed() -> dict:
     """
-    Test LFM gravitational wave speed against GW170817.
+    CLASSIFICATION: OUT_OF_SCOPE
     
-    Constraint: |c_g - c|/c < 3e-15 (Abbott et al. 2017)
+    LFM uses a scalar wave equation. Gravitational waves are tensor perturbations.
+    This framework does not model GW propagation. No computation is performed.
     
-    LFM prediction: c_g = c
-    Reason: Chi-field couples to scalar field E, not tensor perturbations.
-            GWs are tensor modes h_ij that propagate on the metric at c.
+    The statement "chi doesn't couple to tensor modes" is a design property,
+    not a computed result. This experiment cannot produce PASS/FAIL status.
     """
     print("\n" + "-" * 60)
     print("EXP-2: Gravitational Wave Speed")
     print("-" * 60)
-    
-    # GW170817 constraint
-    gw170817_constraint = 3e-15  # |c_g - c|/c
-    
-    # LFM prediction: c_g = c exactly
-    # Chi-field does not modify tensor perturbation propagation
-    c_g_lfm = C_LIGHT
-    
-    deviation = abs(c_g_lfm - C_LIGHT) / C_LIGHT
-    
-    print(f"GW170817 constraint: |c_g - c|/c < {gw170817_constraint:.0e}")
-    print(f"LFM prediction: c_g = c (chi doesn't couple to tensor modes)")
-    print(f"Deviation: {deviation:.0e}")
-    
-    passed = deviation < gw170817_constraint
+    print("CLASSIFICATION: OUT_OF_SCOPE")
+    print("")
+    print("WARNING: This framework uses a scalar wave equation.")
+    print("         Gravitational waves are tensor perturbations (h_ij).")
+    print("         LFM does not model tensor GW propagation.")
+    print("         No numerical prediction is computed.")
+    print("")
+    print("The statement 'chi does not couple to tensor modes' is a")
+    print("theoretical property of the framework's design, not a test result.")
     
     result = {
         "test": "EXP-2: GW Speed",
-        "status": "PASS" if passed else "FAIL",
-        "gw170817_constraint": gw170817_constraint,
-        "lfm_c_g_m_s": c_g_lfm,
-        "c_light_m_s": C_LIGHT,
-        "deviation": deviation,
-        "physical_explanation": "Chi-field couples to scalar field E, not tensor perturbations. GWs propagate at c."
+        "classification": "OUT_OF_SCOPE",
+        "status": "NOT_APPLICABLE",
+        "non_computational": True,
+        "scope": "Framework does not model tensor GW propagation",
+        "warning": "No numerical prediction computed. Scalar wave equation does not include tensor perturbations.",
+        "theoretical_note": "Chi-field couples to scalar field E only. GW propagation is outside modeled domain."
     }
     
-    print(f"Status: {result['status']}")
+    print(f"Status: {result['status']} (out of scope)")
     return result
 
 
@@ -122,62 +116,45 @@ def orbital_decay_gr(m1: float, m2: float, Pb: float, e: float) -> float:
 
 def exp3_pulsars() -> dict:
     """
-    Test LFM against binary pulsar timing.
+    CLASSIFICATION: OUT_OF_SCOPE
     
-    Hulse-Taylor pulsar (PSR B1913+16):
-    - Observed Pb_dot: -2.423e-12 s/s
-    - GR prediction: -2.403e-12 s/s
-    - Agreement: < 0.2%
+    LFM is formulated for static chi-fields in weak-field galaxy dynamics.
+    Binary pulsar timing requires:
+    - Strong-field orbital dynamics
+    - GW emission and backreaction
+    - Time-dependent chi evolution
     
-    LFM prediction: Same as GR (chi doesn't modify geodesic motion)
+    This framework does not model compact binary inspiral.
+    The assumption "chi doesn't modify geodesics" is an axiom, not a computation.
     """
     print("\n" + "-" * 60)
     print("EXP-3: Binary Pulsar Timing")
     print("-" * 60)
-    
-    # Hulse-Taylor parameters
-    m1 = 1.4398 * M_SUN  # Pulsar mass
-    m2 = 1.3886 * M_SUN  # Companion mass
-    Pb = 7.751938773864 * 3600  # Orbital period in seconds
-    e = 0.6171340  # Eccentricity
-    
-    # Observed orbital decay
-    Pb_dot_obs = -2.423e-12  # s/s
-    Pb_dot_obs_err = 0.001e-12
-    
-    # GR prediction
-    Pb_dot_gr = orbital_decay_gr(m1, m2, Pb, e)
-    
-    # LFM prediction = GR (chi doesn't modify GW emission)
-    Pb_dot_lfm = Pb_dot_gr
-    
-    # Comparison
-    deviation_gr = abs(Pb_dot_gr - Pb_dot_obs) / abs(Pb_dot_obs)
-    deviation_lfm = abs(Pb_dot_lfm - Pb_dot_obs) / abs(Pb_dot_obs)
-    
-    print(f"Hulse-Taylor pulsar (PSR B1913+16):")
-    print(f"  Observed Pb_dot: {Pb_dot_obs:.3e} s/s")
-    print(f"  GR prediction:   {Pb_dot_gr:.3e} s/s")
-    print(f"  LFM prediction:  {Pb_dot_lfm:.3e} s/s (= GR)")
-    print(f"  GR deviation:    {deviation_gr*100:.2f}%")
-    print(f"  LFM deviation:   {deviation_lfm*100:.2f}%")
-    
-    # Pass if deviation < 1%
-    passed = deviation_lfm < 0.01
+    print("CLASSIFICATION: OUT_OF_SCOPE")
+    print("")
+    print("WARNING: This framework is formulated for static chi-fields")
+    print("         in weak-field galaxy dynamics.")
+    print("")
+    print("Binary pulsar timing requires:")
+    print("  - Strong-field orbital dynamics")
+    print("  - GW emission and backreaction")
+    print("  - Time-dependent chi evolution")
+    print("")
+    print("LFM does not model compact binary inspiral.")
+    print("The statement 'chi does not modify geodesics' is an axiom,")
+    print("not a testable prediction.")
     
     result = {
         "test": "EXP-3: Binary Pulsars",
-        "status": "PASS" if passed else "FAIL",
-        "pulsar": "PSR B1913+16 (Hulse-Taylor)",
-        "Pb_dot_observed": Pb_dot_obs,
-        "Pb_dot_GR": Pb_dot_gr,
-        "Pb_dot_LFM": Pb_dot_lfm,
-        "deviation_percent": deviation_lfm * 100,
-        "threshold_percent": 1.0,
-        "physical_explanation": "Chi-field couples to scalar field E, not geodesic motion. Binary pulsar timing is GR."
+        "classification": "OUT_OF_SCOPE",
+        "status": "NOT_APPLICABLE",
+        "non_computational": True,
+        "scope": "Framework does not model compact binary dynamics or GW backreaction",
+        "warning": "No LFM prediction computed. Assertion 'LFM = GR' is an axiom, not a derived result.",
+        "theoretical_note": "Chi-field formulation assumes static weak-field regime. Strong-field binary dynamics outside modeled domain."
     }
     
-    print(f"Status: {result['status']}")
+    print(f"Status: {result['status']} (out of scope)")
     return result
 
 
@@ -335,16 +312,23 @@ def main():
     print("COSMOLOGY DOMAIN SUMMARY")
     print("=" * 70)
     print(f"EXP-1 (BBN):     {exp1['status']}")
-    print(f"EXP-2 (GW):      {exp2['status']}")
-    print(f"EXP-3 (Pulsars): {exp3['status']}")
+    print(f"EXP-2 (GW):      {exp2['status']} [OUT_OF_SCOPE - no computation]")
+    print(f"EXP-3 (Pulsars): {exp3['status']} [OUT_OF_SCOPE - no computation]")
     print(f"EXP-5 (BAO):     {exp5['status']}")
     
-    # Overall: PASS if hard constraints (EXP-2, EXP-3) pass
-    hard_pass = exp2["status"] == "PASS" and exp3["status"] == "PASS"
-    overall = "PASS" if hard_pass else "FAIL"
+    # EXP-2 and EXP-3 are OUT_OF_SCOPE - cannot contribute to PASS/FAIL
+    # Only EXP-1 (PARTIAL) and EXP-5 (computational) count
+    computational_tests = [exp1, exp5]
+    overall = "PARTIAL"
     
     print(f"\nOVERALL COSMOLOGY DOMAIN: {overall}")
-    print("(EXP-1, EXP-5 are PARTIAL - toy models only)")
+    print("")
+    print("CORRECTION NOTICE (2026-01-05):")
+    print("  EXP-2 (GW Speed) and EXP-3 (Pulsars) previously marked PASS.")
+    print("  These were tautological - they asserted answers without computation.")
+    print("  LFM's scalar wave equation does not model tensor GW propagation")
+    print("  or compact binary dynamics. These domains are OUT_OF_SCOPE.")
+    print("  No PASS/FAIL status is valid for out-of-scope domains.")
     
     # Save results
     output = {
@@ -357,7 +341,8 @@ def main():
             "exp5_bao": exp5
         },
         "overall_status": overall,
-        "note": "EXP-1 (BBN) and EXP-5 (BAO) are toy models, not full calculations"
+        "correction_notice": "2026-01-05: EXP-2 and EXP-3 reclassified as OUT_OF_SCOPE. Previous PASS status was invalid (tautological tests).",
+        "note": "EXP-1 and EXP-5 are toy models. EXP-2 and EXP-3 are outside modeled domain (no tensor GW, no binary dynamics)."
     }
     
     output_path = OUTPUT_DIR / "cosmology_reproduction_results.json"
