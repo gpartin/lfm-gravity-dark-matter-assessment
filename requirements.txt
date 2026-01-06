@@ -1,8 +1,11 @@
 # LFM Gravitational Series Reproducibility
-# Minimal dependencies - uses Python standard library
+# Cross-platform dependencies (Windows, macOS, Linux)
 
 # Required for numerical computations
 numpy>=1.20.0
 
-# Optional: for enhanced plotting (not required for core reproduction)
-# matplotlib>=3.5.0
+# Required for galaxy/merger data loading
+pandas>=1.3.0
+
+# Required for orbital experiments (Paper 040) figure generation
+matplotlib>=3.5.0

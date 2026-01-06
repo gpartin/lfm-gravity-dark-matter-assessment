@@ -358,7 +358,7 @@ def main():
     results['all_pass'] = all_pass
     
     # Save summary
-    with open(output_dir / 'summary.json', 'w') as f:
+    with open(output_dir / 'summary.json', 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=2)
     
     print("\n" + "=" * 60)
