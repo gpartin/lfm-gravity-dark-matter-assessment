@@ -2,6 +2,20 @@
 
 All notable changes to the LFM Paper 037 Reproduction Package.
 
+## [1.3.0] - 2026-01-05
+
+### Added
+
+- **orbital/**: Paper 040 orbital motion emergence experiments
+  - Exp 1: Trajectory curvature in χ-field
+  - Exp 2: Mass independence (amplitude-invariant trajectories)
+  - Exp 3: Orbital stability (bound orbits in χ-potential)
+  - Exp 4: χ removal test (curvature vanishes when χ→0)
+  - Governing equation: ∂²E/∂t² = c²∇²E - χ(x,y)²E (LOCKED)
+  - Uses Klein-Gordon wave equation with Störmer-Verlet integration
+
+- **run_all.py**: Added `--orbital` flag for Paper 040 experiments
+
 ## [1.2.0] - 2026-01-05
 
 ### Added

@@ -3,7 +3,7 @@
 LFM Gravitational Series Reproducibility
 ==========================================
 
-Master script to reproduce all experiments from Papers 1-5.
+Master script to reproduce all experiments from Papers 1-5 + Paper 040.
 
 USAGE:
     python run_all.py                  # Run all domains
@@ -12,6 +12,7 @@ USAGE:
     python run_all.py --cosmology      # Run cosmology domain only
     python run_all.py --galaxy-v13     # Run v1.3 full-SPARC validation
     python run_all.py --btfr           # Run BTFR predicted velocity test
+    python run_all.py --orbital        # Run orbital motion emergence (Paper 040)
 
 OUTPUT:
     outputs/galaxy/galaxy_reproduction_results.json
@@ -19,6 +20,7 @@ OUTPUT:
     outputs/cosmology/cosmology_reproduction_results.json
     outputs/galaxy_v13/summary.json
     outputs/btfr_predicted_results.json
+    outputs/orbital/summary.json
     outputs/combined_report.json
     outputs/comparison_report.md
 
@@ -119,6 +121,23 @@ def run_btfr_predicted_domain():
     spec = importlib.util.spec_from_file_location(
         "btfr_predicted_test",
         SCRIPT_DIR / "galaxy_v13_full_sparc" / "btfr_predicted_test.py"
+    )
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module.main()
+
+
+def run_orbital_domain():
+    """Run orbital motion emergence experiments (Paper 040)."""
+    print("\n" + "=" * 80)
+    print("RUNNING ORBITAL MOTION EMERGENCE (PAPER 040)")
+    print("=" * 80)
+    
+    # Import from orbital directory
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "orbital_reproduce",
+        SCRIPT_DIR / "orbital" / "reproduce.py"
     )
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
@@ -252,10 +271,11 @@ def main():
     parser.add_argument("--cosmology", action="store_true", help="Run cosmology domain only")
     parser.add_argument("--galaxy-v13", action="store_true", help="Run v1.3 full-SPARC validation")
     parser.add_argument("--btfr", action="store_true", help="Run BTFR predicted velocity test")
+    parser.add_argument("--orbital", action="store_true", help="Run orbital motion emergence (Paper 040)")
     args = parser.parse_args()
     
     # If no specific domain, run all
-    run_all = not (args.galaxy or args.merger or args.cosmology or getattr(args, 'galaxy_v13', False) or getattr(args, 'btfr', False))
+    run_all = not (args.galaxy or args.merger or args.cosmology or getattr(args, 'galaxy_v13', False) or getattr(args, 'btfr', False) or args.orbital)
     
     print("=" * 80)
     print("LFM GRAVITATIONAL SERIES REPRODUCIBILITY")
@@ -308,6 +328,18 @@ def main():
         except Exception as e:
             print(f"ERROR in BTFR domain: {e}")
             results["btfr"] = {"overall_status": "ERROR", "error": str(e)}
+    
+    # Orbital Motion Emergence (Paper 040)
+    if run_all or args.orbital:
+        try:
+            orbital_results = run_orbital_domain()
+            results["orbital"] = {
+                "overall_status": "PASS" if orbital_results.get("all_pass") else "FAIL",
+                "experiments": orbital_results
+            }
+        except Exception as e:
+            print(f"ERROR in orbital domain: {e}")
+            results["orbital"] = {"overall_status": "ERROR", "error": str(e)}
     
     # Combined report
     combined = {

@@ -90,6 +90,20 @@ are archived in `paper_experiments/paper3_*` directories in the research workspa
 Paper 037 is a synthesis paper that references results from Papers 1-5. It does not
 introduce new experiments but consolidates claims from the series.
 
+### Paper 040: Orbital Motion Emergence
+
+| Test | Section | Figure/Table | Claim | Role | Included |
+|------|---------|--------------|-------|------|----------|
+| Exp 1: Trajectory Curvature | §4.1 | Fig 1 | Wavepackets curve in χ-field | CLAIM | ✅ YES |
+| Exp 2: Mass Independence | §4.2 | Table 1 | Trajectories independent of amplitude | CLAIM | ✅ YES |
+| Exp 3: Orbital Stability | §4.3 | Fig 2 | Bound orbits form in χ-potential | CLAIM | ✅ YES |
+| Exp 4: χ Removal | §4.4 | Fig 3 | Removing χ removes curvature | CLAIM | ✅ YES |
+
+**Governing Equation (LOCKED)**: ∂²E/∂t² = c²∇²E - χ(x,y)²E
+
+**Key Result**: Orbital-like motion emerges purely from wave propagation physics
+(Klein-Gordon equation) with NO mass term - gravity-like behavior from geometry alone.
+
 ---
 
 ## Test A Status Resolution
@@ -123,8 +137,10 @@ PUBLIC_REPRODUCTION_PAPER037/
 │   └── test_data/             # SPARC subset
 ├── merger/                    # Paper 035 claim-carrying tests
 │   └── reproduce.py           # MERGER_OFFSET_SUITE
-└── cosmology/                 # Paper 036 claim-carrying tests
-    └── reproduce.py           # GW_SPEED, HORIZON, BAO tests
+├── cosmology/                 # Paper 036 claim-carrying tests
+│   └── reproduce.py           # GW_SPEED, HORIZON, BAO tests
+└── orbital/                   # Paper 040 claim-carrying tests
+    └── reproduce.py           # Orbital motion emergence experiments
 ```
 
 ---
@@ -136,10 +152,17 @@ pip install -r requirements.txt
 python run_all.py
 ```
 
+To run only the Paper 040 orbital experiments:
+
+```bash
+python run_all.py --orbital
+```
+
 Expected output:
 - Galaxy Test A6: Median MAPE = 10.62%, 91/91 galaxies PASS
 - Merger Offset: 12/12 clusters Q ≤ 1 (PASS)
 - Cosmology GW Speed: |v - c|/c < 10⁻¹⁵ (PASS)
+- Orbital (Paper 040): 4/4 experiments PASS (curvature, mass-independence, stability, χ-removal)
 
 **OVERALL: PASS** (verified 2026-01-05)
 

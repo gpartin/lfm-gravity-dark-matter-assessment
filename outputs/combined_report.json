@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-05T13:21:39.179059",
+  "timestamp": "2026-01-05T20:46:48.520004",
   "c_eff_km_s": 300.0,
   "domains": {
     "galaxy": {
@@ -1292,6 +1292,77 @@
       },
       "overall_status": "PASS",
       "note": "EXP-1 (BBN) and EXP-5 (BAO) are toy models, not full calculations"
+    },
+    "galaxy_v13": {
+      "test_id": "GRAV-39",
+      "timestamp": "2026-01-05T20:44:54.029432",
+      "constants": {
+        "c_eff": 300.0,
+        "A": 10.0,
+        "a0": 50.0
+      },
+      "v13_stats": {
+        "n_galaxies": 175,
+        "mean_ratio": 1.3212846891435148,
+        "median_ratio": 1.2472131179024948,
+        "std_ratio": 0.35617694985576964,
+        "universality": 0.26956866508961913,
+        "fraction_within_2x": 0.9485714285714286,
+        "pass_rotation": true,
+        "pass_universality": true
+      },
+      "v13_btfr": {
+        "slope_vM": 0.2804025683292015,
+        "slope_Mv": 3.5663011432404863,
+        "r_value": 0.9410483218762202,
+        "r_squared": 0.8855719441060502,
+        "n_galaxies": 175,
+        "pass_btfr": true
+      },
+      "overall_status": "PASS"
+    },
+    "btfr": {
+      "overall_status": "PASS"
+    },
+    "orbital": {
+      "overall_status": "PASS",
+      "experiments": {
+        "exp1": {
+          "mean_curvature": 2.0307076827785613,
+          "max_deviation": 6.171298793597216,
+          "curvature_ratio": 1.3165437426340727,
+          "pass": true
+        },
+        "exp2": {
+          "max_trajectory_difference": 2.674700315412609e-13,
+          "mean_difference": 1.5503455764040986e-13,
+          "is_mass_independent": true,
+          "pass": true
+        },
+        "exp3": {
+          "max_distance": 10.013552638649982,
+          "min_distance": 0.02594323237218161,
+          "orbital_eccentricity": 0.9948317659162421,
+          "bound": true,
+          "pass": true
+        },
+        "exp4": {
+          "curvature_with_chi": 22.914562172385004,
+          "curvature_without_chi": 1.7268183214057125,
+          "curvature_reduction": 92.46410073901934,
+          "pass": true
+        },
+        "parameters": {
+          "N": 512,
+          "L": 40.0,
+          "dx": 0.078125,
+          "dt": 0.016572815184059706,
+          "c": 1.0,
+          "chi_amplitude": 0.5,
+          "chi_scale": 5.0
+        },
+        "all_pass": true
+      }
     }
   },
   "overall_status": "PASS"
